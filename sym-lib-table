@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name max_breakout-rescue)(type Legacy)(uri ${KIPRJMOD}/max_breakout-rescue.lib)(options "")(descr ""))
+)

@@ -257,72 +257,11 @@ X ~ 9 300 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power_+5V
+# max_breakout-rescue_EPM7032STC44-CPLD_Altera-sbc_z80-rescue
 #
-DEF power_+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_PWR_FLAG
-#
-DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
-F0 "#FLG" 0 75 50 H I C CNN
-F1 "power_PWR_FLAG" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
-X pwr 1 0 0 0 U 50 50 0 0 w
-ENDDRAW
-ENDDEF
-#
-# rc2014_max_v-rescue_KC5032K12.0000C10E00-Oscillator
-#
-DEF rc2014_max_v-rescue_KC5032K12.0000C10E00-Oscillator X 0 10 Y Y 1 F N
-F0 "X" -200 250 50 H V L CNN
-F1 "rc2014_max_v-rescue_KC5032K12.0000C10E00-Oscillator" 50 -250 50 H V L CNN
-F2 "Oscillator:Oscillator_SMD_Fordahl_DFAS15-4Pin_5.0x3.2mm_HandSoldering" 700 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
-$FPLIST
- Oscillator*SMD*Abracon*ASE*3.2x2.5mm*
-$ENDFPLIST
-DRAW
-S -200 200 200 -200 0 1 10 f
-P 10 0 1 0 -50 -30 -40 -30 -40 30 -20 30 -20 -30 0 -30 0 30 20 30 20 -30 30 -30 N
-X EN 1 -300 0 100 R 50 50 1 1 I
-X GND 2 0 -300 100 U 50 50 1 1 W
-X OUT 3 300 0 100 L 50 50 1 1 O
-X Vdd 4 0 300 100 D 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# sbc_z80-rescue_EPM7032STC44-CPLD_Altera
-#
-DEF sbc_z80-rescue_EPM7032STC44-CPLD_Altera U 0 40 Y Y 1 F N
+DEF max_breakout-rescue_EPM7032STC44-CPLD_Altera-sbc_z80-rescue U 0 40 Y Y 1 F N
 F0 "U" -400 1250 50 H V C CNN
-F1 "sbc_z80-rescue_EPM7032STC44-CPLD_Altera" 500 1250 50 H V C CNN
+F1 "max_breakout-rescue_EPM7032STC44-CPLD_Altera-sbc_z80-rescue" 500 1250 50 H V C CNN
 F2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" 750 1450 50 H I C CNN
 F3 "" 750 1450 50 H I C CNN
 DRAW
@@ -371,6 +310,67 @@ X A8 6 -550 400 100 R 50 50 0 0 B
 X A9/TMS 7 -550 300 100 R 50 50 0 0 B
 X A10 8 -550 200 100 R 50 50 0 0 B
 X VCC 9 -150 1300 100 D 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
+# max_breakout-rescue_KC5032K12.0000C10E00-Oscillator-rc2014_max_v-rescue
+#
+DEF max_breakout-rescue_KC5032K12.0000C10E00-Oscillator-rc2014_max_v-rescue X 0 10 Y Y 1 F N
+F0 "X" -200 250 50 H V L CNN
+F1 "max_breakout-rescue_KC5032K12.0000C10E00-Oscillator-rc2014_max_v-rescue" 50 -250 50 H V L CNN
+F2 "Oscillator:Oscillator_SMD_Fordahl_DFAS15-4Pin_5.0x3.2mm_HandSoldering" 700 -350 50 H I C CNN
+F3 "" -100 0 50 H I C CNN
+$FPLIST
+ Oscillator*SMD*Abracon*ASE*3.2x2.5mm*
+$ENDFPLIST
+DRAW
+S -200 200 200 -200 0 1 10 f
+P 10 0 1 0 -50 -30 -40 -30 -40 30 -20 30 -20 -30 0 -30 0 30 20 30 20 -30 30 -30 N
+X EN 1 -300 0 100 R 50 50 1 1 I
+X GND 2 0 -300 100 U 50 50 1 1 W
+X OUT 3 300 0 100 L 50 50 1 1 O
+X Vdd 4 0 300 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #

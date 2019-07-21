@@ -384,7 +384,7 @@ AR Path="/5D1AF052/5D1C705F" Ref="J?"  Part="1"
 AR Path="/5D1C705F" Ref="J1"  Part="1" 
 F 0 "J1" H 6485 2285 50  0000 R CNN
 F 1 "AVR-JTAG-10" H 6205 2785 50  0000 R CNN
-F 2 "Connector_Multicomp:Multicomp_MC9A12-1034_2x05_P2.54mm_Vertical" V 6295 2435 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" V 6295 2435 50  0001 C CNN
 F 3 "~" H 5170 1735 50  0001 C CNN
 	1    6445 2285
 	1    0    0    -1  

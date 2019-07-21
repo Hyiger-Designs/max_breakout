@@ -508,21 +508,6 @@ F 3 "~" H 7345 1825 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_Small R?
-U 1 1 5DC500B6
-P 7455 1825
-AR Path="/5D0F9837/5DC500B6" Ref="R?"  Part="1" 
-AR Path="/5CFABACD/5D0BF766/5DC500B6" Ref="R?"  Part="1" 
-AR Path="/5D1AF052/5DC500B6" Ref="R?"  Part="1" 
-AR Path="/5DC500B6" Ref="R3"  Part="1" 
-F 0 "R3" H 7320 1860 50  0000 L CNN
-F 1 "10K" H 7315 1785 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7455 1825 50  0001 C CNN
-F 3 "~" H 7455 1825 50  0001 C CNN
-	1    7455 1825
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
 U 1 1 5DCD773D
 P 7565 1825
 AR Path="/5D0F9837/5DCD773D" Ref="R?"  Part="1" 
@@ -559,11 +544,6 @@ Wire Wire Line
 Connection ~ 7565 2485
 Wire Wire Line
 	7565 2485 7835 2485
-Wire Wire Line
-	7345 1725 7455 1725
-Connection ~ 7455 1725
-Wire Wire Line
-	7455 1725 7565 1725
 Wire Wire Line
 	3785 5450 3785 5350
 $Comp
@@ -1370,19 +1350,6 @@ F 3 "~" H 8875 2155 50  0001 C CNN
 	1    8875 2155
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR0102
-U 1 1 5DA0BC85
-P 7455 1570
-F 0 "#PWR0102" H 7455 1420 50  0001 C CNN
-F 1 "+5V" H 7470 1743 50  0000 C CNN
-F 2 "" H 7455 1570 50  0001 C CNN
-F 3 "" H 7455 1570 50  0001 C CNN
-	1    7455 1570
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7455 1570 7455 1725
 Entry Wire Line
 	9725 1745 9825 1845
 Wire Wire Line
@@ -1422,6 +1389,54 @@ B19
 Wire Bus Line
 	8313 2905 8316 2905
 Connection ~ 1346 1398
+$Comp
+L Device:R_Small R?
+U 1 1 5DC500B6
+P 7455 1825
+AR Path="/5D0F9837/5DC500B6" Ref="R?"  Part="1" 
+AR Path="/5CFABACD/5D0BF766/5DC500B6" Ref="R?"  Part="1" 
+AR Path="/5D1AF052/5DC500B6" Ref="R?"  Part="1" 
+AR Path="/5DC500B6" Ref="R3"  Part="1" 
+F 0 "R3" H 7320 1860 50  0000 L CNN
+F 1 "10K" H 7315 1785 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7455 1825 50  0001 C CNN
+F 3 "~" H 7455 1825 50  0001 C CNN
+	1    7455 1825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7345 1728 7345 1725
+Wire Wire Line
+	7345 1588 7565 1588
+Wire Wire Line
+	7565 1588 7565 1725
+Connection ~ 7345 1725
+Wire Wire Line
+	7345 1725 7345 1588
+Connection ~ 7565 1725
+Wire Wire Line
+	7565 1725 7565 1728
+Wire Wire Line
+	7455 1726 7455 1725
+Connection ~ 7455 1725
+$Comp
+L power:+5V #PWR0102
+U 1 1 5D46CB3B
+P 7455 1527
+F 0 "#PWR0102" H 7455 1377 50  0001 C CNN
+F 1 "+5V" H 7470 1700 50  0000 C CNN
+F 2 "" H 7455 1527 50  0001 C CNN
+F 3 "" H 7455 1527 50  0001 C CNN
+	1    7455 1527
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7455 1526 7456 1526
+Wire Wire Line
+	7455 1526 7455 1527
+Connection ~ 7455 1527
+Wire Wire Line
+	7455 1527 7455 1725
 Wire Bus Line
 	3685 3300 3685 3605
 Wire Bus Line

@@ -14,17 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L max_breakout-rescue:EPM7032STC44-CPLD_Altera-sbc_z80-rescue U1
-U 1 1 5D1470E3
-P 4595 2740
-F 0 "U1" H 4250 4005 50  0000 C CNN
-F 1 "CPLD - EPM7032STC44" H 4040 4105 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 5345 4190 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Intel%20PDFs/MAX7000_Family_DS.pdf" H 5345 4190 50  0001 C CNN
-	1    4595 2740
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4445 1440 4545 1440
 Connection ~ 4545 1440
@@ -84,20 +73,14 @@ Wire Wire Line
 	4045 2240 3785 2240
 Wire Wire Line
 	4045 2340 3785 2340
-Text Label 3845 1640 0    50   ~ 0
-A1
-Text Label 3845 1740 0    50   ~ 0
-A2
-Text Label 3845 1840 0    50   ~ 0
-A3
-Text Label 3845 2040 0    50   ~ 0
-A5
-Text Label 3850 2140 0    50   ~ 0
-A6
-Text Label 3850 2240 0    50   ~ 0
-A7
-Text Label 3855 2340 0    50   ~ 0
+Text Label 3895 2340 0    50   ~ 0
 A8
+Text Label 3885 2540 0    50   ~ 0
+A10
+Text Label 3880 2640 0    50   ~ 0
+A11
+Text Label 3875 2740 0    50   ~ 0
+A12
 Wire Wire Line
 	4045 2540 3785 2540
 Text Label 5365 2740 2    50   ~ 0
@@ -110,25 +93,6 @@ Wire Wire Line
 	4045 2840 3785 2840
 Text Label 5380 2840 2    50   ~ 0
 B29
-$Comp
-L max_breakout-rescue:C_Small-Device C?
-U 1 1 5D617C96
-P 1046 1798
-AR Path="/5D65A6A0/5D617C96" Ref="C?"  Part="1" 
-AR Path="/5D617C96" Ref="C1"  Part="1" 
-F 0 "C1" H 1138 1844 50  0000 L CNN
-F 1 "100nF" H 1138 1753 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1046 1798 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 1046 1798 50  0001 C CNN
-F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 6.3V 0.47uF 10% X7R" H 1138 1944 50  0001 C CNN "Description"
-F 5 "Taiyo Yuden" H 1046 1798 50  0001 C CNN "MFR"
-F 6 "JMK107B7474KA-T" H 1046 1798 50  0001 C CNN "MPN"
-F 7 "963-JMK107B7474KA-T" H 1138 1944 50  0001 C CNN "SPN"
-F 8 "Mouser" H 1046 1798 50  0001 C CNN "SPR"
-F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 1138 1944 50  0001 C CNN "SPURL"
-	1    1046 1798
-	1    0    0    -1  
-$EndComp
 $Comp
 L max_breakout-rescue:GND-power #PWR015
 U 1 1 5D617CA8
@@ -235,17 +199,6 @@ Wire Wire Line
 	3945 5650 4280 5650
 Wire Wire Line
 	3285 5650 3615 5650
-$Comp
-L max_breakout-rescue:+5V-power #PWR03
-U 1 1 5EA91DB0
-P 4595 1375
-F 0 "#PWR03" H 4595 1225 50  0001 C CNN
-F 1 "+5V" H 4610 1548 50  0000 C CNN
-F 2 "" H 4595 1375 50  0001 C CNN
-F 3 "" H 4595 1375 50  0001 C CNN
-	1    4595 1375
-	1    0    0    -1  
-$EndComp
 Text Label 5360 2140 2    50   ~ 0
 B22
 Text Label 5345 2040 2    50   ~ 0
@@ -260,8 +213,8 @@ Text Label 5330 2340 2    50   ~ 0
 B24
 Wire Wire Line
 	4045 3040 3785 3040
-Text Label 3825 2840 0    50   ~ 0
-A13
+Text Label 3860 3140 0    50   ~ 0
+A16
 Text Label 5355 2640 2    50   ~ 0
 B27
 Wire Wire Line
@@ -349,27 +302,14 @@ Wire Wire Line
 	6860 2050 7150 2050
 Wire Wire Line
 	3785 5450 3785 5350
-$Comp
-L max_breakout-rescue:+5V-power #PWR014
-U 1 1 5EDEA98F
-P 3785 5350
-F 0 "#PWR014" H 3785 5200 50  0001 C CNN
-F 1 "+5V" H 3800 5523 50  0000 C CNN
-F 2 "" H 3785 5350 50  0001 C CNN
-F 3 "" H 3785 5350 50  0001 C CNN
-	1    3785 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1646 1698 2026 1698
 Wire Wire Line
 	3790 5750 3790 5650
-Text Label 3830 2540 0    50   ~ 0
-A10
-Text Label 3850 2640 0    50   ~ 0
-A11
-Text Label 3870 2740 0    50   ~ 0
-A12
+Text Label 3870 2840 0    50   ~ 0
+A13
+Text Label 3860 2940 0    50   ~ 0
+A14
+Text Label 3865 3040 0    50   ~ 0
+A15
 Text Label 5365 2240 2    50   ~ 0
 B23
 Text Label 5380 1740 2    50   ~ 0
@@ -380,8 +320,8 @@ U 1 1 5F854DDB
 P 6375 4485
 F 0 "SW1" H 6375 5052 50  0000 C CNN
 F 1 "SW_DIP_x06" H 6375 4961 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_DIP_SPSTx06_Slide_Copal_CHS-06A_W5.08mm_P1.27mm_JPin" H 6375 4485 50  0001 C CNN
-F 3 "~" H 6375 4485 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx06_Slide_Omron_A6H-6101_W6.15mm_P1.27mm" H 6375 4485 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/307/en-a6h-1221378.pdf" H 6375 4485 50  0001 C CNN
 	1    6375 4485
 	1    0    0    -1  
 $EndComp
@@ -418,30 +358,24 @@ F 3 "" H 6075 4820 50  0001 C CNN
 	1    6075 4820
 	1    0    0    -1  
 $EndComp
-Text Label 5375 2940 2    50   ~ 0
-SW2_0
-Text Label 5385 3040 2    50   ~ 0
-SW2_1
-Text Label 5380 3140 2    50   ~ 0
-SW2_2
-Text Label 3810 3140 0    50   ~ 0
-SW2_3
-Text Label 3810 3040 0    50   ~ 0
-SW2_4
-Text Label 3810 2940 0    50   ~ 0
-SW2_5
+Text Label 3825 2040 0    50   ~ 0
+SW1_3
+Text Label 3835 2140 0    50   ~ 0
+SW1_4
+Text Label 3835 2240 0    50   ~ 0
+SW1_5
 Text Label 7470 4185 2    50   ~ 0
-SW2_0
+SW1_0
 Text Label 7480 4285 2    50   ~ 0
-SW2_1
+SW1_1
 Text Label 7475 4385 2    50   ~ 0
-SW2_2
+SW1_2
 Text Label 7475 4485 2    50   ~ 0
-SW2_3
+SW1_3
 Text Label 7475 4585 2    50   ~ 0
-SW2_4
+SW1_4
 Text Label 7475 4685 2    50   ~ 0
-SW2_5
+SW1_5
 Wire Wire Line
 	6675 4385 6915 4385
 Wire Wire Line
@@ -464,17 +398,6 @@ Wire Wire Line
 	6965 3685 6965 3545
 Connection ~ 6915 3685
 Connection ~ 6815 3685
-$Comp
-L max_breakout-rescue:+5V-power #PWR010
-U 1 1 6040DBDD
-P 6965 3545
-F 0 "#PWR010" H 6965 3395 50  0001 C CNN
-F 1 "+5V" H 6980 3718 50  0000 C CNN
-F 2 "" H 6965 3545 50  0001 C CNN
-F 3 "" H 6965 3545 50  0001 C CNN
-	1    6965 3545
-	1    0    0    -1  
-$EndComp
 $Comp
 L max_breakout-rescue:R_Small-Device R6
 U 1 1 6040DBE3
@@ -669,51 +592,7 @@ Connection ~ 1600 4060
 Connection ~ 1310 4060
 Connection ~ 1200 3530
 Connection ~ 1200 3690
-$Comp
-L max_breakout-rescue:+5V-power #PWR08
-U 1 1 5D54FF0D
-P 2155 2930
-F 0 "#PWR08" H 2155 2780 50  0001 C CNN
-F 1 "+5V" H 2170 3103 50  0000 C CNN
-F 2 "" H 2155 2930 50  0001 C CNN
-F 3 "" H 2155 2930 50  0001 C CNN
-	1    2155 2930
-	1    0    0    -1  
-$EndComp
-$Comp
-L max_breakout-rescue:KC5032K12.0000C10E00-Oscillator-rc2014_max_v-rescue X1
-U 1 1 5D598D88
-P 1346 1698
-F 0 "X1" H 1601 1868 50  0000 L CNN
-F 1 "KC5032K12.0000C10E00-Oscillator" H 1406 1968 50  0000 L CNN
-F 2 "Oscillator:Oscillator_SMD_Fordahl_DFAS15-4Pin_5.0x3.2mm_HandSoldering" H 2046 1348 50  0001 C CNN
-F 3 "" H 1246 1698 50  0001 C CNN
-	1    1346 1698
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1046 1698 1046 1398
-Wire Wire Line
-	1046 1398 1346 1398
-$Comp
-L max_breakout-rescue:+5V-power #PWR01
-U 1 1 5D5A86C9
-P 1346 1398
-F 0 "#PWR01" H 1346 1248 50  0001 C CNN
-F 1 "+5V" H 1361 1571 50  0000 C CNN
-F 2 "" H 1346 1398 50  0001 C CNN
-F 3 "" H 1346 1398 50  0001 C CNN
-	1    1346 1398
-	1    0    0    -1  
-$EndComp
-Connection ~ 1046 1698
-Wire Wire Line
-	1046 1898 1046 2043
-Wire Wire Line
-	1046 2043 1346 2043
-Wire Wire Line
-	1346 2043 1346 1998
-Text Label 1686 1698 0    50   ~ 0
+Text Label 2350 1665 0    50   ~ 0
 CLK1
 $Comp
 L max_breakout-rescue:PWR_FLAG-power #FLG02
@@ -724,28 +603,6 @@ F 1 "PWR_FLAG" H 1860 4233 50  0000 C CNN
 F 2 "" H 1860 4060 50  0001 C CNN
 F 3 "~" H 1860 4060 50  0001 C CNN
 	1    1860 4060
-	1    0    0    -1  
-$EndComp
-$Comp
-L max_breakout-rescue:Conn_01x16-Connector_Generic J2
-U 1 1 5D60BB0F
-P 10285 2145
-F 0 "J2" H 10365 2137 50  0000 L CNN
-F 1 "Conn_01x16" H 10365 2046 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 10285 2145 50  0001 C CNN
-F 3 "~" H 10285 2145 50  0001 C CNN
-	1    10285 2145
-	1    0    0    -1  
-$EndComp
-$Comp
-L max_breakout-rescue:+5V-power #PWR04
-U 1 1 5D64080D
-P 10085 1445
-F 0 "#PWR04" H 10085 1295 50  0001 C CNN
-F 1 "+5V" H 10100 1618 50  0000 C CNN
-F 2 "" H 10085 1445 50  0001 C CNN
-F 3 "" H 10085 1445 50  0001 C CNN
-	1    10085 1445
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -777,7 +634,7 @@ CLR
 Wire Wire Line
 	4045 3590 3785 3590
 Text Label 3800 3590 0    50   ~ 0
-OE2
+CLK2
 Text Label 5330 2540 2    50   ~ 0
 B26
 Wire Wire Line
@@ -794,20 +651,14 @@ Wire Wire Line
 	8675 2055 8415 2055
 Wire Wire Line
 	8675 2155 8415 2155
-Text Label 8475 1455 0    50   ~ 0
-A1
-Text Label 8475 1555 0    50   ~ 0
-A2
-Text Label 8475 1655 0    50   ~ 0
-A3
-Text Label 8475 1755 0    50   ~ 0
-A5
-Text Label 8480 1855 0    50   ~ 0
-A6
-Text Label 8485 1955 0    50   ~ 0
-A7
-Text Label 8485 2055 0    50   ~ 0
+Text Label 8515 1755 0    50   ~ 0
 A8
+Text Label 8510 1855 0    50   ~ 0
+A10
+Text Label 8500 1955 0    50   ~ 0
+A11
+Text Label 8485 2055 0    50   ~ 0
+A12
 Wire Wire Line
 	8675 2355 8415 2355
 Wire Wire Line
@@ -817,7 +668,7 @@ Wire Wire Line
 Wire Wire Line
 	8675 2655 8415 2655
 Text Label 8465 2455 0    50   ~ 0
-A13
+A16
 Wire Wire Line
 	8675 2255 8415 2255
 Text Label 8485 2755 0    50   ~ 0
@@ -831,22 +682,22 @@ Wire Wire Line
 Text Label 9870 1545 0    50   ~ 0
 CLK1
 Text Label 8465 2155 0    50   ~ 0
-A10
+A13
 Text Label 8465 2255 0    50   ~ 0
-A11
+A14
 Text Label 8470 2355 0    50   ~ 0
-A12
+A15
 Wire Wire Line
 	8675 2855 8415 2855
-Text Label 9870 2345 0    50   ~ 0
+Text Label 9930 2045 0    50   ~ 0
 B22
-Text Label 9885 2245 0    50   ~ 0
+Text Label 9920 1945 0    50   ~ 0
 B21
 Wire Wire Line
 	10085 2245 9825 2245
 Wire Wire Line
 	10085 1545 9825 1545
-Text Label 9900 2545 0    50   ~ 0
+Text Label 9910 2245 0    50   ~ 0
 B24
 Wire Wire Line
 	10085 2345 9825 2345
@@ -860,74 +711,22 @@ Text Label 8465 2555 0    50   ~ 0
 TCK
 Wire Wire Line
 	10085 2645 9825 2645
-Text Label 9865 2445 0    50   ~ 0
+Text Label 9915 2145 0    50   ~ 0
 B23
-Text Label 9880 2645 0    50   ~ 0
+Text Label 9905 2345 0    50   ~ 0
 B26
 Wire Wire Line
 	10085 2745 9825 2745
 $Comp
 L max_breakout-rescue:LED-Device D1
 U 1 1 5D74CDCC
-P 1498 4856
-F 0 "D1" H 1491 5072 50  0000 C CNN
-F 1 "LED" H 1491 4981 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1498 4856 50  0001 C CNN
-F 3 "~" H 1498 4856 50  0001 C CNN
-	1    1498 4856
-	1    0    0    -1  
-$EndComp
-$Comp
-L max_breakout-rescue:GND-power #PWR018
-U 1 1 5D74F3FF
-P 1053 5136
-AR Path="/5D74F3FF" Ref="#PWR018"  Part="1" 
-AR Path="/5CB63856/5D74F3FF" Ref="#PWR?"  Part="1" 
-AR Path="/5CB5AB00/5CB63856/5D74F3FF" Ref="#PWR?"  Part="1" 
-AR Path="/5CFABACD/5D74F3FF" Ref="#PWR?"  Part="1" 
-AR Path="/5D0F9837/5D74F3FF" Ref="#PWR?"  Part="1" 
-AR Path="/5CFABACD/5D0BF766/5D74F3FF" Ref="#PWR?"  Part="1" 
-AR Path="/5D1AF052/5D74F3FF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR018" H 1053 4886 50  0001 C CNN
-F 1 "GND" H 1058 4963 50  0000 C CNN
-F 2 "" H 1053 5136 50  0001 C CNN
-F 3 "" H 1053 5136 50  0001 C CNN
-	1    1053 5136
+P 1325 1375
+F 0 "D1" V 1320 1500 50  0000 C CNN
+F 1 "LED-3V3 Vf" V 1205 1530 32  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1325 1375 50  0001 C CNN
+F 3 "~" H 1325 1375 50  0001 C CNN
+	1    1325 1375
 	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	993  4856 993  5136
-Wire Wire Line
-	993  5136 1053 5136
-$Comp
-L max_breakout-rescue:R_Small-Device R?
-U 1 1 5D74F407
-P 1248 4856
-AR Path="/5D0F9837/5D74F407" Ref="R?"  Part="1" 
-AR Path="/5CFABACD/5D0BF766/5D74F407" Ref="R?"  Part="1" 
-AR Path="/5D1AF052/5D74F407" Ref="R?"  Part="1" 
-AR Path="/5D74F407" Ref="R15"  Part="1" 
-F 0 "R15" H 1113 4891 50  0000 L CNN
-F 1 "1K" H 1108 4816 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1248 4856 50  0001 C CNN
-F 3 "~" H 1248 4856 50  0001 C CNN
-	1    1248 4856
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	993  4856 1148 4856
-Wire Wire Line
-	1648 4856 1888 4856
-$Comp
-L max_breakout-rescue:+5V-power #PWR017
-U 1 1 5D77C61D
-P 1888 4856
-F 0 "#PWR017" H 1888 4706 50  0001 C CNN
-F 1 "+5V" H 1903 5029 50  0000 C CNN
-F 2 "" H 1888 4856 50  0001 C CNN
-F 3 "" H 1888 4856 50  0001 C CNN
-	1    1888 4856
-	1    0    0    -1  
 $EndComp
 $Comp
 L max_breakout-rescue:R_Small-Device R?
@@ -982,8 +781,6 @@ Connection ~ 2610 3175
 Wire Wire Line
 	2610 3175 2610 3065
 Wire Wire Line
-	2605 3175 2515 3175
-Wire Wire Line
 	2810 3175 3170 3175
 Wire Wire Line
 	2810 3065 3170 3065
@@ -992,21 +789,21 @@ OE1
 Text Label 2865 3175 0    50   ~ 0
 CLR
 Text Label 2860 3285 0    50   ~ 0
-OE2
+CLK2
 $Comp
 L max_breakout-rescue:GND-power #PWR016
 U 1 1 5D813AAA
-P 2515 3175
+P 2415 3185
 AR Path="/5D813AAA" Ref="#PWR016"  Part="1" 
 AR Path="/5CB63856/5D813AAA" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5D813AAA" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D813AAA" Ref="#PWR?"  Part="1" 
 AR Path="/5CF9C1ED/5D813AAA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR016" H 2515 2925 50  0001 C CNN
-F 1 "GND" H 2520 3002 50  0000 C CNN
-F 2 "" H 2515 3175 50  0001 C CNN
-F 3 "" H 2515 3175 50  0001 C CNN
-	1    2515 3175
+F 0 "#PWR016" H 2415 2935 50  0001 C CNN
+F 1 "GND" H 2420 3012 50  0000 C CNN
+F 2 "" H 2415 3185 50  0001 C CNN
+F 3 "" H 2415 3185 50  0001 C CNN
+	1    2415 3185
 	1    0    0    -1  
 $EndComp
 Connection ~ 3785 5450
@@ -1020,33 +817,32 @@ Wire Wire Line
 $Comp
 L max_breakout-rescue:GND-power #PWR0101
 U 1 1 5D838E8D
-P 1346 2043
+P 1950 2065
 AR Path="/5D838E8D" Ref="#PWR0101"  Part="1" 
 AR Path="/5CB63856/5D838E8D" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5D838E8D" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D838E8D" Ref="#PWR?"  Part="1" 
 AR Path="/5CF9C1ED/5D838E8D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0101" H 1346 1793 50  0001 C CNN
-F 1 "GND" H 1351 1870 50  0000 C CNN
-F 2 "" H 1346 2043 50  0001 C CNN
-F 3 "" H 1346 2043 50  0001 C CNN
-	1    1346 2043
+F 0 "#PWR0101" H 1950 1815 50  0001 C CNN
+F 1 "GND" H 1954 1923 50  0000 C CNN
+F 2 "" H 1950 2065 50  0001 C CNN
+F 3 "" H 1950 2065 50  0001 C CNN
+	1    1950 2065
 	1    0    0    -1  
 $EndComp
-Connection ~ 1346 2043
 Wire Wire Line
-	1600 2930 2155 2930
+	1600 2930 1865 2930
 NoConn ~ 1600 3130
 NoConn ~ 1600 3230
-Text Label 9880 2845 0    50   ~ 0
+Text Label 9910 2545 0    50   ~ 0
 B28
 Wire Wire Line
 	10085 2845 9825 2845
 Wire Wire Line
 	10085 2945 9825 2945
-Text Label 9885 2945 0    50   ~ 0
+Text Label 9920 2645 0    50   ~ 0
 B29
-Text Label 9880 2745 0    50   ~ 0
+Text Label 9915 2445 0    50   ~ 0
 B27
 $Comp
 L max_breakout-rescue:Conn_01x16-Connector_Generic J3
@@ -1061,29 +857,28 @@ F 3 "~" H 8875 2155 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10085 1845 9825 1845
-Text Label 9890 1745 0    50   ~ 0
-OE2
-Text Label 9895 1845 0    50   ~ 0
+Text Label 8510 1455 0    50   ~ 0
+CLK2
+Text Label 8525 1555 0    50   ~ 0
 CLR
 Wire Wire Line
 	10085 1645 9825 1645
 Wire Wire Line
 	10085 1745 9825 1745
-Text Label 9885 1645 0    50   ~ 0
+Text Label 8540 1655 0    50   ~ 0
 OE1
-Text Label 9875 2045 0    50   ~ 0
+Text Label 9910 1745 0    50   ~ 0
 B18
 Wire Wire Line
 	10085 2145 9825 2145
-Text Label 9880 1945 0    50   ~ 0
+Text Label 9895 1645 0    50   ~ 0
 B17
 Wire Wire Line
 	10085 1945 9825 1945
 Wire Wire Line
 	10085 2045 9825 2045
-Text Label 9885 2145 0    50   ~ 0
+Text Label 9910 1845 0    50   ~ 0
 B19
-Connection ~ 1346 1398
 Connection ~ 1860 4060
 Wire Wire Line
 	5145 2540 5405 2540
@@ -1150,7 +945,7 @@ AR Path="/5CFABACD/5D0BF766/5D350372" Ref="R?"  Part="1"
 AR Path="/5D1AF052/5D350372" Ref="R?"  Part="1" 
 AR Path="/5D350372" Ref="R2"  Part="1" 
 F 0 "R2" H 7115 1365 50  0000 L CNN
-F 1 "10K" H 7110 1290 50  0000 L CNN
+F 1 "10K" H 7210 1350 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7250 1330 50  0001 C CNN
 F 3 "~" H 7250 1330 50  0001 C CNN
 	1    7250 1330
@@ -1193,17 +988,6 @@ Wire Wire Line
 Wire Wire Line
 	7450 1430 7450 2350
 $Comp
-L max_breakout-rescue:+5V-power #PWR0102
-U 1 1 5D35501B
-P 7350 1230
-F 0 "#PWR0102" H 7350 1080 50  0001 C CNN
-F 1 "+5V" H 7350 1400 50  0000 C CNN
-F 2 "" H 7350 1230 50  0001 C CNN
-F 3 "" H 7350 1230 50  0001 C CNN
-	1    7350 1230
-	1    0    0    -1  
-$EndComp
-$Comp
 L max_breakout-rescue:AVR-JTAG-10-Connector J?
 U 1 1 5D1C705F
 P 6360 2150
@@ -1218,12 +1002,6 @@ F 3 "~" H 5085 1600 50  0001 C CNN
 	1    6360 2150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6860 1850 6860 1440
-Wire Wire Line
-	6860 1440 6260 1440
-Wire Wire Line
-	6260 1440 6260 1550
 Connection ~ 7150 2050
 Wire Wire Line
 	7150 2050 7750 2050
@@ -1248,15 +1026,263 @@ Connection ~ 7450 1230
 Connection ~ 7350 1230
 Wire Wire Line
 	7350 1230 7450 1230
+Wire Wire Line
+	1650 2035 1950 2035
+Wire Wire Line
+	2250 1665 2630 1665
 $Comp
-L max_breakout-rescue:+5V-power #PWR?
-U 1 1 5D374CA0
-P 6510 1440
-F 0 "#PWR?" H 6510 1290 50  0001 C CNN
-F 1 "+5V" H 6510 1610 50  0000 C CNN
-F 2 "" H 6510 1440 50  0001 C CNN
-F 3 "" H 6510 1440 50  0001 C CNN
-	1    6510 1440
+L power:VCC #PWR05
+U 1 1 5D37E63E
+P 1865 2930
+F 0 "#PWR05" H 1865 2780 50  0001 C CNN
+F 1 "VCC" H 1882 3103 50  0000 C CNN
+F 2 "" H 1865 2930 50  0001 C CNN
+F 3 "" H 1865 2930 50  0001 C CNN
+	1    1865 2930
 	1    0    0    -1  
 $EndComp
+Connection ~ 1865 2930
+Wire Wire Line
+	1865 2930 2155 2930
+Text Label 2010 2930 0    50   ~ 0
+5V
+$Comp
+L power:VCC #PWR0105
+U 1 1 5D37FB43
+P 4595 1375
+F 0 "#PWR0105" H 4595 1225 50  0001 C CNN
+F 1 "VCC" H 4612 1548 50  0000 C CNN
+F 2 "" H 4595 1375 50  0001 C CNN
+F 3 "" H 4595 1375 50  0001 C CNN
+	1    4595 1375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0103
+U 1 1 5D3805D3
+P 6555 1465
+F 0 "#PWR0103" H 6555 1315 50  0001 C CNN
+F 1 "VCC" H 6572 1638 50  0000 C CNN
+F 2 "" H 6555 1465 50  0001 C CNN
+F 3 "" H 6555 1465 50  0001 C CNN
+	1    6555 1465
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0107
+U 1 1 5D382E68
+P 3785 5350
+F 0 "#PWR0107" H 3785 5200 50  0001 C CNN
+F 1 "VCC" H 3802 5523 50  0000 C CNN
+F 2 "" H 3785 5350 50  0001 C CNN
+F 3 "" H 3785 5350 50  0001 C CNN
+	1    3785 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0108
+U 1 1 5D383083
+P 6965 3545
+F 0 "#PWR0108" H 6965 3395 50  0001 C CNN
+F 1 "VCC" H 6982 3718 50  0000 C CNN
+F 2 "" H 6965 3545 50  0001 C CNN
+F 3 "" H 6965 3545 50  0001 C CNN
+	1    6965 3545
+	1    0    0    -1  
+$EndComp
+$Comp
+L max_breakout-rescue:Conn_01x16-Connector_Generic J2
+U 1 1 5D60BB0F
+P 10285 2145
+F 0 "J2" H 10365 2137 50  0000 L CNN
+F 1 "Conn_01x16" H 10365 2046 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 10285 2145 50  0001 C CNN
+F 3 "~" H 10285 2145 50  0001 C CNN
+	1    10285 2145
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10085 1445 10025 1445
+Wire Wire Line
+	10025 1445 10025 1335
+$Comp
+L power:VCC #PWR0109
+U 1 1 5D38337F
+P 10025 1335
+F 0 "#PWR0109" H 10025 1185 50  0001 C CNN
+F 1 "VCC" H 10042 1508 50  0000 C CNN
+F 2 "" H 10025 1335 50  0001 C CNN
+F 3 "" H 10025 1335 50  0001 C CNN
+	1    10025 1335
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 1365 1950 1365
+$Comp
+L max_breakout-rescue:C_Small-Device C?
+U 1 1 5D39812A
+P 1650 1855
+AR Path="/5D65A6A0/5D39812A" Ref="C?"  Part="1" 
+AR Path="/5D39812A" Ref="C1"  Part="1" 
+F 0 "C1" H 1545 1920 50  0000 L CNN
+F 1 "100nF" H 1410 1790 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1650 1855 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 1650 1855 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 6.3V 0.47uF 10% X7R" H 1742 2001 50  0001 C CNN "Description"
+F 5 "Taiyo Yuden" H 1650 1855 50  0001 C CNN "MFR"
+F 6 "JMK107B7474KA-T" H 1650 1855 50  0001 C CNN "MPN"
+F 7 "963-JMK107B7474KA-T" H 1742 2001 50  0001 C CNN "SPN"
+F 8 "Mouser" H 1650 1855 50  0001 C CNN "SPR"
+F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 1742 2001 50  0001 C CNN "SPURL"
+	1    1650 1855
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 2035 1650 1955
+Wire Wire Line
+	6260 1550 6260 1465
+Wire Wire Line
+	6260 1465 6555 1465
+Wire Wire Line
+	6860 1465 6860 1850
+Connection ~ 6555 1465
+Wire Wire Line
+	6555 1465 6860 1465
+$Comp
+L power:VCC #PWR0102
+U 1 1 5D37FFC2
+P 7350 1230
+F 0 "#PWR0102" H 7350 1080 50  0001 C CNN
+F 1 "VCC" H 7367 1403 50  0000 C CNN
+F 2 "" H 7350 1230 50  0001 C CNN
+F 3 "" H 7350 1230 50  0001 C CNN
+	1    7350 1230
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2610 3175 2415 3175
+Wire Wire Line
+	2415 3175 2415 3185
+Text Label 4010 1640 2    50   ~ 0
+SW1_0
+Text Label 4000 1740 2    50   ~ 0
+SW1_1
+Text Label 4000 1840 2    50   ~ 0
+SW1_2
+Text Label 7475 4485 2    50   ~ 0
+SW1_3
+Text Label 5380 2940 2    50   ~ 0
+B30
+Text Label 5380 3040 2    50   ~ 0
+B31
+Text Label 5380 3140 2    50   ~ 0
+B32
+Text Label 9920 2745 0    50   ~ 0
+B30
+Text Label 9920 2845 0    50   ~ 0
+B31
+Text Label 9920 2945 0    50   ~ 0
+B32
+$Comp
+L max_breakout-rescue:EPM7032STC44-CPLD_Altera-sbc_z80-rescue U1
+U 1 1 5D1470E3
+P 4595 2740
+F 0 "U1" H 4250 4005 50  0000 C CNN
+F 1 "CPLD - EPM7032STC44" H 4040 4105 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 5345 4190 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Intel%20PDFs/MAX7000_Family_DS.pdf" H 5345 4190 50  0001 C CNN
+	1    4595 2740
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0104
+U 1 1 5D37F47F
+P 715 1225
+F 0 "#PWR0104" H 715 1075 50  0001 C CNN
+F 1 "VCC" H 732 1398 50  0000 C CNN
+F 2 "" H 715 1225 50  0001 C CNN
+F 3 "" H 715 1225 50  0001 C CNN
+	1    715  1225
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 1365 1950 1225
+Wire Wire Line
+	870  1225 715  1225
+$Comp
+L max_breakout-rescue:GND-power #PWR01
+U 1 1 5D42A074
+P 1325 1645
+AR Path="/5D42A074" Ref="#PWR01"  Part="1" 
+AR Path="/5CB63856/5D42A074" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5D42A074" Ref="#PWR?"  Part="1" 
+AR Path="/5CFABACD/5D42A074" Ref="#PWR?"  Part="1" 
+AR Path="/5CF9C1ED/5D42A074" Ref="#PWR?"  Part="1" 
+F 0 "#PWR01" H 1325 1395 50  0001 C CNN
+F 1 "GND" H 1329 1503 50  0000 C CNN
+F 2 "" H 1325 1645 50  0001 C CNN
+F 3 "" H 1325 1645 50  0001 C CNN
+	1    1325 1645
+	1    0    0    -1  
+$EndComp
+$Comp
+L max_breakout-rescue:R_Small-Device R?
+U 1 1 5D74F407
+P 970 1225
+AR Path="/5D0F9837/5D74F407" Ref="R?"  Part="1" 
+AR Path="/5CFABACD/5D0BF766/5D74F407" Ref="R?"  Part="1" 
+AR Path="/5D1AF052/5D74F407" Ref="R?"  Part="1" 
+AR Path="/5D74F407" Ref="R15"  Part="1" 
+F 0 "R15" V 1040 1150 50  0000 L CNN
+F 1 "100R" V 965 1160 32  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 970 1225 50  0001 C CNN
+F 3 "~" H 970 1225 50  0001 C CNN
+	1    970  1225
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1325 1525 1325 1645
+Wire Wire Line
+	1070 1225 1325 1225
+Wire Wire Line
+	1325 1225 1870 1225
+Connection ~ 1325 1225
+Wire Wire Line
+	1650 1365 1650 1665
+Connection ~ 1650 1665
+Wire Wire Line
+	1650 1665 1650 1755
+Connection ~ 1950 1365
+$Comp
+L Oscillator:TXC-7C X1
+U 1 1 5D441797
+P 1950 1665
+F 0 "X1" H 2294 1697 32  0000 L CNN
+F 1 "CTX-636 50mhz" H 2294 1634 32  0000 L CNN
+F 2 "Oscillator:Oscillator_SMD_TXC_7C-4Pin_5.0x3.2mm_HandSoldering" H 2650 1315 50  0001 C CNN
+F 3 "http://www.txccorp.com/download/products/osc/7C_o.pdf" H 1850 1665 50  0001 C CNN
+	1    1950 1665
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 1965 1950 2035
+Wire Wire Line
+	1950 2040 1950 2065
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5D444B09
+P 1870 1225
+F 0 "#FLG0101" H 1870 1300 50  0001 C CNN
+F 1 "PWR_FLAG" H 1870 1398 50  0000 C CNN
+F 2 "" H 1870 1225 50  0001 C CNN
+F 3 "~" H 1870 1225 50  0001 C CNN
+	1    1870 1225
+	1    0    0    -1  
+$EndComp
+Connection ~ 1870 1225
+Wire Wire Line
+	1870 1225 1950 1225
+Connection ~ 1950 2035
+Wire Wire Line
+	1950 2035 1950 2040
 $EndSCHEMATC

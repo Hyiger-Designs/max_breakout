@@ -1,2 +1,6 @@
-
+gerbers/*
+gerbers.zip
+*.bak
+*.kicad_pcb-bak
+*.net
 \.DS_Store

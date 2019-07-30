@@ -345,7 +345,7 @@ B27
 Text Label 10000 1300 0    50   ~ 0
 ~RST
 Text Label 10000 1200 0    50   ~ 0
-OE1
+~OE1
 Text Label 10000 1500 0    50   ~ 0
 B18
 Text Label 10000 1400 0    50   ~ 0
@@ -645,17 +645,17 @@ $EndComp
 $Comp
 L max_breakout-rescue:GND-power #PWR014
 U 1 1 5D403069
-P 7750 3550
+P 7750 3600
 AR Path="/5D403069" Ref="#PWR014"  Part="1" 
 AR Path="/5CB63856/5D403069" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5D403069" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D403069" Ref="#PWR?"  Part="1" 
 AR Path="/5CF9C1ED/5D403069" Ref="#PWR?"  Part="1" 
-F 0 "#PWR014" H 7750 3300 50  0001 C CNN
-F 1 "GND" H 7750 3400 50  0000 C CNN
-F 2 "" H 7750 3550 50  0001 C CNN
-F 3 "" H 7750 3550 50  0001 C CNN
-	1    7750 3550
+F 0 "#PWR014" H 7750 3350 50  0001 C CNN
+F 1 "GND" H 7750 3450 50  0000 C CNN
+F 2 "" H 7750 3600 50  0001 C CNN
+F 3 "" H 7750 3600 50  0001 C CNN
+	1    7750 3600
 	1    0    0    -1  
 $EndComp
 Text Label 7200 2850 2    50   ~ 0
@@ -940,7 +940,7 @@ CLK2
 Text Label 3900 3150 0    50   ~ 0
 ~RST
 Text Label 3900 3050 0    50   ~ 0
-~USRPB
+~OE1
 $Comp
 L max_breakout-rescue:EPM7032STC44-CPLD_Altera-sbc_z80-rescue U2
 U 1 1 5D1470E3
@@ -1783,7 +1783,7 @@ F 3 "" H 4850 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 5400 5350 0    50   ~ 0
-~USRPB
+~OE1
 $Comp
 L power:VCC #PWR09
 U 1 1 5D3F62D7
@@ -2152,4 +2152,6 @@ F 3 "" H 4297 6388 50  0001 C CNN
 	1    4297 6388
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	7750 3600 7750 3550
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=Sunday, July 28, 2019 at 04:46:31 PM
+update=Monday, July 29, 2019 at 05:14:38 PM
 version=1
 last_client=kicad
 [general]
@@ -250,7 +250,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=documentation/
+PlotDirectoryName=../../Documents/gitrepo/max_breakout/docs/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=

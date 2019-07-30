@@ -584,20 +584,6 @@ F 3 "~" H 10400 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACAC D3
-U 1 1 5D298EB6
-P 4804 6385
-F 0 "D3" H 4804 6038 50  0000 C CNN
-F 1 "LED" H 4804 6129 50  0000 C CNN
-F 2 "LED_SMD:LED_2C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4834 6385 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/348/sml-d22-e-1508165.pdf" H 4834 6385 50  0001 C CNN
-F 4 "Standard LEDs - SMD Red/YelGrn 620/570nm 16/10mcd 65/67mW 5mA" H 4804 6385 50  0001 C CNN "Description"
-F 5 "SML-D22MUWT86" H 4804 6385 50  0001 C CNN "MPN"
-F 6 "ROHM Semiconductor" H 4804 6385 50  0001 C CNN "Manufacturer"
-	1    4804 6385
-	1    0    0    -1  
-$EndComp
-$Comp
 L max_breakout-rescue:74HCT2G125-74xGxx U6
 U 1 1 5D3C1FD5
 P 5529 6285
@@ -738,52 +724,6 @@ Wire Wire Line
 	5529 6965 5529 6685
 Text Label 5529 6940 1    50   ~ 0
 LED_ENA
-$Comp
-L Device:R_Small R17
-U 1 1 5D298EC1
-P 4404 6285
-F 0 "R17" V 4439 6430 50  0000 C CNN
-F 1 "360R" V 4402 6289 32  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4404 6285 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 4404 6285 50  0001 C CNN
-F 4 "Thick Film Resistors - SMD 10K 1% 1/10W" H 4404 6285 50  0001 C CNN "Description"
-F 5 "CR0603-FX-1002ELF" H 4404 6285 50  0001 C CNN "MPN"
-F 6 "Bourns" H 4404 6285 50  0001 C CNN "Manufacturer"
-	1    4404 6285
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:R_Small R19
-U 1 1 5D4B3D04
-P 4404 6485
-F 0 "R19" V 4438 6628 50  0000 C CNN
-F 1 "360R" V 4406 6485 32  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4404 6485 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 4404 6485 50  0001 C CNN
-F 4 "Thick Film Resistors - SMD 10K 1% 1/10W" H 4404 6485 50  0001 C CNN "Description"
-F 5 "CR0603-FX-1002ELF" H 4404 6485 50  0001 C CNN "MPN"
-F 6 "Bourns" H 4404 6485 50  0001 C CNN "Manufacturer"
-	1    4404 6485
-	0    1    -1   0   
-$EndComp
-$Comp
-L power:VCC #PWR032
-U 1 1 5D89D858
-P 4172 6388
-F 0 "#PWR032" H 4172 6238 50  0001 C CNN
-F 1 "VCC" H 4189 6561 50  0000 C CNN
-F 2 "" H 4172 6388 50  0001 C CNN
-F 3 "" H 4172 6388 50  0001 C CNN
-	1    4172 6388
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4304 6285 4304 6388
-Wire Wire Line
-	4304 6388 4172 6388
-Connection ~ 4304 6388
-Wire Wire Line
-	4304 6388 4304 6485
 Text Label 10000 900  0    50   ~ 0
 5V_in
 Text Label 10850 4850 0    50   ~ 0
@@ -792,44 +732,6 @@ Wire Notes Line
 	712  7500 700  4750
 Text Notes 750  4900 0    50   ~ 0
 USER GPIO
-$Comp
-L Jumper:Jumper_2_Open JP2
-U 1 1 5E298777
-P 1000 6800
-F 0 "JP2" H 1000 7024 50  0000 C CNN
-F 1 "SW_EN" H 1000 6933 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1000 6800 50  0001 C CNN
-F 3 "~" H 1000 6800 50  0001 C CNN
-	1    1000 6800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:VCC #PWR030
-U 1 1 5E298783
-P 1000 6250
-F 0 "#PWR030" H 1000 6100 50  0001 C CNN
-F 1 "VCC" H 1017 6423 50  0000 C CNN
-F 2 "" H 1000 6250 50  0001 C CNN
-F 3 "" H 1000 6250 50  0001 C CNN
-	1    1000 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L max_breakout-rescue:GND-power #PWR034
-U 1 1 5E298789
-P 1000 7000
-AR Path="/5E298789" Ref="#PWR034"  Part="1" 
-AR Path="/5D0F9837/5E298789" Ref="#PWR?"  Part="1" 
-AR Path="/5CFABACD/5E298789" Ref="#PWR?"  Part="1" 
-AR Path="/5CFABACD/5CFFC458/5E298789" Ref="#PWR?"  Part="1" 
-AR Path="/5D65A6A0/5E298789" Ref="#PWR?"  Part="1" 
-F 0 "#PWR034" H 1000 6750 50  0001 C CNN
-F 1 "GND" H 1005 6827 50  0000 C CNN
-F 2 "" H 1000 7000 50  0001 C CNN
-F 3 "" H 1000 7000 50  0001 C CNN
-	1    1000 7000
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	595  690  3400 690 
 Wire Notes Line
@@ -847,17 +749,9 @@ Wire Notes Line
 Text Notes 5815 895  0    50   ~ 0
 JTAG
 Wire Wire Line
-	5105 6285 5229 6285
-Connection ~ 5229 6285
-Wire Wire Line
 	5229 6285 5230 6285
 Wire Wire Line
-	5105 6485 5229 6485
-Connection ~ 5229 6485
-Wire Wire Line
 	5229 6485 5230 6485
-Connection ~ 5104 6285
-Connection ~ 5104 6485
 $Comp
 L max_breakout-rescue:GND-power #PWR024
 U 1 1 5D385EAD
@@ -1380,22 +1274,6 @@ Connection ~ 3100 4250
 Connection ~ 3300 4250
 Wire Wire Line
 	3300 4250 3500 4250
-Wire Wire Line
-	1000 6600 1550 6600
-$Comp
-L max_breakout-rescue:R_Small-Device R18
-U 1 1 5E29877D
-P 1000 6400
-F 0 "R18" H 1010 6260 50  0000 L CNN
-F 1 "10K" V 1000 6350 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1000 6400 50  0001 C CNN
-F 3 "~" H 1000 6400 50  0001 C CNN
-	1    1000 6400
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1000 6500 1000 6600
-Connection ~ 1000 6600
 $Comp
 L max_breakout-rescue:R_Small-Device R?
 U 1 1 5D42FF74
@@ -1453,8 +1331,6 @@ F 3 "" H 9100 4700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8850 4700 8850 4850
-Wire Wire Line
-	1000 6300 1000 6250
 Wire Wire Line
 	1300 5550 1300 5650
 Connection ~ 1300 5650
@@ -1949,7 +1825,7 @@ Wire Wire Line
 	2200 3300 2800 3300
 Text Label 2350 6300 0    50   ~ 0
 SW_ENA
-Text Label 1200 6600 0    50   ~ 0
+Text Label 2150 6800 0    50   ~ 0
 SW_ENA
 $Comp
 L Jumper:Jumper_2_Open JP3
@@ -2156,4 +2032,130 @@ Text Label 10000 1100 0    50   ~ 0
 CLK2
 Text Label 10000 1000 0    50   ~ 0
 CLK1
+$Comp
+L power:VCC #PWR032
+U 1 1 5D89D858
+P 4172 6388
+F 0 "#PWR032" H 4172 6238 50  0001 C CNN
+F 1 "VCC" H 4189 6561 50  0000 C CNN
+F 2 "" H 4172 6388 50  0001 C CNN
+F 3 "" H 4172 6388 50  0001 C CNN
+	1    4172 6388
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R19
+U 1 1 5D4B3D04
+P 4404 6485
+F 0 "R19" V 4438 6628 50  0000 C CNN
+F 1 "360R" V 4406 6485 32  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4404 6485 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 4404 6485 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 10K 1% 1/10W" H 4404 6485 50  0001 C CNN "Description"
+F 5 "CR0603-FX-1002ELF" H 4404 6485 50  0001 C CNN "MPN"
+F 6 "Bourns" H 4404 6485 50  0001 C CNN "Manufacturer"
+	1    4404 6485
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small R17
+U 1 1 5D298EC1
+P 4404 6285
+F 0 "R17" V 4439 6430 50  0000 C CNN
+F 1 "360R" V 4402 6289 32  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4404 6285 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 4404 6285 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 10K 1% 1/10W" H 4404 6285 50  0001 C CNN "Description"
+F 5 "CR0603-FX-1002ELF" H 4404 6285 50  0001 C CNN "MPN"
+F 6 "Bourns" H 4404 6285 50  0001 C CNN "Manufacturer"
+	1    4404 6285
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:LED_Dual_ACAC D3
+U 1 1 5D298EB6
+P 4804 6385
+F 0 "D3" H 4804 6038 50  0000 C CNN
+F 1 "LED" H 4804 6129 50  0000 C CNN
+F 2 "LED_SMD:LED_2C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4834 6385 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/348/sml-d22-e-1508165.pdf" H 4834 6385 50  0001 C CNN
+F 4 "Standard LEDs - SMD Red/YelGrn 620/570nm 16/10mcd 65/67mW 5mA" H 4804 6385 50  0001 C CNN "Description"
+F 5 "SML-D22MUWT86" H 4804 6385 50  0001 C CNN "MPN"
+F 6 "ROHM Semiconductor" H 4804 6385 50  0001 C CNN "Manufacturer"
+	1    4804 6385
+	1    0    0    -1  
+$EndComp
+Connection ~ 4304 6388
+Wire Wire Line
+	4304 6388 4172 6388
+Wire Wire Line
+	4304 6285 4304 6388
+Wire Wire Line
+	4304 6388 4304 6485
+Connection ~ 5229 6485
+Connection ~ 5104 6485
+Wire Wire Line
+	5105 6485 5229 6485
+Connection ~ 5229 6285
+Connection ~ 5104 6285
+Wire Wire Line
+	5105 6285 5229 6285
+$Comp
+L max_breakout-rescue:R_Small-Device R18
+U 1 1 5E29877D
+P 1950 6650
+F 0 "R18" H 1960 6510 50  0000 L CNN
+F 1 "10K" V 1950 6600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1950 6650 50  0001 C CNN
+F 3 "~" H 1950 6650 50  0001 C CNN
+	1    1950 6650
+	-1   0    0    1   
+$EndComp
+$Comp
+L max_breakout-rescue:GND-power #PWR034
+U 1 1 5E298789
+P 1950 7250
+AR Path="/5E298789" Ref="#PWR034"  Part="1" 
+AR Path="/5D0F9837/5E298789" Ref="#PWR?"  Part="1" 
+AR Path="/5CFABACD/5E298789" Ref="#PWR?"  Part="1" 
+AR Path="/5CFABACD/5CFFC458/5E298789" Ref="#PWR?"  Part="1" 
+AR Path="/5D65A6A0/5E298789" Ref="#PWR?"  Part="1" 
+F 0 "#PWR034" H 1950 7000 50  0001 C CNN
+F 1 "GND" H 1955 7077 50  0000 C CNN
+F 2 "" H 1950 7250 50  0001 C CNN
+F 3 "" H 1950 7250 50  0001 C CNN
+	1    1950 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR030
+U 1 1 5E298783
+P 1950 6500
+F 0 "#PWR030" H 1950 6350 50  0001 C CNN
+F 1 "VCC" H 1967 6673 50  0000 C CNN
+F 2 "" H 1950 6500 50  0001 C CNN
+F 3 "" H 1950 6500 50  0001 C CNN
+	1    1950 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP2
+U 1 1 5E298777
+P 1950 7050
+F 0 "JP2" H 1950 7274 50  0000 C CNN
+F 1 "SW_EN" H 1950 7183 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1950 7050 50  0001 C CNN
+F 3 "~" H 1950 7050 50  0001 C CNN
+	1    1950 7050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1950 6550 1950 6500
+Wire Wire Line
+	1950 6750 1950 6800
+Wire Wire Line
+	1950 6800 2500 6800
+Connection ~ 1950 6800
+Wire Wire Line
+	1950 6800 1950 6850
 $EndSCHEMATC

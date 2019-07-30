@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "MAX7000S Breakout Board"
-Date "2019-07-23"
-Rev "1.0"
+Date "2019-07-29"
+Rev "1.1"
 Comp "Hyiger Designs"
 Comment1 ""
 Comment2 ""
@@ -25,15 +25,15 @@ A11
 Text Label 3950 2350 0    50   ~ 0
 A12
 $Comp
-L max_breakout-rescue:GND-power #PWR016
+L max_breakout-rescue:GND-power #PWR017
 U 1 1 5D617CA8
 P 3200 4300
-AR Path="/5D617CA8" Ref="#PWR016"  Part="1" 
+AR Path="/5D617CA8" Ref="#PWR017"  Part="1" 
 AR Path="/5D0F9837/5D617CA8" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D617CA8" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5CFFC458/5D617CA8" Ref="#PWR?"  Part="1" 
 AR Path="/5D65A6A0/5D617CA8" Ref="#PWR?"  Part="1" 
-F 0 "#PWR016" H 3200 4050 50  0001 C CNN
+F 0 "#PWR017" H 3200 4050 50  0001 C CNN
 F 1 "GND" H 3205 4127 50  0000 C CNN
 F 2 "" H 3200 4300 50  0001 C CNN
 F 3 "" H 3200 4300 50  0001 C CNN
@@ -125,17 +125,17 @@ TDI
 Text Label 3900 2950 0    50   ~ 0
 CLK1
 $Comp
-L max_breakout-rescue:GND-power #PWR09
+L max_breakout-rescue:GND-power #PWR010
 U 1 1 5D1C7065
 P 6550 2650
-AR Path="/5D1C7065" Ref="#PWR09"  Part="1" 
+AR Path="/5D1C7065" Ref="#PWR010"  Part="1" 
 AR Path="/5CB63856/5D1C7065" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5D1C7065" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D1C7065" Ref="#PWR?"  Part="1" 
 AR Path="/5D0F9837/5D1C7065" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D0BF766/5D1C7065" Ref="#PWR?"  Part="1" 
 AR Path="/5D1AF052/5D1C7065" Ref="#PWR?"  Part="1" 
-F 0 "#PWR09" H 6550 2400 50  0001 C CNN
+F 0 "#PWR010" H 6550 2400 50  0001 C CNN
 F 1 "GND" H 6555 2477 50  0000 C CNN
 F 2 "" H 6550 2650 50  0001 C CNN
 F 3 "" H 6550 2650 50  0001 C CNN
@@ -192,10 +192,10 @@ A14
 Text Label 3950 2650 0    50   ~ 0
 A15
 $Comp
-L max_breakout-rescue:SW_DIP_x06-Switch SW1
+L max_breakout-rescue:SW_DIP_x06-Switch SW3
 U 1 1 5F854DDB
 P 1600 5850
-F 0 "SW1" H 1600 6417 50  0000 C CNN
+F 0 "SW3" H 1600 6417 50  0000 C CNN
 F 1 "User DIP Switch" H 1600 6326 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_DIP_SPSTx06_Slide_Omron_A6H-6101_W6.15mm_P1.27mm" H 1600 5850 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/307/en-a6h-1221378.pdf" H 1600 5850 50  0001 C CNN
@@ -278,13 +278,13 @@ F 3 "~" H 7150 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L max_breakout-rescue:C-Device C12
+L max_breakout-rescue:C-Device C13
 U 1 1 5CFAD747
 P 7100 5600
-AR Path="/5CFAD747" Ref="C12"  Part="1" 
+AR Path="/5CFAD747" Ref="C13"  Part="1" 
 AR Path="/5D0F9837/5CFAD747" Ref="C?"  Part="1" 
 AR Path="/5CFABACD/5D0BF766/5CFAD747" Ref="C?"  Part="1" 
-F 0 "C12" H 7215 5646 50  0000 L CNN
+F 0 "C13" H 7215 5646 50  0000 L CNN
 F 1 "100nF" H 7215 5555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7138 5450 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 7100 5600 50  0001 C CNN
@@ -312,12 +312,12 @@ B26
 $Comp
 L max_breakout-rescue:LED-Device D1
 U 1 1 5D74CDCC
-P 750 2850
-F 0 "D1" V 745 2975 50  0000 C CNN
-F 1 "Blue" V 630 3005 32  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 750 2850 50  0001 C CNN
-F 3 "~" H 750 2850 50  0001 C CNN
-	1    750  2850
+P 10850 5750
+F 0 "D1" V 10845 5875 50  0000 C CNN
+F 1 "Blue" V 10730 5905 32  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10850 5750 50  0001 C CNN
+F 3 "~" H 10850 5750 50  0001 C CNN
+	1    10850 5750
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -398,10 +398,10 @@ F 3 "~" H 7550 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR015
+L power:VCC #PWR016
 U 1 1 5D382E68
 P 3200 3900
-F 0 "#PWR015" H 3200 3750 50  0001 C CNN
+F 0 "#PWR016" H 3200 3750 50  0001 C CNN
 F 1 "VCC" H 3197 4041 50  0000 C CNN
 F 2 "" H 3200 3900 50  0001 C CNN
 F 3 "" H 3200 3900 50  0001 C CNN
@@ -464,32 +464,32 @@ $EndComp
 $Comp
 L max_breakout-rescue:GND-power #PWR012
 U 1 1 5D42A074
-P 750 3000
+P 10850 5900
 AR Path="/5D42A074" Ref="#PWR012"  Part="1" 
 AR Path="/5CB63856/5D42A074" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5D42A074" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D42A074" Ref="#PWR?"  Part="1" 
 AR Path="/5CF9C1ED/5D42A074" Ref="#PWR?"  Part="1" 
-F 0 "#PWR012" H 750 2750 50  0001 C CNN
-F 1 "GND" H 750 2850 50  0000 C CNN
-F 2 "" H 750 3000 50  0001 C CNN
-F 3 "" H 750 3000 50  0001 C CNN
-	1    750  3000
+F 0 "#PWR012" H 10850 5650 50  0001 C CNN
+F 1 "GND" H 10850 5750 50  0000 C CNN
+F 2 "" H 10850 5900 50  0001 C CNN
+F 3 "" H 10850 5900 50  0001 C CNN
+	1    10850 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L max_breakout-rescue:R_Small-Device R?
 U 1 1 5D74F407
-P 750 2600
+P 10850 5500
 AR Path="/5D0F9837/5D74F407" Ref="R?"  Part="1" 
 AR Path="/5CFABACD/5D0BF766/5D74F407" Ref="R?"  Part="1" 
 AR Path="/5D1AF052/5D74F407" Ref="R?"  Part="1" 
 AR Path="/5D74F407" Ref="R6"  Part="1" 
-F 0 "R6" V 820 2525 50  0000 L CNN
-F 1 "100R" V 750 2550 32  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 750 2600 50  0001 C CNN
-F 3 "~" H 750 2600 50  0001 C CNN
-	1    750  2600
+F 0 "R6" V 10920 5425 50  0000 L CNN
+F 1 "100R" V 10850 5450 32  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10850 5500 50  0001 C CNN
+F 3 "~" H 10850 5500 50  0001 C CNN
+	1    10850 5500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -504,10 +504,10 @@ F 3 "http://www.txccorp.com/download/products/osc/7C_o.pdf" H 2050 1550 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR023
+L power:VCC #PWR020
 U 1 1 5D481891
 P 2250 5000
-F 0 "#PWR023" H 2250 4850 50  0001 C CNN
+F 0 "#PWR020" H 2250 4850 50  0001 C CNN
 F 1 "VCC" H 2267 5173 50  0000 C CNN
 F 2 "" H 2250 5000 50  0001 C CNN
 F 3 "" H 2250 5000 50  0001 C CNN
@@ -515,15 +515,15 @@ F 3 "" H 2250 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L max_breakout-rescue:GND-power #PWR031
+L max_breakout-rescue:GND-power #PWR032
 U 1 1 5D4C5742
 P 1300 6250
-AR Path="/5D4C5742" Ref="#PWR031"  Part="1" 
+AR Path="/5D4C5742" Ref="#PWR032"  Part="1" 
 AR Path="/5D0F9837/5D4C5742" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D4C5742" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5CFFC458/5D4C5742" Ref="#PWR?"  Part="1" 
 AR Path="/5D65A6A0/5D4C5742" Ref="#PWR?"  Part="1" 
-F 0 "#PWR031" H 1300 6000 50  0001 C CNN
+F 0 "#PWR032" H 1300 6000 50  0001 C CNN
 F 1 "GND" H 1303 6109 50  0000 C CNN
 F 2 "" H 1300 6250 50  0001 C CNN
 F 3 "" H 1300 6250 50  0001 C CNN
@@ -531,15 +531,15 @@ F 3 "" H 1300 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L max_breakout-rescue:GND-power #PWR033
+L max_breakout-rescue:GND-power #PWR035
 U 1 1 5D4DB7F7
 P 3200 6650
-AR Path="/5D4DB7F7" Ref="#PWR033"  Part="1" 
+AR Path="/5D4DB7F7" Ref="#PWR035"  Part="1" 
 AR Path="/5D0F9837/5D4DB7F7" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D4DB7F7" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5CFFC458/5D4DB7F7" Ref="#PWR?"  Part="1" 
 AR Path="/5D65A6A0/5D4DB7F7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR033" H 3200 6400 50  0001 C CNN
+F 0 "#PWR035" H 3200 6400 50  0001 C CNN
 F 1 "GND" H 3205 6477 50  0000 C CNN
 F 2 "" H 3200 6650 50  0001 C CNN
 F 3 "" H 3200 6650 50  0001 C CNN
@@ -547,10 +547,10 @@ F 3 "" H 3200 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR027
+L power:VCC #PWR026
 U 1 1 5D4FC934
 P 3200 5250
-F 0 "#PWR027" H 3200 5100 50  0001 C CNN
+F 0 "#PWR026" H 3200 5100 50  0001 C CNN
 F 1 "VCC" H 3205 5445 50  0000 C CNN
 F 2 "" H 3200 5250 50  0001 C CNN
 F 3 "" H 3200 5250 50  0001 C CNN
@@ -562,10 +562,10 @@ A7
 Wire Wire Line
 	3700 6050 3996 6050
 $Comp
-L Connector_Generic:Conn_01x19 J2
+L Connector_Generic:Conn_01x19 J1
 U 1 1 5D60A02C
 P 9400 1800
-F 0 "J2" H 9480 1792 50  0000 L CNN
+F 0 "J1" H 9480 1792 50  0000 L CNN
 F 1 "Left" H 9480 1701 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x19_P2.54mm_Vertical" H 9400 1800 50  0001 C CNN
 F 3 "~" H 9400 1800 50  0001 C CNN
@@ -573,10 +573,10 @@ F 3 "~" H 9400 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x19 J1
+L Connector_Generic:Conn_01x19 J2
 U 1 1 5D60BB0F
 P 10400 1800
-F 0 "J1" H 10480 1792 50  0000 L CNN
+F 0 "J2" H 10480 1792 50  0000 L CNN
 F 1 "Right" H 10480 1701 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x19_P2.54mm_Vertical" H 10400 1800 50  0001 C CNN
 F 3 "~" H 10400 1800 50  0001 C CNN
@@ -584,10 +584,10 @@ F 3 "~" H 10400 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L max_breakout-rescue:74HCT2G125-74xGxx U6
+L max_breakout-rescue:74HCT2G125-74xGxx U7
 U 1 1 5D3C1FD5
 P 5529 6285
-F 0 "U6" H 5504 6110 50  0000 C CNN
+F 0 "U7" H 5504 6110 50  0000 C CNN
 F 1 "74HCT2G125" H 5504 6019 50  0000 C CNN
 F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 5529 6285 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5529 6285 50  0001 C CNN
@@ -595,10 +595,10 @@ F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5529 6285 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L max_breakout-rescue:74HCT2G125-74xGxx U6
+L max_breakout-rescue:74HCT2G125-74xGxx U7
 U 2 1 5D3C2F74
 P 5529 6485
-F 0 "U6" H 5504 6310 50  0000 C CNN
+F 0 "U7" H 5504 6310 50  0000 C CNN
 F 1 "74HCT2G125" H 5504 6219 50  0000 C CNN
 F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 5529 6485 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5529 6485 50  0001 C CNN
@@ -643,15 +643,15 @@ F 3 "~" H 7750 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L max_breakout-rescue:GND-power #PWR013
+L max_breakout-rescue:GND-power #PWR014
 U 1 1 5D403069
 P 7750 3550
-AR Path="/5D403069" Ref="#PWR013"  Part="1" 
+AR Path="/5D403069" Ref="#PWR014"  Part="1" 
 AR Path="/5CB63856/5D403069" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5D403069" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D403069" Ref="#PWR?"  Part="1" 
 AR Path="/5CF9C1ED/5D403069" Ref="#PWR?"  Part="1" 
-F 0 "#PWR013" H 7750 3300 50  0001 C CNN
+F 0 "#PWR014" H 7750 3300 50  0001 C CNN
 F 1 "GND" H 7750 3400 50  0000 C CNN
 F 2 "" H 7750 3550 50  0001 C CNN
 F 3 "" H 7750 3550 50  0001 C CNN
@@ -663,10 +663,10 @@ TDI
 Wire Wire Line
 	7250 2850 6995 2850
 $Comp
-L power:VCC #PWR010
+L power:VCC #PWR011
 U 1 1 5D46458F
 P 7750 2650
-F 0 "#PWR010" H 7750 2500 50  0001 C CNN
+F 0 "#PWR011" H 7750 2500 50  0001 C CNN
 F 1 "VCC" H 7767 2823 50  0000 C CNN
 F 2 "" H 7750 2650 50  0001 C CNN
 F 3 "" H 7750 2650 50  0001 C CNN
@@ -753,16 +753,16 @@ Wire Wire Line
 Wire Wire Line
 	5229 6485 5230 6485
 $Comp
-L max_breakout-rescue:GND-power #PWR024
+L max_breakout-rescue:GND-power #PWR028
 U 1 1 5D385EAD
 P 9650 5300
-AR Path="/5D385EAD" Ref="#PWR024"  Part="1" 
+AR Path="/5D385EAD" Ref="#PWR028"  Part="1" 
 AR Path="/5CB63856/5D385EAD" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5D385EAD" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D385EAD" Ref="#PWR?"  Part="1" 
 AR Path="/5D0F9837/5D385EAD" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D0BF766/5D385EAD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR024" H 9650 5050 50  0001 C CNN
+F 0 "#PWR028" H 9650 5050 50  0001 C CNN
 F 1 "GND" H 9655 5127 50  0000 C CNN
 F 2 "" H 9650 5300 50  0001 C CNN
 F 3 "" H 9650 5300 50  0001 C CNN
@@ -770,16 +770,16 @@ F 3 "" H 9650 5300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L max_breakout-rescue:GND-power #PWR026
+L max_breakout-rescue:GND-power #PWR027
 U 1 1 5D38472E
 P 8300 5300
-AR Path="/5D38472E" Ref="#PWR026"  Part="1" 
+AR Path="/5D38472E" Ref="#PWR027"  Part="1" 
 AR Path="/5CB63856/5D38472E" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5D38472E" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D38472E" Ref="#PWR?"  Part="1" 
 AR Path="/5D0F9837/5D38472E" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D0BF766/5D38472E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR026" H 8300 5050 50  0001 C CNN
+F 0 "#PWR027" H 8300 5050 50  0001 C CNN
 F 1 "GND" H 8300 5150 50  0000 C CNN
 F 2 "" H 8300 5300 50  0001 C CNN
 F 3 "" H 8300 5300 50  0001 C CNN
@@ -806,10 +806,10 @@ F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 10442 5096 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L max_breakout-rescue:MAX40200AUK-Analog_Switch U4
+L max_breakout-rescue:MAX40200AUK-Analog_Switch U5
 U 1 1 5D385EAE
 P 9650 4950
-F 0 "U4" H 9650 5317 50  0000 C CNN
+F 0 "U5" H 9650 5317 50  0000 C CNN
 F 1 "MAX40200AUK" H 9650 5226 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 9650 5450 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf" H 9650 5450 50  0001 C CNN
@@ -855,15 +855,15 @@ F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 9192 5146 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L max_breakout-rescue:GND-power #PWR021
+L max_breakout-rescue:GND-power #PWR024
 U 1 1 5D3A29B7
 P 9100 5100
-AR Path="/5D3A29B7" Ref="#PWR021"  Part="1" 
+AR Path="/5D3A29B7" Ref="#PWR024"  Part="1" 
 AR Path="/5D0F9837/5D3A29B7" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D3A29B7" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5CFFC458/5D3A29B7" Ref="#PWR?"  Part="1" 
 AR Path="/5D65A6A0/5D3A29B7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR021" H 9100 4850 50  0001 C CNN
+F 0 "#PWR024" H 9100 4850 50  0001 C CNN
 F 1 "GND" H 9100 4950 50  0000 C CNN
 F 2 "" H 9100 5100 50  0001 C CNN
 F 3 "" H 9100 5100 50  0001 C CNN
@@ -871,15 +871,15 @@ F 3 "" H 9100 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L max_breakout-rescue:GND-power #PWR020
+L max_breakout-rescue:GND-power #PWR023
 U 1 1 5D3A31C4
 P 8850 5100
-AR Path="/5D3A31C4" Ref="#PWR020"  Part="1" 
+AR Path="/5D3A31C4" Ref="#PWR023"  Part="1" 
 AR Path="/5D0F9837/5D3A31C4" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D3A31C4" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5CFFC458/5D3A31C4" Ref="#PWR?"  Part="1" 
 AR Path="/5D65A6A0/5D3A31C4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR020" H 8850 4850 50  0001 C CNN
+F 0 "#PWR023" H 8850 4850 50  0001 C CNN
 F 1 "GND" H 8858 4926 50  0000 C CNN
 F 2 "" H 8850 5100 50  0001 C CNN
 F 3 "" H 8850 5100 50  0001 C CNN
@@ -887,10 +887,10 @@ F 3 "" H 8850 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR017
+L power:VCC #PWR018
 U 1 1 5D3B3074
 P 8850 4700
-F 0 "#PWR017" H 8850 4550 50  0001 C CNN
+F 0 "#PWR018" H 8850 4550 50  0001 C CNN
 F 1 "VCC" H 8858 4856 50  0000 C CNN
 F 2 "" H 8850 4700 50  0001 C CNN
 F 3 "" H 8850 4700 50  0001 C CNN
@@ -1052,16 +1052,16 @@ Connection ~ 10350 4850
 Wire Wire Line
 	10350 4850 10500 4850
 $Comp
-L max_breakout-rescue:GND-power #PWR022
+L max_breakout-rescue:GND-power #PWR025
 U 1 1 5D47C55F
 P 10350 5100
-AR Path="/5D47C55F" Ref="#PWR022"  Part="1" 
+AR Path="/5D47C55F" Ref="#PWR025"  Part="1" 
 AR Path="/5CB63856/5D47C55F" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5D47C55F" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D47C55F" Ref="#PWR?"  Part="1" 
 AR Path="/5D0F9837/5D47C55F" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D0BF766/5D47C55F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR022" H 10350 4850 50  0001 C CNN
+F 0 "#PWR025" H 10350 4850 50  0001 C CNN
 F 1 "GND" H 10355 4927 50  0000 C CNN
 F 2 "" H 10350 5100 50  0001 C CNN
 F 3 "" H 10350 5100 50  0001 C CNN
@@ -1090,10 +1090,10 @@ F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 8942 5146 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L max_breakout-rescue:MAX40200AUK-Analog_Switch U3
+L max_breakout-rescue:MAX40200AUK-Analog_Switch U4
 U 1 1 5D37EDF6
 P 8300 4950
-F 0 "U3" H 8300 5317 50  0000 C CNN
+F 0 "U4" H 8300 5317 50  0000 C CNN
 F 1 "MAX40200AUK" H 8300 5226 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 8300 5450 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf" H 8300 5450 50  0001 C CNN
@@ -1106,15 +1106,15 @@ Connection ~ 7450 4850
 Wire Wire Line
 	7450 4850 7800 4850
 $Comp
-L max_breakout-rescue:GND-power #PWR019
+L max_breakout-rescue:GND-power #PWR022
 U 1 1 5D39F959
 P 7450 5050
-AR Path="/5D39F959" Ref="#PWR019"  Part="1" 
+AR Path="/5D39F959" Ref="#PWR022"  Part="1" 
 AR Path="/5D0F9837/5D39F959" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D39F959" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5CFFC458/5D39F959" Ref="#PWR?"  Part="1" 
 AR Path="/5D65A6A0/5D39F959" Ref="#PWR?"  Part="1" 
-F 0 "#PWR019" H 7450 4800 50  0001 C CNN
+F 0 "#PWR022" H 7450 4800 50  0001 C CNN
 F 1 "GND" H 7454 4899 50  0000 C CNN
 F 2 "" H 7450 5050 50  0001 C CNN
 F 3 "" H 7450 5050 50  0001 C CNN
@@ -1151,15 +1151,15 @@ Wire Wire Line
 Wire Wire Line
 	7300 5750 7100 5750
 $Comp
-L max_breakout-rescue:GND-power #PWR028
+L max_breakout-rescue:GND-power #PWR031
 U 1 1 5D486EFD
 P 7300 5900
-AR Path="/5D486EFD" Ref="#PWR028"  Part="1" 
+AR Path="/5D486EFD" Ref="#PWR031"  Part="1" 
 AR Path="/5D0F9837/5D486EFD" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D486EFD" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5CFFC458/5D486EFD" Ref="#PWR?"  Part="1" 
 AR Path="/5D65A6A0/5D486EFD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR028" H 7300 5650 50  0001 C CNN
+F 0 "#PWR031" H 7300 5650 50  0001 C CNN
 F 1 "GND" H 7308 5726 50  0000 C CNN
 F 2 "" H 7300 5900 50  0001 C CNN
 F 3 "" H 7300 5900 50  0001 C CNN
@@ -1319,10 +1319,10 @@ Connection ~ 9100 4850
 Wire Wire Line
 	9100 4700 9100 4850
 $Comp
-L power:VCC #PWR018
+L power:VCC #PWR019
 U 1 1 5DD7F47B
 P 9100 4700
-F 0 "#PWR018" H 9100 4550 50  0001 C CNN
+F 0 "#PWR019" H 9100 4550 50  0001 C CNN
 F 1 "VCC" H 9108 4856 50  0000 C CNN
 F 2 "" H 9100 4700 50  0001 C CNN
 F 3 "" H 9100 4700 50  0001 C CNN
@@ -1349,10 +1349,10 @@ Connection ~ 1300 6050
 Wire Wire Line
 	1300 6050 1300 6250
 $Comp
-L max_breakout-rescue:74HCT365-74xx U5
+L max_breakout-rescue:74HCT365-74xx U6
 U 1 1 5D39ACC9
 P 3200 5950
-F 0 "U5" H 3200 6831 50  0000 C CNN
+F 0 "U6" H 3200 6831 50  0000 C CNN
 F 1 "74HCT365" H 3200 6740 50  0000 C CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 3200 5950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS365" H 3200 5950 50  0001 C CNN
@@ -1579,14 +1579,14 @@ F 3 "http://www.zlgmcu.com/Sipex/LDO/PDF/spx2920.pdf" H 1350 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR011
+L power:VCC #PWR08
 U 1 1 5D3ED60C
-P 750 2500
-F 0 "#PWR011" H 750 2350 50  0001 C CNN
-F 1 "VCC" H 767 2673 50  0000 C CNN
-F 2 "" H 750 2500 50  0001 C CNN
-F 3 "" H 750 2500 50  0001 C CNN
-	1    750  2500
+P 10850 5400
+F 0 "#PWR08" H 10850 5250 50  0001 C CNN
+F 1 "VCC" H 10867 5573 50  0000 C CNN
+F 2 "" H 10850 5400 50  0001 C CNN
+F 3 "" H 10850 5400 50  0001 C CNN
+	1    10850 5400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1612,10 +1612,10 @@ Diode OR power sharing
 Text Notes 7850 3500 0    50   ~ 0
 JTAG Activity
 $Comp
-L power:PWR_FLAG #FLG0101
+L power:PWR_FLAG #FLG04
 U 1 1 5D3F34E4
 P 7300 5850
-F 0 "#FLG0101" H 7300 5925 50  0001 C CNN
+F 0 "#FLG04" H 7300 5925 50  0001 C CNN
 F 1 "PWR_FLAG" H 7300 6023 50  0000 C CNN
 F 2 "" H 7300 5850 50  0001 C CNN
 F 3 "~" H 7300 5850 50  0001 C CNN
@@ -1637,17 +1637,17 @@ Connection ~ 7300 5850
 Wire Wire Line
 	7300 5850 7300 5750
 Wire Wire Line
-	2200 3300 2200 3400
+	1400 3650 1400 3750
 $Comp
-L max_breakout-rescue:GND-power #PWR014
+L max_breakout-rescue:GND-power #PWR015
 U 1 1 5D46649B
 P 4650 3800
-AR Path="/5D46649B" Ref="#PWR014"  Part="1" 
+AR Path="/5D46649B" Ref="#PWR015"  Part="1" 
 AR Path="/5CB63856/5D46649B" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5D46649B" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D46649B" Ref="#PWR?"  Part="1" 
 AR Path="/5CF9C1ED/5D46649B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR014" H 4650 3550 50  0001 C CNN
+F 0 "#PWR015" H 4650 3550 50  0001 C CNN
 F 1 "GND" H 4654 3658 50  0000 C CNN
 F 2 "" H 4650 3800 50  0001 C CNN
 F 3 "" H 4650 3800 50  0001 C CNN
@@ -1655,31 +1655,31 @@ F 3 "" H 4650 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L max_breakout-rescue:GND-power #PWR0101
+L max_breakout-rescue:GND-power #PWR013
 U 1 1 5D3F5930
-P 2200 3400
-AR Path="/5D3F5930" Ref="#PWR0101"  Part="1" 
+P 1400 3750
+AR Path="/5D3F5930" Ref="#PWR013"  Part="1" 
 AR Path="/5CB63856/5D3F5930" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5D3F5930" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D3F5930" Ref="#PWR?"  Part="1" 
 AR Path="/5CF9C1ED/5D3F5930" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0101" H 2200 3150 50  0001 C CNN
-F 1 "GND" H 2204 3258 50  0000 C CNN
-F 2 "" H 2200 3400 50  0001 C CNN
-F 3 "" H 2200 3400 50  0001 C CNN
-	1    2200 3400
+F 0 "#PWR013" H 1400 3500 50  0001 C CNN
+F 1 "GND" H 1404 3608 50  0000 C CNN
+F 2 "" H 1400 3750 50  0001 C CNN
+F 3 "" H 1400 3750 50  0001 C CNN
+	1    1400 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2800 2900 3250 2900
-Text Label 3000 2900 0    50   ~ 0
+	2000 3250 2450 3250
+Text Label 2200 3250 0    50   ~ 0
 ~RST
 $Comp
-L Switch:SW_Push SW3
+L Switch:SW_Push SW2
 U 1 1 5D43561B
 P 4400 5550
-F 0 "SW3" V 4354 5698 50  0000 L CNN
-F 1 "Reset" V 4445 5698 50  0000 L CNN
+F 0 "SW2" V 4354 5698 50  0000 L CNN
+F 1 "User" V 4445 5698 50  0000 L CNN
 F 2 "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" H 4400 5750 50  0001 C CNN
 F 3 "~" H 4400 5750 50  0001 C CNN
 	1    4400 5550
@@ -1697,10 +1697,10 @@ F 3 "~" H 2500 5300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L max_breakout-rescue:R_Small-Device R20
+L max_breakout-rescue:R_Small-Device R9
 U 1 1 5D436631
 P 4850 5200
-F 0 "R20" H 4900 5150 50  0000 L CNN
+F 0 "R9" H 4900 5150 50  0000 L CNN
 F 1 "10K" V 4850 5100 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4850 5200 50  0001 C CNN
 F 3 "~" H 4850 5200 50  0001 C CNN
@@ -1717,8 +1717,8 @@ L max_breakout-rescue:C_Small-Device C?
 U 1 1 5D437E32
 P 4850 5550
 AR Path="/5D65A6A0/5D437E32" Ref="C?"  Part="1" 
-AR Path="/5D437E32" Ref="C13"  Part="1" 
-F 0 "C13" H 4750 5650 50  0000 L CNN
+AR Path="/5D437E32" Ref="C12"  Part="1" 
+F 0 "C12" H 4750 5650 50  0000 L CNN
 F 1 "100nF" H 4700 5600 32  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4850 5550 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 4850 5550 50  0001 C CNN
@@ -1738,15 +1738,15 @@ Wire Wire Line
 Wire Wire Line
 	4400 5750 4400 5800
 $Comp
-L max_breakout-rescue:GND-power #PWR036
+L max_breakout-rescue:GND-power #PWR029
 U 1 1 5D43846A
 P 4400 5800
-AR Path="/5D43846A" Ref="#PWR036"  Part="1" 
+AR Path="/5D43846A" Ref="#PWR029"  Part="1" 
 AR Path="/5D0F9837/5D43846A" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D43846A" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5CFFC458/5D43846A" Ref="#PWR?"  Part="1" 
 AR Path="/5D65A6A0/5D43846A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR036" H 4400 5550 50  0001 C CNN
+F 0 "#PWR029" H 4400 5550 50  0001 C CNN
 F 1 "GND" H 4403 5659 50  0000 C CNN
 F 2 "" H 4400 5800 50  0001 C CNN
 F 3 "" H 4400 5800 50  0001 C CNN
@@ -1754,15 +1754,15 @@ F 3 "" H 4400 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L max_breakout-rescue:GND-power #PWR037
+L max_breakout-rescue:GND-power #PWR030
 U 1 1 5D438687
 P 4850 5800
-AR Path="/5D438687" Ref="#PWR037"  Part="1" 
+AR Path="/5D438687" Ref="#PWR030"  Part="1" 
 AR Path="/5D0F9837/5D438687" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D438687" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5CFFC458/5D438687" Ref="#PWR?"  Part="1" 
 AR Path="/5D65A6A0/5D438687" Ref="#PWR?"  Part="1" 
-F 0 "#PWR037" H 4850 5550 50  0001 C CNN
+F 0 "#PWR030" H 4850 5550 50  0001 C CNN
 F 1 "GND" H 4853 5659 50  0000 C CNN
 F 2 "" H 4850 5800 50  0001 C CNN
 F 3 "" H 4850 5800 50  0001 C CNN
@@ -1772,10 +1772,10 @@ $EndComp
 Wire Wire Line
 	4850 5100 4850 5000
 $Comp
-L power:VCC #PWR035
+L power:VCC #PWR021
 U 1 1 5D43880E
 P 4850 5000
-F 0 "#PWR035" H 4850 4850 50  0001 C CNN
+F 0 "#PWR021" H 4850 4850 50  0001 C CNN
 F 1 "VCC" H 4847 5141 50  0000 C CNN
 F 2 "" H 4850 5000 50  0001 C CNN
 F 3 "" H 4850 5000 50  0001 C CNN
@@ -1785,53 +1785,53 @@ $EndComp
 Text Label 5400 5350 0    50   ~ 0
 ~USRPB
 $Comp
-L power:VCC #PWR0102
+L power:VCC #PWR09
 U 1 1 5D3F62D7
-P 2200 2500
-F 0 "#PWR0102" H 2200 2350 50  0001 C CNN
-F 1 "VCC" H 2217 2673 50  0000 C CNN
-F 2 "" H 2200 2500 50  0001 C CNN
-F 3 "" H 2200 2500 50  0001 C CNN
-	1    2200 2500
+P 1400 2850
+F 0 "#PWR09" H 1400 2700 50  0001 C CNN
+F 1 "VCC" H 1417 3023 50  0000 C CNN
+F 2 "" H 1400 2850 50  0001 C CNN
+F 3 "" H 1400 2850 50  0001 C CNN
+	1    1400 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW2
+L Switch:SW_Push SW1
 U 1 1 5D3F4402
-P 2800 3100
-F 0 "SW2" V 2754 3248 50  0000 L CNN
-F 1 "Reset" V 2845 3248 50  0000 L CNN
-F 2 "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" H 2800 3300 50  0001 C CNN
-F 3 "~" H 2800 3300 50  0001 C CNN
-	1    2800 3100
+P 2000 3450
+F 0 "SW1" V 1954 3598 50  0000 L CNN
+F 1 "Reset" V 2045 3598 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" H 2000 3650 50  0001 C CNN
+F 3 "~" H 2000 3650 50  0001 C CNN
+	1    2000 3450
 	0    1    1    0   
 $EndComp
 $Comp
-L Power_Supervisor:DS1813R-5+T&R U7
+L max_breakout-rescue:DS1813R-5+T&R-Power_Supervisor U3
 U 1 1 5D3F3C41
-P 2300 2900
-F 0 "U7" H 2070 2946 50  0000 R CNN
-F 1 "DS1813R-5+T&R" H 2070 2855 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 1900 3050 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/256/maxim%20integrated%20products_ds1813-1178753.pdf" H 2000 3150 50  0001 C CNN
-	1    2300 2900
+P 1500 3250
+F 0 "U3" H 1270 3296 50  0000 R CNN
+F 1 "DS1813R-5+T&R" H 1270 3205 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1100 3400 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/256/maxim%20integrated%20products_ds1813-1178753.pdf" H 1200 3500 50  0001 C CNN
+	1    1500 3250
 	1    0    0    -1  
 $EndComp
-Connection ~ 2200 3300
-Connection ~ 2800 2900
+Connection ~ 1400 3650
+Connection ~ 2000 3250
 Wire Wire Line
-	2600 2900 2800 2900
+	1800 3250 2000 3250
 Wire Wire Line
-	2200 3300 2800 3300
+	1400 3650 2000 3650
 Text Label 2350 6300 0    50   ~ 0
 SW_ENA
 Text Label 2150 6800 0    50   ~ 0
 SW_ENA
 $Comp
-L Jumper:Jumper_2_Open JP3
+L Jumper:Jumper_2_Open JP1
 U 1 1 5D4414E4
 P 5050 5350
-F 0 "JP3" H 5050 5574 50  0000 C CNN
+F 0 "JP1" H 5050 5574 50  0000 C CNN
 F 1 "PB_EN" H 5050 5483 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 5050 5350 50  0001 C CNN
 F 3 "~" H 5050 5350 50  0001 C CNN
@@ -1849,15 +1849,15 @@ Wire Notes Line
 Text Label 4200 7000 0    50   ~ 0
 LED_ENA
 $Comp
-L max_breakout-rescue:GND-power #PWR029
+L max_breakout-rescue:GND-power #PWR038
 U 1 1 5D7AFF6E
 P 4100 7450
-AR Path="/5D7AFF6E" Ref="#PWR029"  Part="1" 
+AR Path="/5D7AFF6E" Ref="#PWR038"  Part="1" 
 AR Path="/5D0F9837/5D7AFF6E" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D7AFF6E" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5CFFC458/5D7AFF6E" Ref="#PWR?"  Part="1" 
 AR Path="/5D65A6A0/5D7AFF6E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR029" H 4100 7200 50  0001 C CNN
+F 0 "#PWR038" H 4100 7200 50  0001 C CNN
 F 1 "GND" H 4105 7277 50  0000 C CNN
 F 2 "" H 4100 7450 50  0001 C CNN
 F 3 "" H 4100 7450 50  0001 C CNN
@@ -1865,10 +1865,10 @@ F 3 "" H 4100 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR025
+L power:VCC #PWR036
 U 1 1 5D7AFF68
 P 4100 6700
-F 0 "#PWR025" H 4100 6550 50  0001 C CNN
+F 0 "#PWR036" H 4100 6550 50  0001 C CNN
 F 1 "VCC" H 4117 6873 50  0000 C CNN
 F 2 "" H 4100 6700 50  0001 C CNN
 F 3 "" H 4100 6700 50  0001 C CNN
@@ -1876,10 +1876,10 @@ F 3 "" H 4100 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L max_breakout-rescue:R_Small-Device R9
+L max_breakout-rescue:R_Small-Device R20
 U 1 1 5D7AFF62
 P 4100 6850
-F 0 "R9" H 4110 6710 50  0000 L CNN
+F 0 "R20" H 4110 6710 50  0000 L CNN
 F 1 "10K" V 4095 6780 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4100 6850 50  0001 C CNN
 F 3 "~" H 4100 6850 50  0001 C CNN
@@ -1887,10 +1887,10 @@ F 3 "~" H 4100 6850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:Jumper_2_Open JP1
+L Jumper:Jumper_2_Open JP3
 U 1 1 5D7AFF5B
 P 4100 7200
-F 0 "JP1" H 4100 7424 50  0000 C CNN
+F 0 "JP3" H 4100 7424 50  0000 C CNN
 F 1 "LED_EN" H 4100 7333 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 4100 7200 50  0001 C CNN
 F 3 "~" H 4100 7200 50  0001 C CNN
@@ -2033,10 +2033,10 @@ CLK2
 Text Label 10000 1000 0    50   ~ 0
 CLK1
 $Comp
-L power:VCC #PWR032
+L power:VCC #PWR033
 U 1 1 5D89D858
 P 4172 6388
-F 0 "#PWR032" H 4172 6238 50  0001 C CNN
+F 0 "#PWR033" H 4172 6238 50  0001 C CNN
 F 1 "VCC" H 4189 6561 50  0000 C CNN
 F 2 "" H 4172 6388 50  0001 C CNN
 F 3 "" H 4172 6388 50  0001 C CNN
@@ -2044,10 +2044,10 @@ F 3 "" H 4172 6388 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R19
+L Device:R_Small R18
 U 1 1 5D4B3D04
 P 4404 6485
-F 0 "R19" V 4438 6628 50  0000 C CNN
+F 0 "R18" V 4438 6628 50  0000 C CNN
 F 1 "360R" V 4406 6485 32  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4404 6485 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 4404 6485 50  0001 C CNN
@@ -2101,10 +2101,10 @@ Connection ~ 5104 6285
 Wire Wire Line
 	5105 6285 5229 6285
 $Comp
-L max_breakout-rescue:R_Small-Device R18
+L max_breakout-rescue:R_Small-Device R19
 U 1 1 5E29877D
 P 1950 6650
-F 0 "R18" H 1960 6510 50  0000 L CNN
+F 0 "R19" H 1960 6510 50  0000 L CNN
 F 1 "10K" V 1950 6600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1950 6650 50  0001 C CNN
 F 3 "~" H 1950 6650 50  0001 C CNN
@@ -2112,15 +2112,15 @@ F 3 "~" H 1950 6650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L max_breakout-rescue:GND-power #PWR034
+L max_breakout-rescue:GND-power #PWR037
 U 1 1 5E298789
 P 1950 7250
-AR Path="/5E298789" Ref="#PWR034"  Part="1" 
+AR Path="/5E298789" Ref="#PWR037"  Part="1" 
 AR Path="/5D0F9837/5E298789" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5E298789" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5CFFC458/5E298789" Ref="#PWR?"  Part="1" 
 AR Path="/5D65A6A0/5E298789" Ref="#PWR?"  Part="1" 
-F 0 "#PWR034" H 1950 7000 50  0001 C CNN
+F 0 "#PWR037" H 1950 7000 50  0001 C CNN
 F 1 "GND" H 1955 7077 50  0000 C CNN
 F 2 "" H 1950 7250 50  0001 C CNN
 F 3 "" H 1950 7250 50  0001 C CNN
@@ -2128,10 +2128,10 @@ F 3 "" H 1950 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR030
+L power:VCC #PWR034
 U 1 1 5E298783
 P 1950 6500
-F 0 "#PWR030" H 1950 6350 50  0001 C CNN
+F 0 "#PWR034" H 1950 6350 50  0001 C CNN
 F 1 "VCC" H 1967 6673 50  0000 C CNN
 F 2 "" H 1950 6500 50  0001 C CNN
 F 3 "" H 1950 6500 50  0001 C CNN

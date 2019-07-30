@@ -2033,73 +2033,38 @@ CLK2
 Text Label 10000 1000 0    50   ~ 0
 CLK1
 $Comp
-L power:VCC #PWR033
-U 1 1 5D89D858
-P 4172 6388
-F 0 "#PWR033" H 4172 6238 50  0001 C CNN
-F 1 "VCC" H 4189 6561 50  0000 C CNN
-F 2 "" H 4172 6388 50  0001 C CNN
-F 3 "" H 4172 6388 50  0001 C CNN
-	1    4172 6388
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:R_Small R18
 U 1 1 5D4B3D04
-P 4404 6485
-F 0 "R18" V 4438 6628 50  0000 C CNN
-F 1 "360R" V 4406 6485 32  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4404 6485 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 4404 6485 50  0001 C CNN
-F 4 "Thick Film Resistors - SMD 10K 1% 1/10W" H 4404 6485 50  0001 C CNN "Description"
-F 5 "CR0603-FX-1002ELF" H 4404 6485 50  0001 C CNN "MPN"
-F 6 "Bourns" H 4404 6485 50  0001 C CNN "Manufacturer"
-	1    4404 6485
+P 4529 6485
+F 0 "R18" V 4563 6628 50  0000 C CNN
+F 1 "360R" V 4531 6485 32  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4529 6485 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 4529 6485 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 10K 1% 1/10W" H 4529 6485 50  0001 C CNN "Description"
+F 5 "CR0603-FX-1002ELF" H 4529 6485 50  0001 C CNN "MPN"
+F 6 "Bourns" H 4529 6485 50  0001 C CNN "Manufacturer"
+	1    4529 6485
 	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_Small R17
 U 1 1 5D298EC1
-P 4404 6285
-F 0 "R17" V 4439 6430 50  0000 C CNN
-F 1 "360R" V 4402 6289 32  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4404 6285 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 4404 6285 50  0001 C CNN
-F 4 "Thick Film Resistors - SMD 10K 1% 1/10W" H 4404 6285 50  0001 C CNN "Description"
-F 5 "CR0603-FX-1002ELF" H 4404 6285 50  0001 C CNN "MPN"
-F 6 "Bourns" H 4404 6285 50  0001 C CNN "Manufacturer"
-	1    4404 6285
+P 4529 6285
+F 0 "R17" V 4564 6430 50  0000 C CNN
+F 1 "360R" V 4527 6289 32  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4529 6285 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 4529 6285 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 10K 1% 1/10W" H 4529 6285 50  0001 C CNN "Description"
+F 5 "CR0603-FX-1002ELF" H 4529 6285 50  0001 C CNN "MPN"
+F 6 "Bourns" H 4529 6285 50  0001 C CNN "Manufacturer"
+	1    4529 6285
 	0    1    -1   0   
 $EndComp
-$Comp
-L Device:LED_Dual_ACAC D3
-U 1 1 5D298EB6
-P 4804 6385
-F 0 "D3" H 4804 6038 50  0000 C CNN
-F 1 "LED" H 4804 6129 50  0000 C CNN
-F 2 "LED_SMD:LED_2C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4834 6385 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/348/sml-d22-e-1508165.pdf" H 4834 6385 50  0001 C CNN
-F 4 "Standard LEDs - SMD Red/YelGrn 620/570nm 16/10mcd 65/67mW 5mA" H 4804 6385 50  0001 C CNN "Description"
-F 5 "SML-D22MUWT86" H 4804 6385 50  0001 C CNN "MPN"
-F 6 "ROHM Semiconductor" H 4804 6385 50  0001 C CNN "Manufacturer"
-	1    4804 6385
-	1    0    0    -1  
-$EndComp
-Connection ~ 4304 6388
+Connection ~ 4429 6388
 Wire Wire Line
-	4304 6388 4172 6388
+	4429 6285 4429 6388
 Wire Wire Line
-	4304 6285 4304 6388
-Wire Wire Line
-	4304 6388 4304 6485
-Connection ~ 5229 6485
-Connection ~ 5104 6485
-Wire Wire Line
-	5105 6485 5229 6485
-Connection ~ 5229 6285
-Connection ~ 5104 6285
-Wire Wire Line
-	5105 6285 5229 6285
+	4429 6388 4429 6485
 $Comp
 L max_breakout-rescue:R_Small-Device R19
 U 1 1 5E29877D
@@ -2158,4 +2123,33 @@ Wire Wire Line
 Connection ~ 1950 6800
 Wire Wire Line
 	1950 6800 1950 6850
+$Comp
+L Device:LED_Dual_ACAC D3
+U 1 1 5D298EB6
+P 4929 6385
+F 0 "D3" H 4929 6038 50  0000 C CNN
+F 1 "LED" H 4929 6129 50  0000 C CNN
+F 2 "LED_SMD:LED_2C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4959 6385 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/348/sml-d22-e-1508165.pdf" H 4959 6385 50  0001 C CNN
+F 4 "Standard LEDs - SMD Red/YelGrn 620/570nm 16/10mcd 65/67mW 5mA" H 4929 6385 50  0001 C CNN "Description"
+F 5 "SML-D22MUWT86" H 4929 6385 50  0001 C CNN "MPN"
+F 6 "ROHM Semiconductor" H 4929 6385 50  0001 C CNN "Manufacturer"
+	1    4929 6385
+	1    0    0    -1  
+$EndComp
+Connection ~ 5229 6285
+Connection ~ 5229 6485
+Wire Wire Line
+	4429 6388 4297 6388
+$Comp
+L power:VCC #PWR033
+U 1 1 5D89D858
+P 4297 6388
+F 0 "#PWR033" H 4297 6238 50  0001 C CNN
+F 1 "VCC" H 4314 6561 50  0000 C CNN
+F 2 "" H 4297 6388 50  0001 C CNN
+F 3 "" H 4297 6388 50  0001 C CNN
+	1    4297 6388
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

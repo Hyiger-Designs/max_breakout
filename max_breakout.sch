@@ -1,13 +1,13 @@
-EESchema Schematic File Version 5
+EESchema Schematic File Version 4
 LIBS:max_breakout-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "MAX7000S Breakout Board"
-Date "2019-07-29"
-Rev "1.1"
+Date "2019-08-24"
+Rev "1.3"
 Comp "Hyiger Designs"
 Comment1 ""
 Comment2 ""
@@ -272,7 +272,7 @@ AR Path="/5CFABACD/5D0BF766/5CF77AF9" Ref="J?"  Part="1"
 AR Path="/5CF77AF9" Ref="J4"  Part="1" 
 F 0 "J4" H 6770 5289 50  0000 R CNN
 F 1 "USB_B_Micro" H 7178 5712 50  0000 R CNN
-F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 7150 5250 50  0001 C CNN
+F 2 "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal" H 7150 5250 50  0001 C CNN
 F 3 "~" H 7150 5250 50  0001 C CNN
 	1    7000 5300
 	1    0    0    -1  
@@ -314,7 +314,7 @@ L max_breakout-rescue:LED-Device D1
 U 1 1 5D74CDCC
 P 10850 6000
 F 0 "D1" V 10845 6125 50  0000 C CNN
-F 1 "Blue" V 10730 6155 32  0000 C CNN
+F 1 "Red" V 10730 6155 32  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10850 6000 50  0001 C CNN
 F 3 "~" H 10850 6000 50  0001 C CNN
 	1    10850 6000
@@ -486,7 +486,7 @@ AR Path="/5CFABACD/5D0BF766/5D74F407" Ref="R?"  Part="1"
 AR Path="/5D1AF052/5D74F407" Ref="R?"  Part="1" 
 AR Path="/5D74F407" Ref="R6"  Part="1" 
 F 0 "R6" V 10920 5675 50  0000 L CNN
-F 1 "100R" V 10850 5700 32  0000 L CNN
+F 1 "360R" V 10850 5700 32  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10850 5750 50  0001 C CNN
 F 3 "~" H 10850 5750 50  0001 C CNN
 	1    10850 5750
@@ -586,23 +586,23 @@ $EndComp
 $Comp
 L max_breakout-rescue:74HCT2G125-74xGxx U7
 U 1 1 5D3C1FD5
-P 5529 6085
-F 0 "U7" H 5504 5910 50  0000 C CNN
-F 1 "74HCT2G125" H 5504 5819 50  0000 C CNN
-F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 5529 6085 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5529 6085 50  0001 C CNN
-	1    5529 6085
+P 5600 6400
+F 0 "U7" H 5575 6225 50  0000 C CNN
+F 1 "74HCT2G125" H 5575 6134 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 5600 6400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5600 6400 50  0001 C CNN
+	1    5600 6400
 	1    0    0    -1  
 $EndComp
 $Comp
 L max_breakout-rescue:74HCT2G125-74xGxx U7
 U 2 1 5D3C2F74
-P 5529 6285
-F 0 "U7" H 5504 6110 50  0000 C CNN
-F 1 "74HCT2G125" H 5504 6019 50  0000 C CNN
-F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 5529 6285 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5529 6285 50  0001 C CNN
-	2    5529 6285
+P 5600 6600
+F 0 "U7" H 5575 6425 50  0000 C CNN
+F 1 "74HCT2G125" H 5575 6334 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 5600 6600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5600 6600 50  0001 C CNN
+	2    5600 6600
 	1    0    0    1   
 $EndComp
 $Comp
@@ -689,12 +689,12 @@ F 3 "~" H 7750 3450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5779 6085 6279 6085
-Text Label 6049 6085 2    50   ~ 0
+	5850 6400 6350 6400
+Text Label 6120 6400 2    50   ~ 0
 B17
 Wire Wire Line
-	5779 6285 6279 6285
-Text Label 6049 6285 2    50   ~ 0
+	5850 6600 6350 6600
+Text Label 6120 6600 2    50   ~ 0
 B18
 Text Label 3400 5500 2    50   ~ 0
 A1
@@ -717,12 +717,12 @@ A6
 Wire Wire Line
 	3250 5900 3546 5900
 Wire Wire Line
-	5529 5885 5529 5605
-Text Label 5529 5860 1    50   ~ 0
+	5600 6200 5600 5920
+Text Label 5600 6175 1    50   ~ 0
 LED_ENA
 Wire Wire Line
-	5529 6765 5529 6485
-Text Label 5529 6740 1    50   ~ 0
+	5600 7080 5600 6800
+Text Label 5600 7055 1    50   ~ 0
 LED_ENA
 Text Label 10000 900  0    50   ~ 0
 5V_in
@@ -748,10 +748,6 @@ Wire Notes Line
 	5755 3920 5755 755 
 Text Notes 5815 895  0    50   ~ 0
 JTAG
-Wire Wire Line
-	5229 6085 5230 6085
-Wire Wire Line
-	5229 6285 5230 6285
 $Comp
 L max_breakout-rescue:GND-power #PWR028
 U 1 1 5D385EAD
@@ -947,7 +943,7 @@ U 1 1 5D1470E3
 P 4650 2300
 F 0 "U2" H 4650 2300 50  0000 C CNN
 F 1 "EPM7032STC44" H 4095 3665 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 5400 3750 50  0001 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm_ThermalVias" H 5400 3750 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Intel%20PDFs/MAX7000_Family_DS.pdf" H 5400 3750 50  0001 C CNN
 	1    4650 2300
 	1    0    0    -1  
@@ -1504,17 +1500,6 @@ Wire Wire Line
 	2450 1550 2750 1550
 Wire Wire Line
 	2950 1550 3300 1550
-$Comp
-L power:PWR_FLAG #FLG01
-U 1 1 5D47CEBD
-P 1850 1150
-F 0 "#FLG01" H 1850 1225 50  0001 C CNN
-F 1 "PWR_FLAG" H 1850 1323 50  0000 C CNN
-F 2 "" H 1850 1150 50  0001 C CNN
-F 3 "~" H 1850 1150 50  0001 C CNN
-	1    1850 1150
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	6600 4550 6600 6450
 Wire Notes Line
@@ -1550,7 +1535,7 @@ Wire Notes Line
 Wire Notes Line
 	605  2200 605  690 
 $Comp
-L Regulator_Linear:AP7381-33SA U1
+L max_breakout-rescue:AP7381-33SA-Regulator_Linear U1
 U 1 1 5D3EB807
 P 1350 1150
 F 0 "U1" H 1350 1392 50  0000 C CNN
@@ -1824,57 +1809,57 @@ Wire Notes Line
 	700  7550 700  7250
 Wire Notes Line
 	700  7550 6450 7550
-Text Label 3950 6750 0    50   ~ 0
+Text Label 3575 6775 0    50   ~ 0
 LED_ENA
 $Comp
 L max_breakout-rescue:GND-power #PWR038
 U 1 1 5D7AFF6E
-P 3850 7200
+P 3475 7225
 AR Path="/5D7AFF6E" Ref="#PWR038"  Part="1" 
 AR Path="/5D0F9837/5D7AFF6E" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D7AFF6E" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5CFFC458/5D7AFF6E" Ref="#PWR?"  Part="1" 
 AR Path="/5D65A6A0/5D7AFF6E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR038" H 3850 6950 50  0001 C CNN
-F 1 "GND" H 3855 7027 50  0000 C CNN
-F 2 "" H 3850 7200 50  0001 C CNN
-F 3 "" H 3850 7200 50  0001 C CNN
-	1    3850 7200
+F 0 "#PWR038" H 3475 6975 50  0001 C CNN
+F 1 "GND" H 3480 7052 50  0000 C CNN
+F 2 "" H 3475 7225 50  0001 C CNN
+F 3 "" H 3475 7225 50  0001 C CNN
+	1    3475 7225
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR036
 U 1 1 5D7AFF68
-P 3850 6450
-F 0 "#PWR036" H 3850 6300 50  0001 C CNN
-F 1 "VCC" H 3867 6623 50  0000 C CNN
-F 2 "" H 3850 6450 50  0001 C CNN
-F 3 "" H 3850 6450 50  0001 C CNN
-	1    3850 6450
+P 3475 6475
+F 0 "#PWR036" H 3475 6325 50  0001 C CNN
+F 1 "VCC" H 3492 6648 50  0000 C CNN
+F 2 "" H 3475 6475 50  0001 C CNN
+F 3 "" H 3475 6475 50  0001 C CNN
+	1    3475 6475
 	1    0    0    -1  
 $EndComp
 $Comp
 L Jumper:Jumper_2_Open JP3
 U 1 1 5D7AFF5B
-P 3850 6950
-F 0 "JP3" H 3850 7174 50  0000 C CNN
-F 1 "LED_EN" H 3850 7083 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 3850 6950 50  0001 C CNN
-F 3 "~" H 3850 6950 50  0001 C CNN
-	1    3850 6950
+P 3475 6975
+F 0 "JP3" H 3475 7199 50  0000 C CNN
+F 1 "LED_EN" H 3475 7108 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 3475 6975 50  0001 C CNN
+F 3 "~" H 3475 6975 50  0001 C CNN
+	1    3475 6975
 	0    -1   -1   0   
 $EndComp
-Connection ~ 3850 6750
+Connection ~ 3475 6775
 Wire Wire Line
-	3850 6500 3850 6450
+	3475 6525 3475 6475
 Wire Wire Line
-	3850 6750 3850 6700
+	3475 6775 3475 6725
 Wire Wire Line
-	3850 7200 3850 7150
+	3475 7225 3475 7175
 Wire Notes Line
 	700  4550 6424 4550
 Wire Wire Line
-	3850 6750 4130 6750
+	3475 6775 3755 6775
 Connection ~ 7100 6000
 Wire Wire Line
 	6900 6000 7100 6000
@@ -2002,36 +1987,36 @@ CLK1
 $Comp
 L Device:R_Small R18
 U 1 1 5D4B3D04
-P 4529 6285
-F 0 "R18" V 4563 6428 50  0000 C CNN
-F 1 "360R" V 4531 6285 32  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4529 6285 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 4529 6285 50  0001 C CNN
-F 4 "Thick Film Resistors - SMD 10K 1% 1/10W" H 4529 6285 50  0001 C CNN "Description"
-F 5 "CR0603-FX-1002ELF" H 4529 6285 50  0001 C CNN "MPN"
-F 6 "Bourns" H 4529 6285 50  0001 C CNN "Manufacturer"
-	1    4529 6285
+P 4550 6600
+F 0 "R18" V 4584 6743 50  0000 C CNN
+F 1 "360R" V 4552 6600 32  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4550 6600 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 4550 6600 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 10K 1% 1/10W" H 4550 6600 50  0001 C CNN "Description"
+F 5 "CR0603-FX-1002ELF" H 4550 6600 50  0001 C CNN "MPN"
+F 6 "Bourns" H 4550 6600 50  0001 C CNN "Manufacturer"
+	1    4550 6600
 	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_Small R17
 U 1 1 5D298EC1
-P 4529 6085
-F 0 "R17" V 4564 6230 50  0000 C CNN
-F 1 "360R" V 4527 6089 32  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4529 6085 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 4529 6085 50  0001 C CNN
-F 4 "Thick Film Resistors - SMD 10K 1% 1/10W" H 4529 6085 50  0001 C CNN "Description"
-F 5 "CR0603-FX-1002ELF" H 4529 6085 50  0001 C CNN "MPN"
-F 6 "Bourns" H 4529 6085 50  0001 C CNN "Manufacturer"
-	1    4529 6085
+P 4550 6400
+F 0 "R17" V 4585 6545 50  0000 C CNN
+F 1 "360R" V 4548 6404 32  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4550 6400 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 4550 6400 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 10K 1% 1/10W" H 4550 6400 50  0001 C CNN "Description"
+F 5 "CR0603-FX-1002ELF" H 4550 6400 50  0001 C CNN "MPN"
+F 6 "Bourns" H 4550 6400 50  0001 C CNN "Manufacturer"
+	1    4550 6400
 	0    1    -1   0   
 $EndComp
-Connection ~ 4429 6188
+Connection ~ 4450 6503
 Wire Wire Line
-	4429 6085 4429 6188
+	4450 6400 4450 6503
 Wire Wire Line
-	4429 6188 4429 6285
+	4450 6503 4450 6600
 $Comp
 L max_breakout-rescue:R_Small-Device R19
 U 1 1 5E29877D
@@ -2084,32 +2069,30 @@ $EndComp
 Wire Wire Line
 	1550 6450 1550 6400
 $Comp
-L Device:LED_Dual_ACAC D3
+L Device:LED_Bicolor D3
 U 1 1 5D298EB6
-P 4929 6185
-F 0 "D3" H 4929 5838 50  0000 C CNN
-F 1 "LED" H 4929 5929 50  0000 C CNN
-F 2 "LED_SMD:LED_2C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4959 6185 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/348/sml-d22-e-1508165.pdf" H 4959 6185 50  0001 C CNN
-F 4 "Standard LEDs - SMD Red/YelGrn 620/570nm 16/10mcd 65/67mW 5mA" H 4929 6185 50  0001 C CNN "Description"
-F 5 "SML-D22MUWT86" H 4929 6185 50  0001 C CNN "MPN"
-F 6 "ROHM Semiconductor" H 4929 6185 50  0001 C CNN "Manufacturer"
-	1    4929 6185
+P 4950 6500
+F 0 "D3" H 4950 6153 50  0000 C CNN
+F 1 "LED" H 4950 6244 50  0000 C CNN
+F 2 "LED_SMD:LED_2C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4980 6500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/348/sml-d22-e-1508165.pdf" H 4980 6500 50  0001 C CNN
+F 4 "Standard LEDs - SMD Red/YelGrn 620/570nm 16/10mcd 65/67mW 5mA" H 4950 6500 50  0001 C CNN "Description"
+F 5 "SML-D22MUWT86" H 4950 6500 50  0001 C CNN "MPN"
+F 6 "ROHM Semiconductor" H 4950 6500 50  0001 C CNN "Manufacturer"
+	1    4950 6500
 	1    0    0    -1  
 $EndComp
-Connection ~ 5229 6085
-Connection ~ 5229 6285
 Wire Wire Line
-	4429 6188 4297 6188
+	4450 6503 4318 6503
 $Comp
 L power:VCC #PWR033
 U 1 1 5D89D858
-P 4297 6188
-F 0 "#PWR033" H 4297 6038 50  0001 C CNN
-F 1 "VCC" H 4314 6361 50  0000 C CNN
-F 2 "" H 4297 6188 50  0001 C CNN
-F 3 "" H 4297 6188 50  0001 C CNN
-	1    4297 6188
+P 4318 6503
+F 0 "#PWR033" H 4318 6353 50  0001 C CNN
+F 1 "VCC" H 4335 6676 50  0000 C CNN
+F 2 "" H 4318 6503 50  0001 C CNN
+F 3 "" H 4318 6503 50  0001 C CNN
+	1    4318 6503
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -2131,12 +2114,12 @@ Wire Wire Line
 $Comp
 L max_breakout-rescue:R_Small-Device R20
 U 1 1 5D7AFF62
-P 3850 6600
-F 0 "R20" H 3860 6460 50  0000 L CNN
-F 1 "10K" V 3845 6530 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3850 6600 50  0001 C CNN
-F 3 "~" H 3850 6600 50  0001 C CNN
-	1    3850 6600
+P 3475 6625
+F 0 "R20" H 3485 6485 50  0000 L CNN
+F 1 "10K" V 3470 6555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3475 6625 50  0001 C CNN
+F 3 "~" H 3475 6625 50  0001 C CNN
+	1    3475 6625
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -2150,4 +2133,8 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS365" H 2750 5900 50  0001 C CNN
 	1    2750 5900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5250 6400 5300 6400
+Wire Wire Line
+	5250 6600 5300 6600
 $EndSCHEMATC

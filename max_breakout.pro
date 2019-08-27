@@ -1,4 +1,4 @@
-update=Tuesday, July 30, 2019 at 10:53:45 AM
+update=Monday, August 26, 2019 at 06:54:25 PM
 version=1
 last_client=kicad
 [general]
@@ -44,7 +44,6 @@ MinViaDrill=0.2032
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-CopperEdgeClearance=0.01
 TrackWidth1=0.1524
 TrackWidth2=0.1524
 TrackWidth3=0.4064
@@ -58,9 +57,9 @@ dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
 SilkLineWidth=0.12
-SilkTextSizeV=0.8128
-SilkTextSizeH=0.8128
-SilkTextSizeThickness=0.1524
+SilkTextSizeV=1
+SilkTextSizeH=1
+SilkTextSizeThickness=0.15
 SilkTextItalic=0
 SilkTextUpright=1
 CopperLineWidth=0.2
@@ -87,11 +86,11 @@ Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
-Type=1
+Type=0
 Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
-Type=1
+Type=0
 Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu

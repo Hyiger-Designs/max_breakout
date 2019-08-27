@@ -593,6 +593,11 @@
       (net 53 /GRN))
     (pad 1 smd rect (at -1.05 -0.4) (size 1 0.5) (layers F.Cu F.Paste F.Mask)
       (net 54 /RED))
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0805_2012Metric_Castellated.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Button_Switch_SMD:SW_DIP_SPSTx04_Slide_KingTek_DSHP04TS_W7.62mm_P1.27mm (layer F.Cu) (tedit 5A508D3E) (tstamp 5D3F86C2)

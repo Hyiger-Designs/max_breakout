@@ -43,7 +43,7 @@
   )
 
   (setup
-    (last_trace_width 0.4064)
+    (last_trace_width 0.1524)
     (user_trace_width 0.1524)
     (user_trace_width 0.4064)
     (trace_clearance 0.1524)
@@ -216,6 +216,10 @@
     (add_net "Net-(D2-Pad1)")
     (add_net "Net-(D2-Pad2)")
     (add_net "Net-(D3-Pad3)")
+    (add_net "Net-(J3-Pad7)")
+    (add_net "Net-(J3-Pad8)")
+    (add_net "Net-(J4-Pad2)")
+    (add_net "Net-(J4-Pad3)")
     (add_net "Net-(Q1-Pad1)")
     (add_net "Net-(R10-Pad1)")
     (add_net "Net-(R11-Pad1)")
@@ -224,6 +228,11 @@
     (add_net "Net-(R14-Pad2)")
     (add_net "Net-(R15-Pad2)")
     (add_net "Net-(R5-Pad1)")
+    (add_net "Net-(SW4-Pad4)")
+    (add_net "Net-(SW4-Pad5)")
+    (add_net "Net-(U4-Pad4)")
+    (add_net "Net-(U5-Pad4)")
+    (add_net "Net-(U6-Pad9)")
   )
 
   (net_class Power ""
@@ -575,7 +584,7 @@
     (fp_text reference D3 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value IN-S85TATRGB (at 0 2.1) (layer F.Fab)
+    (fp_text value RGB (at 0 2.1) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2 0.95) (end -2 -1) (layer F.CrtYd) (width 0.05))

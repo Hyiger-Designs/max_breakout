@@ -861,12 +861,9 @@ F 0 "U2" H 4550 2300 50  0000 C CNN
 F 1 "EPM7032STC44" H 3995 3665 50  0000 C CNN
 F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm_ThermalVias" H 5300 3750 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Intel%20PDFs/MAX7000_Family_DS.pdf" H 5300 3750 50  0001 C CNN
-F 4 "https://media.digikey.com/pdf/Data%20Sheets/Intel%20PDFs/MAX7000_Family_DS.pdf" H 4550 2400 50  0001 C CNN "Datasheet"
-F 5 "CPLD 32MC 10NS 44TQFP" H 4550 2400 50  0001 C CNN "Description"
-F 6 "Package_QFP:TQFP-44_10x10mm_P0.8mm_ThermalVias" H 4550 2400 50  0001 C CNN "Footprint"
-F 7 "Intel" H 4550 2400 50  0001 C CNN "MFR"
-F 8 "EPM7032STC44-10FN" H 4550 2400 50  0001 C CNN "MPN"
-F 9 "EPM7032STC44" H 4550 2400 50  0001 C CNN "Value"
+F 4 "CPLD 32MC 10NS 44TQFP" H 4550 2400 50  0001 C CNN "Description"
+F 5 "Intel" H 4550 2400 50  0001 C CNN "MFR"
+F 6 "EPM7032STC44-10FN" H 4550 2400 50  0001 C CNN "MPN"
 	1    4550 2300
 	1    0    0    -1  
 $EndComp
@@ -1007,21 +1004,19 @@ F 0 "J3" H 6590 2050 50  0000 R CNN
 F 1 "AVR-JTAG-10" H 6310 2550 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" V 6400 2200 50  0001 C CNN
 F 3 "~" H 5275 1500 50  0001 C CNN
-F 4 "~" H 6590 2150 50  0001 C CNN "Datasheet"
-F 5 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 6590 2150 50  0001 C CNN "Footprint"
-F 6 "AVR-JTAG-10" H 6590 2150 50  0001 C CNN "Value"
+F 4 "AVR-JTAG-10" H 6590 2150 50  0001 C CNN "Value"
 	1    6550 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR05
 U 1 1 5D3805D3
-P 6750 1400
-F 0 "#PWR05" H 6750 1250 50  0001 C CNN
-F 1 "VCC" H 6767 1573 50  0000 C CNN
-F 2 "" H 6750 1400 50  0001 C CNN
-F 3 "" H 6750 1400 50  0001 C CNN
-	1    6750 1400
+P 6450 1400
+F 0 "#PWR05" H 6450 1250 50  0001 C CNN
+F 1 "VCC" H 6467 1573 50  0000 C CNN
+F 2 "" H 6450 1400 50  0001 C CNN
+F 3 "" H 6450 1400 50  0001 C CNN
+	1    6450 1400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1238,21 +1233,21 @@ $EndComp
 $Comp
 L Device:R_Small R9
 U 1 1 5D436631
-P 3100 6400
-F 0 "R9" H 3150 6350 50  0000 L CNN
-F 1 "10K" V 3100 6300 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3100 6400 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 3100 6400 50  0001 C CNN
-F 4 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 3150 6450 50  0001 C CNN "Datasheet"
-F 5 "Thick Film Resistors - SMD 10K OHM 1%" H 3150 6450 50  0001 C CNN "Description"
-F 6 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3150 6450 50  0001 C CNN "Footprint"
-F 7 "Bourns" H 3150 6450 50  0001 C CNN "MFR"
-F 8 "CR0603-FX-1002ELF" H 3150 6450 50  0001 C CNN "MPN"
-F 9 "652-CR0603FX-1002ELF" H 3150 6450 50  0001 C CNN "SPN"
-F 10 "Mouser" H 3150 6450 50  0001 C CNN "SPR"
-F 11 "https://www.mouser.com/ProductDetail/Bourns/CR0603-FX-1002ELF?qs=%2Fha2pyFadugVmr2gairtN7QOhA7v8%2FIyn%2F6JFX3D8auJGt%2FYJ41PlQ%3D%3D" H 3150 6450 50  0001 C CNN "SPURL"
-F 12 "10K" H 3150 6450 50  0001 C CNN "Value"
-	1    3100 6400
+P 3400 2850
+F 0 "R9" H 3450 2800 50  0000 L CNN
+F 1 "10K" V 3400 2750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3400 2850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 3400 2850 50  0001 C CNN
+F 4 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 3450 2900 50  0001 C CNN "Datasheet"
+F 5 "Thick Film Resistors - SMD 10K OHM 1%" H 3450 2900 50  0001 C CNN "Description"
+F 6 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3450 2900 50  0001 C CNN "Footprint"
+F 7 "Bourns" H 3450 2900 50  0001 C CNN "MFR"
+F 8 "CR0603-FX-1002ELF" H 3450 2900 50  0001 C CNN "MPN"
+F 9 "652-CR0603FX-1002ELF" H 3450 2900 50  0001 C CNN "SPN"
+F 10 "Mouser" H 3450 2900 50  0001 C CNN "SPR"
+F 11 "https://www.mouser.com/ProductDetail/Bourns/CR0603-FX-1002ELF?qs=%2Fha2pyFadugVmr2gairtN7QOhA7v8%2FIyn%2F6JFX3D8auJGt%2FYJ41PlQ%3D%3D" H 3450 2900 50  0001 C CNN "SPURL"
+F 12 "10K" H 3450 2900 50  0001 C CNN "Value"
+	1    3400 2850
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1312,12 +1307,12 @@ $EndComp
 $Comp
 L power:VCC #PWR021
 U 1 1 5D43880E
-P 3100 6200
-F 0 "#PWR021" H 3100 6050 50  0001 C CNN
-F 1 "VCC" H 3097 6341 50  0000 C CNN
-F 2 "" H 3100 6200 50  0001 C CNN
-F 3 "" H 3100 6200 50  0001 C CNN
-	1    3100 6200
+P 3400 2650
+F 0 "#PWR021" H 3400 2500 50  0001 C CNN
+F 1 "VCC" H 3397 2791 50  0000 C CNN
+F 2 "" H 3400 2650 50  0001 C CNN
+F 3 "" H 3400 2650 50  0001 C CNN
+	1    3400 2650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1400,15 +1395,13 @@ F 0 "U6" H 4750 6650 50  0000 C CNN
 F 1 "74HCT244" H 5250 6650 50  0000 C CNN
 F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 5000 5950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf" H 5000 5950 50  0001 C CNN
-F 4 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf" H 4750 6750 50  0001 C CNN "Datasheet"
-F 5 "Buffers & Line Drivers OCTAL BUFFER 3-STATE" H 4750 6750 50  0001 C CNN "Description"
-F 6 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 4750 6750 50  0001 C CNN "Footprint"
-F 7 "Nexperia" H 4750 6750 50  0001 C CNN "MFR"
-F 8 "74HCT244PW,118" H 4750 6750 50  0001 C CNN "MPN"
-F 9 "771-HCT244PW118" H 4750 6750 50  0001 C CNN "SPN"
-F 10 "Mouser" H 4750 6750 50  0001 C CNN "SPR"
-F 11 "https://www.mouser.com/ProductDetail/Nexperia/74HCT244PW118?qs=sGAEpiMZZMuiiWkaIwCK2RTxPVPWGz6W2P5hwMtP2Rs%3D" H 4750 6750 50  0001 C CNN "SPURL"
-F 12 "74HCT244" H 4750 6750 50  0001 C CNN "Value"
+F 4 "Buffers & Line Drivers OCTAL BUFFER 3-STATE" H 4750 6750 50  0001 C CNN "Description"
+F 5 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 4750 6750 50  0001 C CNN "Footprint"
+F 6 "Nexperia" H 4750 6750 50  0001 C CNN "MFR"
+F 7 "74HCT244PW,118" H 4750 6750 50  0001 C CNN "MPN"
+F 8 "771-HCT244PW118" H 4750 6750 50  0001 C CNN "SPN"
+F 9 "Mouser" H 4750 6750 50  0001 C CNN "SPR"
+F 10 "https://www.mouser.com/ProductDetail/Nexperia/74HCT244PW118?qs=sGAEpiMZZMuiiWkaIwCK2RTxPVPWGz6W2P5hwMtP2Rs%3D" H 4750 6750 50  0001 C CNN "SPURL"
 	1    5000 5950
 	1    0    0    -1  
 $EndComp
@@ -1479,22 +1472,20 @@ F 3 "" H 4200 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_RGAB D3
+L max_breakout-rescue:LED_RGAB-Device D3
 U 1 1 5DB9FCCA
 P 1700 5400
 F 0 "D3" H 1700 5897 50  0000 C CNN
 F 1 "RGB" H 1700 5806 50  0000 C CNN
 F 2 "LED_SMD:IN-S85TATRGB" H 1700 5350 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/180/IN-S85TATRGB_V1.0-1488493.pdf" H 1700 5350 50  0001 C CNN
-F 4 "https://www.mouser.com/datasheet/2/180/IN-S85TATRGB_V1.0-1488493.pdf" H 1700 5997 50  0001 C CNN "Datasheet"
-F 5 "Standard LEDs - SMD RGB LED" H 1700 5997 50  0001 C CNN "Description"
-F 6 "LED_SMD:IN-S85TATRGB" H 1700 5997 50  0001 C CNN "Footprint"
-F 7 "Inolux" H 1700 5997 50  0001 C CNN "MFR"
-F 8 "IN-S85TATRGB" H 1700 5997 50  0001 C CNN "MPN"
-F 9 "743-IN-S85TATRGB" H 1700 5997 50  0001 C CNN "SPN"
-F 10 "Mouser" H 1700 5997 50  0001 C CNN "SPR"
-F 11 "https://www.mouser.com/ProductDetail/Inolux/IN-S85TATRGB?qs=%2Fha2pyFadugL5Cs6YebUXF5dTPIMaG33F534Zrh7%252B3i31Hk2Z7JeZA%3D%3D" H 1700 5997 50  0001 C CNN "SPURL"
-F 12 "RGB" H 1700 5997 50  0001 C CNN "Value"
+F 4 "Standard LEDs - SMD RGB LED" H 1700 5997 50  0001 C CNN "Description"
+F 5 "LED_SMD:IN-S85TATRGB" H 1700 5997 50  0001 C CNN "Footprint"
+F 6 "Inolux" H 1700 5997 50  0001 C CNN "MFR"
+F 7 "IN-S85TATRGB" H 1700 5997 50  0001 C CNN "MPN"
+F 8 "743-IN-S85TATRGB" H 1700 5997 50  0001 C CNN "SPN"
+F 9 "Mouser" H 1700 5997 50  0001 C CNN "SPR"
+F 10 "https://www.mouser.com/ProductDetail/Inolux/IN-S85TATRGB?qs=%2Fha2pyFadugL5Cs6YebUXF5dTPIMaG33F534Zrh7%252B3i31Hk2Z7JeZA%3D%3D" H 1700 5997 50  0001 C CNN "SPURL"
 	1    1700 5400
 	-1   0    0    -1  
 $EndComp
@@ -1849,12 +1840,6 @@ Wire Wire Line
 Wire Wire Line
 	6450 1450 6450 1400
 Wire Wire Line
-	6450 1400 6750 1400
-Wire Wire Line
-	7050 1400 7050 1750
-Wire Wire Line
-	6750 1400 7050 1400
-Wire Wire Line
 	7050 1950 7250 1950
 Wire Wire Line
 	7050 2050 7350 2050
@@ -1989,7 +1974,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 6950 2650 7000
 Wire Wire Line
-	3100 6300 3100 6200
+	3400 2750 3400 2650
 Wire Wire Line
 	1700 3250 1900 3250
 Wire Wire Line
@@ -2229,8 +2214,6 @@ Wire Wire Line
 Wire Wire Line
 	4000 2950 3750 2950
 Wire Wire Line
-	4000 3050 3750 3050
-Wire Wire Line
 	4000 3150 3750 3150
 Wire Wire Line
 	4000 3250 3750 3250
@@ -2247,7 +2230,6 @@ Connection ~ 10350 5100
 Connection ~ 7450 5100
 Connection ~ 4500 3700
 Connection ~ 4600 3700
-Connection ~ 6750 1400
 Connection ~ 7550 2250
 Connection ~ 7450 2150
 Connection ~ 7350 2050
@@ -2310,4 +2292,9 @@ Wire Wire Line
 	7100 6000 7300 6000
 Wire Wire Line
 	7100 5750 7100 5700
+NoConn ~ 7050 1750
+Wire Wire Line
+	3400 2950 3400 3050
+Wire Wire Line
+	3400 3050 4000 3050
 $EndSCHEMATC

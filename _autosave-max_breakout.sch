@@ -576,18 +576,18 @@ $EndComp
 $Comp
 L power:GND #PWR028
 U 1 1 5D385EAD
-P 8150 3550
+P 9100 3600
 AR Path="/5D385EAD" Ref="#PWR028"  Part="1" 
 AR Path="/5CB63856/5D385EAD" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5D385EAD" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D385EAD" Ref="#PWR?"  Part="1" 
 AR Path="/5D0F9837/5D385EAD" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D0BF766/5D385EAD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR028" H 8150 3300 50  0001 C CNN
-F 1 "GND" H 8155 3377 50  0000 C CNN
-F 2 "" H 8150 3550 50  0001 C CNN
-F 3 "" H 8150 3550 50  0001 C CNN
-	1    8150 3550
+F 0 "#PWR028" H 9100 3350 50  0001 C CNN
+F 1 "GND" H 9105 3427 50  0000 C CNN
+F 2 "" H 9100 3600 50  0001 C CNN
+F 3 "" H 9100 3600 50  0001 C CNN
+	1    9100 3600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -610,21 +610,21 @@ $EndComp
 $Comp
 L max_breakout-rescue:MAX40200AUK-Analog_Switch U5
 U 1 1 5D385EAE
-P 8150 3200
-F 0 "U5" H 8150 3567 50  0000 C CNN
-F 1 "MAX40200AUK" H 8150 3476 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 8150 3700 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/256/MAX40200-1112995.pdf" H 8150 3700 50  0001 C CNN
-F 4 "https://www.mouser.com/datasheet/2/256/MAX40200-1112995.pdf" H 8150 3667 50  0001 C CNN "Datasheet"
-F 5 "Supervisory Circuits Current Sense/Ideal Diode" H 8150 3667 50  0001 C CNN "Description"
-F 6 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 8150 3667 50  0001 C CNN "Footprint"
-F 7 "Maxim" H 8150 3667 50  0001 C CNN "MFR"
-F 8 "MAX40200AUK+T" H 8150 3667 50  0001 C CNN "MPN"
-F 9 "700-MAX40200AUK+T" H 8150 3667 50  0001 C CNN "SPN"
-F 10 "Mouser" H 8150 3667 50  0001 C CNN "SPR"
-F 11 "https://www.mouser.com/ProductDetail/Maxim-Integrated/MAX40200AUK%2BT?qs=5aG0NVq1C4yORXmgClGWGQ%3D%3D&gclid=Cj0KCQjwho7rBRDxARIsAJ5nhFrTlEoNuSrU5Ut2EFDDcmbkuDqplPKK4X4qR73RchZcKA7ftlt8MIYaAsf8EALw_wcB" H 8150 3667 50  0001 C CNN "SPURL"
-F 12 "MAX40200AUK" H 8150 3667 50  0001 C CNN "Value"
-	1    8150 3200
+P 9100 3250
+F 0 "U5" H 9100 3617 50  0000 C CNN
+F 1 "MAX40200AUK" H 9100 3526 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 9100 3750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/256/MAX40200-1112995.pdf" H 9100 3750 50  0001 C CNN
+F 4 "https://www.mouser.com/datasheet/2/256/MAX40200-1112995.pdf" H 9100 3717 50  0001 C CNN "Datasheet"
+F 5 "Supervisory Circuits Current Sense/Ideal Diode" H 9100 3717 50  0001 C CNN "Description"
+F 6 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 9100 3717 50  0001 C CNN "Footprint"
+F 7 "Maxim" H 9100 3717 50  0001 C CNN "MFR"
+F 8 "MAX40200AUK+T" H 9100 3717 50  0001 C CNN "MPN"
+F 9 "700-MAX40200AUK+T" H 9100 3717 50  0001 C CNN "SPN"
+F 10 "Mouser" H 9100 3717 50  0001 C CNN "SPR"
+F 11 "https://www.mouser.com/ProductDetail/Maxim-Integrated/MAX40200AUK%2BT?qs=5aG0NVq1C4yORXmgClGWGQ%3D%3D&gclid=Cj0KCQjwho7rBRDxARIsAJ5nhFrTlEoNuSrU5Ut2EFDDcmbkuDqplPKK4X4qR73RchZcKA7ftlt8MIYaAsf8EALw_wcB" H 9100 3717 50  0001 C CNN "SPURL"
+F 12 "MAX40200AUK" H 9100 3717 50  0001 C CNN "Value"
+	1    9100 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -852,12 +852,12 @@ $EndComp
 $Comp
 L power:VCC #PWR019
 U 1 1 5DD7F47B
-P 7450 3100
-F 0 "#PWR019" H 7450 2950 50  0001 C CNN
-F 1 "VCC" H 7458 3256 50  0000 C CNN
-F 2 "" H 7450 3100 50  0001 C CNN
-F 3 "" H 7450 3100 50  0001 C CNN
-	1    7450 3100
+P 8400 3150
+F 0 "#PWR019" H 8400 3000 50  0001 C CNN
+F 1 "VCC" H 8408 3306 50  0000 C CNN
+F 2 "" H 8400 3150 50  0001 C CNN
+F 3 "" H 8400 3150 50  0001 C CNN
+	1    8400 3150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1600,15 +1600,15 @@ Wire Wire Line
 Wire Wire Line
 	8600 5200 8700 5200
 Wire Wire Line
-	7750 3300 7650 3300
+	8700 3350 8600 3350
 Wire Wire Line
-	7650 3300 7650 3100
+	8600 3350 8600 3150
 Wire Wire Line
-	7650 3100 7450 3100
+	8600 3150 8400 3150
 Wire Wire Line
 	9650 5050 9650 5200
 Wire Wire Line
-	7750 3100 7650 3100
+	8700 3150 8600 3150
 Wire Wire Line
 	7950 1850 7950 1800
 Wire Wire Line
@@ -1634,7 +1634,7 @@ Wire Wire Line
 Wire Wire Line
 	550  1350 750  1350
 Wire Wire Line
-	8150 3550 8150 3500
+	9100 3600 9100 3550
 Wire Wire Line
 	2850 3600 2850 3700
 Wire Wire Line
@@ -1855,7 +1855,7 @@ Connection ~ 8150 1600
 Connection ~ 7950 1800
 Connection ~ 8150 1800
 Connection ~ 8600 5200
-Connection ~ 7650 3100
+Connection ~ 8600 3150
 Connection ~ 8100 6100
 Connection ~ 7750 1800
 Connection ~ 7750 1600
@@ -2138,52 +2138,52 @@ Text Label 9700 4100 0    50   ~ 0
 $Comp
 L Device:C_Small C?
 U 1 1 5DABCD39
-P 8700 3300
+P 9650 3350
 AR Path="/5D65A6A0/5DABCD39" Ref="C?"  Part="1" 
 AR Path="/5DABCD39" Ref="C?"  Part="1" 
-F 0 "C?" H 8595 3365 50  0000 L CNN
-F 1 "2.2uF" H 8460 3235 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8700 3300 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 8700 3300 50  0001 C CNN
-F 4 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 8595 3465 50  0001 C CNN "Datasheet"
-F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 6.3V 2.2uF 10% X7R" H 8792 3446 50  0001 C CNN "Description"
-F 6 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8595 3465 50  0001 C CNN "Footprint"
-F 7 "Murata" H 8700 3300 50  0001 C CNN "MFR"
-F 8 "JMK107B7474KA-T" H 8700 3300 50  0001 C CNN "MPN"
-F 9 "963-JMK107B7474KA-T" H 8792 3446 50  0001 C CNN "SPN"
-F 10 "Mouser" H 8700 3300 50  0001 C CNN "SPR"
-F 11 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 8792 3446 50  0001 C CNN "SPURL"
-F 12 "2.2uF" H 8595 3465 50  0001 C CNN "Value"
-	1    8700 3300
+F 0 "C?" H 9545 3415 50  0000 L CNN
+F 1 "2.2uF" H 9410 3285 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9650 3350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 9650 3350 50  0001 C CNN
+F 4 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 9545 3515 50  0001 C CNN "Datasheet"
+F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 6.3V 2.2uF 10% X7R" H 9742 3496 50  0001 C CNN "Description"
+F 6 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9545 3515 50  0001 C CNN "Footprint"
+F 7 "Murata" H 9650 3350 50  0001 C CNN "MFR"
+F 8 "JMK107B7474KA-T" H 9650 3350 50  0001 C CNN "MPN"
+F 9 "963-JMK107B7474KA-T" H 9742 3496 50  0001 C CNN "SPN"
+F 10 "Mouser" H 9650 3350 50  0001 C CNN "SPR"
+F 11 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 9742 3496 50  0001 C CNN "SPURL"
+F 12 "2.2uF" H 9545 3515 50  0001 C CNN "Value"
+	1    9650 3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DABCD3F
-P 8700 3550
+P 9650 3600
 AR Path="/5DABCD3F" Ref="#PWR?"  Part="1" 
 AR Path="/5CB63856/5DABCD3F" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5DABCD3F" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5DABCD3F" Ref="#PWR?"  Part="1" 
 AR Path="/5D0F9837/5DABCD3F" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D0BF766/5DABCD3F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8700 3300 50  0001 C CNN
-F 1 "GND" H 8700 3400 50  0000 C CNN
-F 2 "" H 8700 3550 50  0001 C CNN
-F 3 "" H 8700 3550 50  0001 C CNN
-	1    8700 3550
+F 0 "#PWR?" H 9650 3350 50  0001 C CNN
+F 1 "GND" H 9650 3450 50  0000 C CNN
+F 2 "" H 9650 3600 50  0001 C CNN
+F 3 "" H 9650 3600 50  0001 C CNN
+	1    9650 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8700 3400 8700 3550
+	9650 3450 9650 3600
 Wire Wire Line
-	8700 3200 8700 3100
+	9650 3250 9650 3150
 Wire Wire Line
-	8700 3100 8550 3100
+	9650 3150 9500 3150
 Wire Wire Line
-	8700 3100 9050 3100
-Connection ~ 8700 3100
-Text Label 8750 3100 0    50   ~ 0
+	9650 3150 10000 3150
+Connection ~ 9650 3150
+Text Label 9700 3150 0    50   ~ 0
 5V_out
 Wire Wire Line
 	10200 650  9900 650 

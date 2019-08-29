@@ -39,17 +39,18 @@ X 2Y3 9 500 -200 200 L 50 50 1 0 T
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_01x19
+# Connector_Generic_Conn_01x20
 #
-DEF Connector_Generic_Conn_01x19 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x20 J 0 40 Y N 1 F N
 F0 "J" 0 1000 50 H V C CNN
-F1 "Connector_Generic_Conn_01x19" 0 -1000 50 H V C CNN
+F1 "Connector_Generic_Conn_01x20" 0 -1100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
+S -50 -995 0 -1005 1 1 6 N
 S -50 -895 0 -905 1 1 6 N
 S -50 -795 0 -805 1 1 6 N
 S -50 -695 0 -705 1 1 6 N
@@ -69,7 +70,7 @@ S -50 605 0 595 1 1 6 N
 S -50 705 0 695 1 1 6 N
 S -50 805 0 795 1 1 6 N
 S -50 905 0 895 1 1 6 N
-S -50 950 50 -950 1 1 10 f
+S -50 950 50 -1050 1 1 10 f
 X Pin_1 1 -200 900 150 R 50 50 1 1 P
 X Pin_10 10 -200 0 150 R 50 50 1 1 P
 X Pin_11 11 -200 -100 150 R 50 50 1 1 P
@@ -82,6 +83,7 @@ X Pin_17 17 -200 -700 150 R 50 50 1 1 P
 X Pin_18 18 -200 -800 150 R 50 50 1 1 P
 X Pin_19 19 -200 -900 150 R 50 50 1 1 P
 X Pin_2 2 -200 800 150 R 50 50 1 1 P
+X Pin_20 20 -200 -1000 150 R 50 50 1 1 P
 X Pin_3 3 -200 700 150 R 50 50 1 1 P
 X Pin_4 4 -200 600 150 R 50 50 1 1 P
 X Pin_5 5 -200 500 150 R 50 50 1 1 P

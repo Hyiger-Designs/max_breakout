@@ -1,4 +1,4 @@
-update=Thursday, August 29, 2019 at 08:51:27 PM
+update=2019-08-30 12:08:31 AM
 version=1
 last_client=kicad
 [general]
@@ -12,22 +12,6 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=../../Documents/gitrepo/max_breakout/docs/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_WriteFile=0
-ERC_TestSimilarLabels=1
-ERC_CheckUniqueGlobalLabels=1
-ERC_CheckBusDriverConflicts=1
-ERC_CheckBusEntryConflicts=1
-ERC_CheckBusToBusConflicts=1
-ERC_CheckBusToNetConflicts=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -47,13 +31,16 @@ MinHoleToHole=0.254
 TrackWidth1=0.127
 TrackWidth2=0.1524
 TrackWidth3=0.2032
-TrackWidth4=0.4064
+TrackWidth4=0.254
+TrackWidth5=0.4064
 ViaDiameter1=0.4572
 ViaDrill1=0.2286
 ViaDiameter2=0.4572
 ViaDrill2=0.2286
-ViaDiameter3=0.8128
-ViaDrill3=0.4064
+ViaDiameter3=0.6604
+ViaDrill3=0.3302
+ViaDiameter4=0.8128
+ViaDrill4=0.4064
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -270,3 +257,13 @@ uViaDrill=0.1016
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=../../Documents/gitrepo/max_breakout/docs/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1

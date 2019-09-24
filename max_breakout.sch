@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "MAX7000S Breakout Board"
-Date "2019-08-24"
-Rev "2.0"
+Date "2019-09-24"
+Rev "2.1"
 Comp "Hyiger Designs"
 Comment1 ""
 Comment2 ""

@@ -90,7 +90,7 @@ $EndComp
 $Comp
 L power:GND #PWR010
 U 1 1 5D1C7065
-P 4850 2400
+P 5050 2175
 AR Path="/5D1C7065" Ref="#PWR010"  Part="1" 
 AR Path="/5CB63856/5D1C7065" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5D1C7065" Ref="#PWR?"  Part="1" 
@@ -98,17 +98,17 @@ AR Path="/5CFABACD/5D1C7065" Ref="#PWR?"  Part="1"
 AR Path="/5D0F9837/5D1C7065" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D0BF766/5D1C7065" Ref="#PWR?"  Part="1" 
 AR Path="/5D1AF052/5D1C7065" Ref="#PWR?"  Part="1" 
-F 0 "#PWR010" H 4850 2150 50  0001 C CNN
-F 1 "GND" H 4855 2227 50  0000 C CNN
-F 2 "" H 4850 2400 50  0001 C CNN
-F 3 "" H 4850 2400 50  0001 C CNN
-	1    4850 2400
+F 0 "#PWR010" H 5050 1925 50  0001 C CNN
+F 1 "GND" H 5055 2002 50  0000 C CNN
+F 2 "" H 5050 2175 50  0001 C CNN
+F 3 "" H 5050 2175 50  0001 C CNN
+	1    5050 2175
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR03
 U 1 1 5D1C706B
-P 5550 2350
+P 5750 2125
 AR Path="/5D1C706B" Ref="#PWR03"  Part="1" 
 AR Path="/5CB63856/5D1C706B" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5D1C706B" Ref="#PWR?"  Part="1" 
@@ -116,32 +116,32 @@ AR Path="/5CFABACD/5D1C706B" Ref="#PWR?"  Part="1"
 AR Path="/5D0F9837/5D1C706B" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D0BF766/5D1C706B" Ref="#PWR?"  Part="1" 
 AR Path="/5D1AF052/5D1C706B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR03" H 5550 2100 50  0001 C CNN
-F 1 "GND" H 5545 2220 50  0000 C CNN
-F 2 "" H 5550 2350 50  0001 C CNN
-F 3 "" H 5550 2350 50  0001 C CNN
-	1    5550 2350
+F 0 "#PWR03" H 5750 1875 50  0001 C CNN
+F 1 "GND" H 5745 1995 50  0000 C CNN
+F 2 "" H 5750 2125 50  0001 C CNN
+F 3 "" H 5750 2125 50  0001 C CNN
+	1    5750 2125
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5D1C7095
-P 5550 2200
+P 5750 1975
 AR Path="/5D0F9837/5D1C7095" Ref="R?"  Part="1" 
 AR Path="/5CFABACD/5D0BF766/5D1C7095" Ref="R?"  Part="1" 
 AR Path="/5D1AF052/5D1C7095" Ref="R?"  Part="1" 
 AR Path="/5D1C7095" Ref="R1"  Part="1" 
-F 0 "R1" H 5550 2300 50  0000 L CNN
-F 1 "1K" V 5550 2150 32  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5550 2200 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 5550 2200 50  0001 C CNN
-F 4 "Thick Film Resistors - SMD 1K OHM 1%" H 5550 2400 50  0001 C CNN "Description"
-F 5 "Bourns" H 5550 2400 50  0001 C CNN "MFR"
-F 6 "CR0603-FX-1001ELF" H 5550 2400 50  0001 C CNN "MPN"
-F 7 "652-CR0603FX-1001ELF" H 5550 2400 50  0001 C CNN "SPN"
-F 8 "Mouser" H 5550 2400 50  0001 C CNN "SPR"
-F 9 "https://www.mouser.com/ProductDetail/Bourns/CR0603-FX-1001ELF?qs=%2Fha2pyFadugdzJ7nlgcs%252BwhsibJGn8Ksgk2E2g2tWN0b9ms8e3K5ZJTpFjYNR%2Fv6" H 5550 2400 50  0001 C CNN "SPURL"
-	1    5550 2200
+F 0 "R1" H 5750 2075 50  0000 L CNN
+F 1 "1K" V 5750 1925 32  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5750 1975 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 5750 1975 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 1K OHM 1%" H 5750 2175 50  0001 C CNN "Description"
+F 5 "Bourns" H 5750 2175 50  0001 C CNN "MFR"
+F 6 "CR0603-FX-1001ELF" H 5750 2175 50  0001 C CNN "MPN"
+F 7 "652-CR0603FX-1001ELF" H 5750 2175 50  0001 C CNN "SPN"
+F 8 "Mouser" H 5750 2175 50  0001 C CNN "SPR"
+F 9 "https://www.mouser.com/ProductDetail/Bourns/CR0603-FX-1001ELF?qs=%2Fha2pyFadugdzJ7nlgcs%252BwhsibJGn8Ksgk2E2g2tWN0b9ms8e3K5ZJTpFjYNR%2Fv6" H 5750 2175 50  0001 C CNN "SPURL"
+	1    5750 1975
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -237,64 +237,43 @@ $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5D350372
-P 5650 1250
+P 5850 1025
 AR Path="/5D0F9837/5D350372" Ref="R?"  Part="1" 
 AR Path="/5CFABACD/5D0BF766/5D350372" Ref="R?"  Part="1" 
 AR Path="/5D1AF052/5D350372" Ref="R?"  Part="1" 
 AR Path="/5D350372" Ref="R2"  Part="1" 
-F 0 "R2" H 5650 1350 50  0000 L CNN
-F 1 "10K" V 5750 1200 32  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5650 1250 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 5650 1250 50  0001 C CNN
-F 4 "Thick Film Resistors - SMD 10K OHM 1%" H 5650 1450 50  0001 C CNN "Description"
-F 5 "Bourns" H 5650 1450 50  0001 C CNN "MFR"
-F 6 "CR0603-FX-1002ELF" H 5650 1450 50  0001 C CNN "MPN"
-F 7 "652-CR0603FX-1002ELF" H 5650 1450 50  0001 C CNN "SPN"
-F 8 "Mouser" H 5650 1450 50  0001 C CNN "SPR"
-F 9 "https://www.mouser.com/ProductDetail/Bourns/CR0603-FX-1002ELF?qs=%2Fha2pyFadugVmr2gairtN7QOhA7v8%2FIyn%2F6JFX3D8auJGt%2FYJ41PlQ%3D%3D" H 5650 1450 50  0001 C CNN "SPURL"
-	1    5650 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5D351229
-P 5750 1250
-AR Path="/5D0F9837/5D351229" Ref="R?"  Part="1" 
-AR Path="/5CFABACD/5D0BF766/5D351229" Ref="R?"  Part="1" 
-AR Path="/5D1AF052/5D351229" Ref="R?"  Part="1" 
-AR Path="/5D351229" Ref="R3"  Part="1" 
-F 0 "R3" H 5750 1350 50  0000 L CNN
-F 1 "10K" V 5650 1200 32  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5750 1250 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 5750 1250 50  0001 C CNN
-F 4 "Thick Film Resistors - SMD 10K OHM 1%" H 5750 1450 50  0001 C CNN "Description"
-F 5 "Bourns" H 5750 1450 50  0001 C CNN "MFR"
-F 6 "CR0603-FX-1002ELF" H 5750 1450 50  0001 C CNN "MPN"
-F 7 "652-CR0603FX-1002ELF" H 5750 1450 50  0001 C CNN "SPN"
-F 8 "Mouser" H 5750 1450 50  0001 C CNN "SPR"
-F 9 "https://www.mouser.com/ProductDetail/Bourns/CR0603-FX-1002ELF?qs=%2Fha2pyFadugVmr2gairtN7QOhA7v8%2FIyn%2F6JFX3D8auJGt%2FYJ41PlQ%3D%3D" H 5750 1450 50  0001 C CNN "SPURL"
-	1    5750 1250
+F 0 "R2" H 5850 1125 50  0000 L CNN
+F 1 "10K" V 5850 975 32  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5850 1025 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 5850 1025 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 10K OHM 1%" H 5850 1225 50  0001 C CNN "Description"
+F 5 "Bourns" H 5850 1225 50  0001 C CNN "MFR"
+F 6 "CR0603-FX-1002ELF" H 5850 1225 50  0001 C CNN "MPN"
+F 7 "652-CR0603FX-1002ELF" H 5850 1225 50  0001 C CNN "SPN"
+F 8 "Mouser" H 5850 1225 50  0001 C CNN "SPR"
+F 9 "https://www.mouser.com/ProductDetail/Bourns/CR0603-FX-1002ELF?qs=%2Fha2pyFadugVmr2gairtN7QOhA7v8%2FIyn%2F6JFX3D8auJGt%2FYJ41PlQ%3D%3D" H 5850 1225 50  0001 C CNN "SPURL"
+	1    5850 1025
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5D351612
-P 5850 1250
+P 6050 1025
 AR Path="/5D0F9837/5D351612" Ref="R?"  Part="1" 
 AR Path="/5CFABACD/5D0BF766/5D351612" Ref="R?"  Part="1" 
 AR Path="/5D1AF052/5D351612" Ref="R?"  Part="1" 
 AR Path="/5D351612" Ref="R4"  Part="1" 
-F 0 "R4" H 5850 1350 50  0000 L CNN
-F 1 "10K" V 5850 1200 32  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5850 1250 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 5850 1250 50  0001 C CNN
-F 4 "Thick Film Resistors - SMD 10K OHM 1%" H 5850 1450 50  0001 C CNN "Description"
-F 5 "Bourns" H 5850 1450 50  0001 C CNN "MFR"
-F 6 "CR0603-FX-1002ELF" H 5850 1450 50  0001 C CNN "MPN"
-F 7 "652-CR0603FX-1002ELF" H 5850 1450 50  0001 C CNN "SPN"
-F 8 "Mouser" H 5850 1450 50  0001 C CNN "SPR"
-F 9 "https://www.mouser.com/ProductDetail/Bourns/CR0603-FX-1002ELF?qs=%2Fha2pyFadugVmr2gairtN7QOhA7v8%2FIyn%2F6JFX3D8auJGt%2FYJ41PlQ%3D%3D" H 5850 1450 50  0001 C CNN "SPURL"
-	1    5850 1250
+F 0 "R4" H 6050 1125 50  0000 L CNN
+F 1 "10K" V 6050 975 32  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6050 1025 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 6050 1025 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 10K OHM 1%" H 6050 1225 50  0001 C CNN "Description"
+F 5 "Bourns" H 6050 1225 50  0001 C CNN "MFR"
+F 6 "CR0603-FX-1002ELF" H 6050 1225 50  0001 C CNN "MPN"
+F 7 "652-CR0603FX-1002ELF" H 6050 1225 50  0001 C CNN "SPN"
+F 8 "Mouser" H 6050 1225 50  0001 C CNN "SPR"
+F 9 "https://www.mouser.com/ProductDetail/Bourns/CR0603-FX-1002ELF?qs=%2Fha2pyFadugVmr2gairtN7QOhA7v8%2FIyn%2F6JFX3D8auJGt%2FYJ41PlQ%3D%3D" H 6050 1225 50  0001 C CNN "SPURL"
+	1    6050 1025
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -330,12 +309,12 @@ $EndComp
 $Comp
 L power:VCC #PWR04
 U 1 1 5D37FFC2
-P 5750 1100
-F 0 "#PWR04" H 5750 950 50  0001 C CNN
-F 1 "VCC" H 5740 1250 50  0000 C CNN
-F 2 "" H 5750 1100 50  0001 C CNN
-F 3 "" H 5750 1100 50  0001 C CNN
-	1    5750 1100
+P 5950 875
+F 0 "#PWR04" H 5950 725 50  0001 C CNN
+F 1 "VCC" H 5940 1025 50  0000 C CNN
+F 2 "" H 5950 875 50  0001 C CNN
+F 3 "" H 5950 875 50  0001 C CNN
+	1    5950 875 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -448,83 +427,83 @@ $EndComp
 $Comp
 L max_breakout-rescue:IRLML6402-Transistor_FET Q1
 U 1 1 5D3A98BA
-P 6650 2000
-F 0 "Q1" H 6856 1954 50  0000 L CNN
-F 1 "IRLML6402" H 6856 2045 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6850 1925 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 6650 2000 50  0001 L CNN
-F 4 "MOSFET MOSFT P-Ch -3.7A 65mOhm 8nC Log Lvl" H 6856 2054 50  0001 C CNN "Description"
-F 5 "Infineon" H 6856 2054 50  0001 C CNN "MFR"
-F 6 "RLML6402TRPBF" H 6856 2054 50  0001 C CNN "MPN"
-F 7 "942-IRLML6402TRPBF" H 6856 2054 50  0001 C CNN "SPN"
-F 8 "Mouser" H 6856 2054 50  0001 C CNN "SPR"
-F 9 "https://www.mouser.com/ProductDetail/Infineon-Technologies/IRLML6402TRPBF?qs=%2Fha2pyFaduhyxTHJ4eRB4FegYjf1EWZgmMv7Qs%2FAgAuBRgjmxZ22lvCgX2rvhwdI" H 6856 2054 50  0001 C CNN "SPURL"
-	1    6650 2000
+P 6850 1775
+F 0 "Q1" H 7056 1729 50  0000 L CNN
+F 1 "IRLML6402" H 7056 1820 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7050 1700 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 6850 1775 50  0001 L CNN
+F 4 "MOSFET MOSFT P-Ch -3.7A 65mOhm 8nC Log Lvl" H 7056 1829 50  0001 C CNN "Description"
+F 5 "Infineon" H 7056 1829 50  0001 C CNN "MFR"
+F 6 "RLML6402TRPBF" H 7056 1829 50  0001 C CNN "MPN"
+F 7 "942-IRLML6402TRPBF" H 7056 1829 50  0001 C CNN "SPN"
+F 8 "Mouser" H 7056 1829 50  0001 C CNN "SPR"
+F 9 "https://www.mouser.com/ProductDetail/Infineon-Technologies/IRLML6402TRPBF?qs=%2Fha2pyFaduhyxTHJ4eRB4FegYjf1EWZgmMv7Qs%2FAgAuBRgjmxZ22lvCgX2rvhwdI" H 7056 1829 50  0001 C CNN "SPURL"
+	1    6850 1775
 	1    0    0    1   
 $EndComp
 $Comp
 L Device:LED D2
 U 1 1 5D403063
-P 6750 2350
-F 0 "D2" V 6745 2475 50  0000 C CNN
-F 1 "Green" V 6630 2505 32  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6750 2350 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/216/APT1608SGC-32861.pdf" H 6750 2350 50  0001 C CNN
-F 4 "Standard LEDs - SMD GREEN WATER CLEAR" H 6745 2575 50  0001 C CNN "Description"
-F 5 "Kingbright" H 6745 2575 50  0001 C CNN "MFR"
-F 6 "APT1608SGC" H 6745 2575 50  0001 C CNN "MPN"
-F 7 "604-APT1608SGC" H 6745 2575 50  0001 C CNN "SPN"
-F 8 "Mouser" H 6745 2575 50  0001 C CNN "SPR"
-F 9 "https://www.mouser.com/ProductDetail/604-APT1608SGC" H 6745 2575 50  0001 C CNN "SPURL"
-	1    6750 2350
+P 6950 2125
+F 0 "D2" V 6945 2250 50  0000 C CNN
+F 1 "Green" V 6830 2280 32  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6950 2125 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/216/APT1608SGC-32861.pdf" H 6950 2125 50  0001 C CNN
+F 4 "Standard LEDs - SMD GREEN WATER CLEAR" H 6945 2350 50  0001 C CNN "Description"
+F 5 "Kingbright" H 6945 2350 50  0001 C CNN "MFR"
+F 6 "APT1608SGC" H 6945 2350 50  0001 C CNN "MPN"
+F 7 "604-APT1608SGC" H 6945 2350 50  0001 C CNN "SPN"
+F 8 "Mouser" H 6945 2350 50  0001 C CNN "SPR"
+F 9 "https://www.mouser.com/ProductDetail/604-APT1608SGC" H 6945 2350 50  0001 C CNN "SPURL"
+	1    6950 2125
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR014
 U 1 1 5D403069
-P 6750 2750
+P 6950 2525
 AR Path="/5D403069" Ref="#PWR014"  Part="1" 
 AR Path="/5CB63856/5D403069" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5D403069" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D403069" Ref="#PWR?"  Part="1" 
 AR Path="/5CF9C1ED/5D403069" Ref="#PWR?"  Part="1" 
-F 0 "#PWR014" H 6750 2500 50  0001 C CNN
-F 1 "GND" H 6750 2600 50  0000 C CNN
-F 2 "" H 6750 2750 50  0001 C CNN
-F 3 "" H 6750 2750 50  0001 C CNN
-	1    6750 2750
+F 0 "#PWR014" H 6950 2275 50  0001 C CNN
+F 1 "GND" H 6950 2375 50  0000 C CNN
+F 2 "" H 6950 2525 50  0001 C CNN
+F 3 "" H 6950 2525 50  0001 C CNN
+	1    6950 2525
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR011
 U 1 1 5D46458F
-P 6750 1800
-F 0 "#PWR011" H 6750 1650 50  0001 C CNN
-F 1 "VCC" H 6767 1973 50  0000 C CNN
-F 2 "" H 6750 1800 50  0001 C CNN
-F 3 "" H 6750 1800 50  0001 C CNN
-	1    6750 1800
+P 6950 1575
+F 0 "#PWR011" H 6950 1425 50  0001 C CNN
+F 1 "VCC" H 6967 1748 50  0000 C CNN
+F 2 "" H 6950 1575 50  0001 C CNN
+F 3 "" H 6950 1575 50  0001 C CNN
+	1    6950 1575
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5D47E16C
-P 6750 2600
+P 6950 2375
 AR Path="/5D0F9837/5D47E16C" Ref="R?"  Part="1" 
 AR Path="/5CFABACD/5D0BF766/5D47E16C" Ref="R?"  Part="1" 
 AR Path="/5D1AF052/5D47E16C" Ref="R?"  Part="1" 
 AR Path="/5D47E16C" Ref="R8"  Part="1" 
-F 0 "R8" V 6820 2525 50  0000 L CNN
-F 1 "360R" V 6750 2535 32  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6750 2600 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 6750 2600 50  0001 C CNN
-F 4 "Thick Film Resistors - SMD 360R 1% " H 6820 2625 50  0001 C CNN "Description"
-F 5 "Bourns" H 6820 2625 50  0001 C CNN "MFR"
-F 6 "CR0603-FX-3600ELF" H 6820 2625 50  0001 C CNN "MPN"
-F 7 "652-CR0603FX-3600ELF" H 6820 2625 50  0001 C CNN "SPN"
-F 8 "Mouser" H 6820 2625 50  0001 C CNN "SPR"
-F 9 "https://www.mouser.com/ProductDetail/Bourns/CR0603-FX-3600ELF?qs=%2Fha2pyFadugVmr2gairtN9B1GWTrTNpQrI6bd9wZKXHEvUtzW%252BuNXA%3D%3D" H 6820 2625 50  0001 C CNN "SPURL"
-	1    6750 2600
+F 0 "R8" V 7020 2300 50  0000 L CNN
+F 1 "360R" V 6950 2310 32  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6950 2375 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 6950 2375 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 360R 1% " H 7020 2400 50  0001 C CNN "Description"
+F 5 "Bourns" H 7020 2400 50  0001 C CNN "MFR"
+F 6 "CR0603-FX-3600ELF" H 7020 2400 50  0001 C CNN "MPN"
+F 7 "652-CR0603FX-3600ELF" H 7020 2400 50  0001 C CNN "SPN"
+F 8 "Mouser" H 7020 2400 50  0001 C CNN "SPR"
+F 9 "https://www.mouser.com/ProductDetail/Bourns/CR0603-FX-3600ELF?qs=%2Fha2pyFadugVmr2gairtN9B1GWTrTNpQrI6bd9wZKXHEvUtzW%252BuNXA%3D%3D" H 7020 2400 50  0001 C CNN "SPURL"
+	1    6950 2375
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -729,48 +708,48 @@ $EndComp
 $Comp
 L max_breakout-rescue:AVR-JTAG-10-Connector J?
 U 1 1 5D1C705F
-P 4850 1800
+P 5050 1575
 AR Path="/5D0F9837/5D1C705F" Ref="J?"  Part="1" 
 AR Path="/5CFABACD/5D0BF766/5D1C705F" Ref="J?"  Part="1" 
 AR Path="/5D1AF052/5D1C705F" Ref="J?"  Part="1" 
 AR Path="/5D1C705F" Ref="J3"  Part="1" 
-F 0 "J3" H 4890 1800 50  0000 R CNN
-F 1 "AVR-JTAG-10" H 4950 1700 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" V 4700 1950 50  0001 C CNN
-F 3 "~" H 3575 1250 50  0001 C CNN
-	1    4850 1800
+F 0 "J3" H 5090 1575 50  0000 R CNN
+F 1 "AVR-JTAG-10" H 5150 1475 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" V 4900 1725 50  0001 C CNN
+F 3 "~" H 3775 1025 50  0001 C CNN
+	1    5050 1575
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR05
 U 1 1 5D3805D3
-P 4750 1150
-F 0 "#PWR05" H 4750 1000 50  0001 C CNN
-F 1 "VCC" H 4767 1323 50  0000 C CNN
-F 2 "" H 4750 1150 50  0001 C CNN
-F 3 "" H 4750 1150 50  0001 C CNN
-	1    4750 1150
+P 4950 925
+F 0 "#PWR05" H 4950 775 50  0001 C CNN
+F 1 "VCC" H 4967 1098 50  0000 C CNN
+F 2 "" H 4950 925 50  0001 C CNN
+F 3 "" H 4950 925 50  0001 C CNN
+	1    4950 925 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5D42FF74
-P 6350 2000
+P 6550 1775
 AR Path="/5D0F9837/5D42FF74" Ref="R?"  Part="1" 
 AR Path="/5CFABACD/5D0BF766/5D42FF74" Ref="R?"  Part="1" 
 AR Path="/5D1AF052/5D42FF74" Ref="R?"  Part="1" 
 AR Path="/5D42FF74" Ref="R7"  Part="1" 
-F 0 "R7" V 6420 1925 50  0000 L CNN
-F 1 "100R" V 6350 1950 32  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6350 2000 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 6350 2000 50  0001 C CNN
-F 4 "Thick Film Resistors - SMD 100R OHM 1%" H 6420 2025 50  0001 C CNN "Description"
-F 5 "Bourns" H 6420 2025 50  0001 C CNN "MFR"
-F 6 "CR0603-FX-1000ELF" H 6420 2025 50  0001 C CNN "MPN"
-F 7 "652-CR0603FX-1000ELF" H 6420 2025 50  0001 C CNN "SPN"
-F 8 "Mouser" H 6420 2025 50  0001 C CNN "SPR"
-F 9 "https://www.mouser.com/ProductDetail/Bourns/CR0603-FX-1000ELF?qs=%2Fha2pyFadugdzJ7nlgcs%252BwhsibJGn8KsJ3rONp%2F%252Bc22AMZCLv8hDBYQlUDOS25Um" H 6420 2025 50  0001 C CNN "SPURL"
-	1    6350 2000
+F 0 "R7" V 6620 1700 50  0000 L CNN
+F 1 "100R" V 6550 1725 32  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6550 1775 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 6550 1775 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 100R OHM 1%" H 6620 1800 50  0001 C CNN "Description"
+F 5 "Bourns" H 6620 1800 50  0001 C CNN "MFR"
+F 6 "CR0603-FX-1000ELF" H 6620 1800 50  0001 C CNN "MPN"
+F 7 "652-CR0603FX-1000ELF" H 6620 1800 50  0001 C CNN "SPN"
+F 8 "Mouser" H 6620 1800 50  0001 C CNN "SPR"
+F 9 "https://www.mouser.com/ProductDetail/Bourns/CR0603-FX-1000ELF?qs=%2Fha2pyFadugdzJ7nlgcs%252BwhsibJGn8KsJ3rONp%2F%252Bc22AMZCLv8hDBYQlUDOS25Um" H 6620 1800 50  0001 C CNN "SPURL"
+	1    6550 1775
 	0    1    -1   0   
 $EndComp
 $Comp
@@ -1067,13 +1046,13 @@ F 3 "" H 3300 7050 50  0001 C CNN
 	1    3300 7050
 	1    0    0    -1  
 $EndComp
-Text Label 6050 1900 2    50   ~ 0
+Text Label 6250 1675 2    50   ~ 0
 TDO
-Text Label 6050 2000 2    50   ~ 0
+Text Label 6250 1775 2    50   ~ 0
 TDI
-Text Label 6050 1800 2    50   ~ 0
+Text Label 6250 1575 2    50   ~ 0
 TMS
-Text Label 6050 1700 2    50   ~ 0
+Text Label 6250 1475 2    50   ~ 0
 TCK
 Text Label 1950 1800 0    50   ~ 0
 CLK
@@ -1115,7 +1094,7 @@ Text Notes 600  4700 0    50   ~ 0
 USER GPIO
 Text Notes 1450 2090 0    50   ~ 0
 50Mhz Clock
-Text Notes 4415 745  0    50   ~ 0
+Text Notes 4415 670  0    50   ~ 0
 JTAG
 Text Label 3800 1300 0    50   ~ 0
 B17
@@ -1149,7 +1128,7 @@ Text Label 3800 2700 0    50   ~ 0
 B31
 Text Label 3800 2800 0    50   ~ 0
 B32
-Text Notes 6800 2400 0    50   ~ 0
+Text Notes 7000 2175 0    50   ~ 0
 JTAG Activity
 Text Label 8750 650  0    50   ~ 0
 A1
@@ -1316,41 +1295,33 @@ Wire Wire Line
 Wire Wire Line
 	9300 5650 9300 5700
 Wire Wire Line
-	4750 1200 4750 1150
+	4950 975  4950 950 
 Wire Wire Line
-	5350 1700 5550 1700
+	5550 1475 5750 1475
 Wire Wire Line
-	5350 1800 5650 1800
+	5550 1575 5850 1575
 Wire Wire Line
-	5350 1900 5750 1900
+	5550 1775 6050 1775
 Wire Wire Line
-	5350 2000 5850 2000
+	6050 1125 6050 1775
 Wire Wire Line
-	5850 1350 5850 2000
+	6050 1775 6450 1775
 Wire Wire Line
-	5850 2000 6250 2000
+	5850 1125 5850 1575
 Wire Wire Line
-	5750 1350 5750 1900
+	5850 1575 6450 1575
 Wire Wire Line
-	5750 1900 6250 1900
+	5750 1475 6450 1475
 Wire Wire Line
-	5650 1350 5650 1800
+	5750 2075 5750 2125
 Wire Wire Line
-	5650 1800 6250 1800
+	5850 925  5850 875 
 Wire Wire Line
-	5550 1700 6250 1700
+	5850 875  5950 875 
 Wire Wire Line
-	5550 2300 5550 2350
+	6050 875  6050 925 
 Wire Wire Line
-	5650 1150 5650 1100
-Wire Wire Line
-	5650 1100 5750 1100
-Wire Wire Line
-	5850 1100 5850 1150
-Wire Wire Line
-	5750 1150 5750 1100
-Wire Wire Line
-	5750 1100 5850 1100
+	5950 875  6050 875 
 Wire Wire Line
 	5600 3700 5800 3700
 Wire Wire Line
@@ -1494,7 +1465,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 2450 9900 2450
 Wire Wire Line
-	6750 2750 6750 2700
+	6950 2525 6950 2475
 Wire Wire Line
 	1650 5750 1650 5850
 Wire Wire Line
@@ -1578,11 +1549,10 @@ Connection ~ 3150 950
 Connection ~ 3200 950 
 Connection ~ 3150 3750
 Connection ~ 3250 3750
-Connection ~ 5850 2000
-Connection ~ 5750 1900
-Connection ~ 5650 1800
-Connection ~ 5550 1700
-Connection ~ 5750 1100
+Connection ~ 6050 1775
+Connection ~ 5850 1575
+Connection ~ 5750 1475
+Connection ~ 5950 875 
 Connection ~ 5800 3700
 Connection ~ 6000 3700
 Connection ~ 5800 3900
@@ -1600,8 +1570,8 @@ Connection ~ 1650 5850
 Connection ~ 1650 5950
 Connection ~ 1650 6050
 Connection ~ 1650 6650
-NoConn ~ 5350 1600
-NoConn ~ 4850 1200
+NoConn ~ 5550 1375
+NoConn ~ 5050 975 
 NoConn ~ 8300 5450
 NoConn ~ 8300 5550
 NoConn ~ 3800 6450
@@ -1621,7 +1591,7 @@ Wire Wire Line
 	8100 6150 8300 6150
 Wire Wire Line
 	8100 5900 8100 5850
-NoConn ~ 5350 1500
+NoConn ~ 5550 1275
 Wire Wire Line
 	2050 3100 2650 3100
 $Comp
@@ -1900,7 +1870,7 @@ F 3 "" H 8600 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5550 2100 5550 1700
+	5750 1875 5750 1475
 $Comp
 L power:+5V #PWR039
 U 1 1 5D6F8B53
@@ -2003,13 +1973,11 @@ F 3 "" H 8450 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	4300 600  7350 600 
+	4300 525  7350 525 
 Wire Notes Line
-	7350 600  7350 3050
+	7350 2825 4250 2825
 Wire Notes Line
-	7350 3050 4250 3050
-Wire Notes Line
-	4250 3050 4250 600 
+	4250 2975 4250 525 
 Wire Notes Line
 	600  600  4150 600 
 Wire Notes Line
@@ -2032,13 +2000,13 @@ $EndComp
 Wire Wire Line
 	9850 5250 10200 5250
 Wire Notes Line
-	7450 2850 11200 2850
+	7450 2775 11200 2775
 Wire Notes Line
 	11200 2850 11200 6550
 Wire Notes Line
 	11200 6550 7450 6550
 Wire Notes Line
-	7450 6550 7450 2850
+	7450 6475 7450 2775
 Text Notes 700  750  0    50   ~ 0
 MAX7000S CPLD
 Text Notes 7600 3000 0    50   ~ 0
@@ -2237,4 +2205,50 @@ F 3 "" H 850 4150 50  0001 C CNN
 	1    850  4150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5550 1675 6450 1675
+$Comp
+L Device:C_Small C?
+U 1 1 5D965A2E
+P 4450 1100
+AR Path="/5D65A6A0/5D965A2E" Ref="C?"  Part="1" 
+AR Path="/5D965A2E" Ref="C6"  Part="1" 
+F 0 "C6" H 4475 1150 50  0000 L CNN
+F 1 "100nF" H 4300 1150 32  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4450 1100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 4450 1100 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT .1uF 50V X7R 5%" H 4542 1246 50  0001 C CNN "Description"
+F 5 "Yageo" H 4450 1100 50  0001 C CNN "MFR"
+F 6 "CC0603JRX7R9BB104" H 4450 1100 50  0001 C CNN "MPN"
+F 7 "603-CC603JRX7R9BB104" H 4542 1246 50  0001 C CNN "SPN"
+F 8 "Mouser" H 4450 1100 50  0001 C CNN "SPR"
+F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 4542 1246 50  0001 C CNN "SPURL"
+	1    4450 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 5D98969B
+P 4450 1200
+AR Path="/5D98969B" Ref="#PWR021"  Part="1" 
+AR Path="/5CB63856/5D98969B" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5D98969B" Ref="#PWR?"  Part="1" 
+AR Path="/5CFABACD/5D98969B" Ref="#PWR?"  Part="1" 
+AR Path="/5D0F9837/5D98969B" Ref="#PWR?"  Part="1" 
+AR Path="/5CFABACD/5D0BF766/5D98969B" Ref="#PWR?"  Part="1" 
+AR Path="/5D1AF052/5D98969B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR021" H 4450 950 50  0001 C CNN
+F 1 "GND" H 4445 1070 50  0000 C CNN
+F 2 "" H 4450 1200 50  0001 C CNN
+F 3 "" H 4450 1200 50  0001 C CNN
+	1    4450 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 1000 4450 950 
+Wire Wire Line
+	4450 950  4950 950 
+Connection ~ 4950 950 
+Wire Wire Line
+	4950 950  4950 925 
 $EndSCHEMATC

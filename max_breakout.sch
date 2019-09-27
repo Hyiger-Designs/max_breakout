@@ -773,34 +773,10 @@ Text Label 2350 5750 0    50   ~ 0
 A7
 Text Label 2350 5850 0    50   ~ 0
 A8
-Text Label 6550 1600 0    50   ~ 0
-A1
-Text Label 6550 1700 0    50   ~ 0
-A2
-Text Label 6550 1800 0    50   ~ 0
-A3
-Text Label 6550 1900 0    50   ~ 0
-A5
-Text Label 6550 2000 0    50   ~ 0
-A6
-Text Label 6550 2100 0    50   ~ 0
-A7
 Text Label 6550 2200 0    50   ~ 0
 A8
 Text Label 6550 2300 0    50   ~ 0
 A10
-Text Label 6550 2400 0    50   ~ 0
-A11
-Text Label 6550 2500 0    50   ~ 0
-A12
-Text Label 6550 2600 0    50   ~ 0
-A13
-Text Label 6550 2700 0    50   ~ 0
-A14
-Text Label 6550 2800 0    50   ~ 0
-A15
-Text Label 6550 2900 0    50   ~ 0
-A16
 Text Label 6550 3150 0    50   ~ 0
 CLK
 Text Label 6550 3250 0    50   ~ 0
@@ -1018,33 +994,9 @@ Wire Wire Line
 Wire Wire Line
 	6800 5450 7000 5450
 Wire Wire Line
-	6750 1600 6500 1600
-Wire Wire Line
-	6750 1700 6500 1700
-Wire Wire Line
-	6750 1800 6500 1800
-Wire Wire Line
-	6750 1900 6500 1900
-Wire Wire Line
-	6750 2000 6500 2000
-Wire Wire Line
-	6750 2100 6500 2100
-Wire Wire Line
 	6750 2200 6500 2200
 Wire Wire Line
 	6750 2300 6500 2300
-Wire Wire Line
-	6750 2400 6500 2400
-Wire Wire Line
-	6750 2500 6500 2500
-Wire Wire Line
-	6750 2600 6500 2600
-Wire Wire Line
-	6750 2700 6500 2700
-Wire Wire Line
-	6750 2800 6500 2800
-Wire Wire Line
-	6750 2900 6500 2900
 Wire Wire Line
 	6600 5250 6800 5250
 Wire Wire Line
@@ -2112,4 +2064,52 @@ Wire Wire Line
 	10000 4350 9600 4350
 Wire Wire Line
 	10000 6250 9400 6250
+Wire Wire Line
+	6750 2100 6500 2100
+Wire Wire Line
+	6750 2000 6500 2000
+Wire Wire Line
+	6750 1900 6500 1900
+Wire Wire Line
+	6750 1800 6500 1800
+Text Label 6550 2100 0    50   ~ 0
+A7
+Text Label 6550 2000 0    50   ~ 0
+A6
+Text Label 6550 1900 0    50   ~ 0
+A5
+Text Label 6550 1800 0    50   ~ 0
+A3
+Wire Wire Line
+	6750 2900 6500 2900
+Wire Wire Line
+	6750 2800 6500 2800
+Wire Wire Line
+	6750 2700 6500 2700
+Wire Wire Line
+	6750 2600 6500 2600
+Text Label 6550 2900 0    50   ~ 0
+A16
+Text Label 6550 2800 0    50   ~ 0
+A15
+Text Label 6550 2700 0    50   ~ 0
+A14
+Text Label 6550 2600 0    50   ~ 0
+A13
+Wire Wire Line
+	6750 2500 6500 2500
+Wire Wire Line
+	6750 2400 6500 2400
+Text Label 6550 2500 0    50   ~ 0
+A12
+Text Label 6550 2400 0    50   ~ 0
+A11
+Wire Wire Line
+	6750 1700 6500 1700
+Wire Wire Line
+	6750 1600 6500 1600
+Text Label 6550 1700 0    50   ~ 0
+A2
+Text Label 6550 1600 0    50   ~ 0
+A1
 $EndSCHEMATC

@@ -653,37 +653,37 @@ Text Label 8350 3250 0    50   ~ 0
 TMS
 Text Label 8350 3150 0    50   ~ 0
 TCK
-Text Label 9800 4750 0    50   ~ 0
-B22
-Text Label 9800 4650 0    50   ~ 0
-B21
-Text Label 9800 5150 0    50   ~ 0
-B24
-Text Label 9800 5050 0    50   ~ 0
-B23
-Text Label 9800 5250 0    50   ~ 0
-B26
-Text Label 9800 5450 0    50   ~ 0
-B28
-Text Label 9800 5550 0    50   ~ 0
-B29
-Text Label 9800 5350 0    50   ~ 0
-B27
-Text Label 9850 5950 0    50   ~ 0
-~RST
 Text Label 9800 4850 0    50   ~ 0
-OE1
-Text Label 9800 4450 0    50   ~ 0
-B18
-Text Label 9800 4350 0    50   ~ 0
-B17
-Text Label 9800 4550 0    50   ~ 0
-B19
+B22
+Text Label 9800 4750 0    50   ~ 0
+B21
+Text Label 9800 5250 0    50   ~ 0
+B24
+Text Label 9800 5150 0    50   ~ 0
+B23
+Text Label 9800 5350 0    50   ~ 0
+B26
+Text Label 9800 5550 0    50   ~ 0
+B28
 Text Label 9800 5650 0    50   ~ 0
-B30
+B29
+Text Label 9800 5450 0    50   ~ 0
+B27
+Text Label 9850 6050 0    50   ~ 0
+~RST
+Text Label 9800 4950 0    50   ~ 0
+OE1
+Text Label 9800 4550 0    50   ~ 0
+B18
+Text Label 9800 4450 0    50   ~ 0
+B17
+Text Label 9800 4650 0    50   ~ 0
+B19
 Text Label 9800 5750 0    50   ~ 0
-B31
+B30
 Text Label 9800 5850 0    50   ~ 0
+B31
+Text Label 9800 5950 0    50   ~ 0
 B32
 Text Notes 650  4700 0    50   ~ 0
 USER GPIO
@@ -757,7 +757,7 @@ Text Label 8550 6050 0    50   ~ 0
 TDI
 Text Label 8550 6250 0    50   ~ 0
 GND
-Text Label 9800 4950 0    50   ~ 0
+Text Label 9800 5050 0    50   ~ 0
 CLK2
 Text Label 3750 5250 0    50   ~ 0
 A1
@@ -950,15 +950,13 @@ Wire Wire Line
 Wire Wire Line
 	8400 5350 8700 5350
 Wire Wire Line
-	10000 4850 9700 4850
-Wire Wire Line
-	10000 5950 9700 5950
-Wire Wire Line
 	10000 4950 9700 4950
+Wire Wire Line
+	10000 6050 9700 6050
 Wire Wire Line
 	10000 5050 9700 5050
 Wire Wire Line
-	10000 4350 9700 4350
+	10000 5150 9700 5150
 Wire Wire Line
 	10000 4450 9700 4450
 Wire Wire Line
@@ -968,7 +966,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 4750 9700 4750
 Wire Wire Line
-	10000 5150 9700 5150
+	10000 4850 9700 4850
 Wire Wire Line
 	10000 5250 9700 5250
 Wire Wire Line
@@ -983,6 +981,8 @@ Wire Wire Line
 	10000 5750 9700 5750
 Wire Wire Line
 	10000 5850 9700 5850
+Wire Wire Line
+	10000 5950 9700 5950
 Wire Wire Line
 	1500 5250 1500 5350
 Wire Wire Line
@@ -1490,12 +1490,12 @@ $EndComp
 $Comp
 L power:+3V3 #PWR0116
 U 1 1 5DF3F6ED
-P 9600 6050
-F 0 "#PWR0116" H 9600 5900 50  0001 C CNN
-F 1 "+3V3" H 9615 6223 50  0000 C CNN
-F 2 "" H 9600 6050 50  0001 C CNN
-F 3 "" H 9600 6050 50  0001 C CNN
-	1    9600 6050
+P 9600 4350
+F 0 "#PWR0116" H 9600 4200 50  0001 C CNN
+F 1 "+3V3" H 9615 4523 50  0000 C CNN
+F 2 "" H 9600 4350 50  0001 C CNN
+F 3 "" H 9600 4350 50  0001 C CNN
+	1    9600 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1686,7 +1686,7 @@ Wire Wire Line
 	9650 2625 9650 2650
 Text Label 9700 6150 0    50   ~ 0
 5V_out
-Text Label 9700 6050 0    50   ~ 0
+Text Label 9700 4350 0    50   ~ 0
 3V3_out
 Text Label 8450 6150 0    50   ~ 0
 5V_out
@@ -2083,17 +2083,17 @@ Wire Notes Line
 Wire Notes Line
 	4900 4200 4900 750 
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 5DDB1BEF
 P 7450 4000
-AR Path="/5DDB1BEF" Ref="#PWR?"  Part="1" 
+AR Path="/5DDB1BEF" Ref="#PWR0103"  Part="1" 
 AR Path="/5CB63856/5DDB1BEF" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5DDB1BEF" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5DDB1BEF" Ref="#PWR?"  Part="1" 
 AR Path="/5D0F9837/5DDB1BEF" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D0BF766/5DDB1BEF" Ref="#PWR?"  Part="1" 
 AR Path="/5D1AF052/5DDB1BEF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7450 3750 50  0001 C CNN
+F 0 "#PWR0103" H 7450 3750 50  0001 C CNN
 F 1 "GND" H 7455 3827 50  0000 C CNN
 F 2 "" H 7450 4000 50  0001 C CNN
 F 3 "" H 7450 4000 50  0001 C CNN
@@ -2109,7 +2109,7 @@ Wire Notes Line
 Wire Notes Line
 	600  7250 600  4550
 Wire Wire Line
-	10000 6050 9600 6050
+	10000 4350 9600 4350
 Wire Wire Line
 	10000 6250 9400 6250
 $EndSCHEMATC

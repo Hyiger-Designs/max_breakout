@@ -1424,17 +1424,6 @@ Text GLabel 3200 3250 2    50   Output ~ 0
 3V3
 Wire Wire Line
 	3000 3250 3200 3250
-$Comp
-L power:VCC #PWR01
-U 1 1 5DCCA04E
-P 850 3250
-F 0 "#PWR01" H 850 3100 50  0001 C CNN
-F 1 "VCC" H 867 3423 50  0000 C CNN
-F 2 "" H 850 3250 50  0001 C CNN
-F 3 "" H 850 3250 50  0001 C CNN
-	1    850  3250
-	1    0    0    -1  
-$EndComp
 Connection ~ 3000 3650
 Connection ~ 3000 3250
 Wire Wire Line
@@ -1880,10 +1869,10 @@ F 3 "" H 3400 6550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW?
+L Switch:SW_Push SW2
 U 1 1 5E085912
 P 4850 3350
-F 0 "SW?" V 4804 3498 50  0000 L CNN
+F 0 "SW2" V 4804 3498 50  0000 L CNN
 F 1 "Reset" V 4895 3498 50  0000 L CNN
 F 2 "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" H 4850 3550 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/15/SKRK-1370789.pdf" H 4850 3550 50  0001 C CNN
@@ -1901,8 +1890,8 @@ L Device:C_Small C?
 U 1 1 5E08591E
 P 5150 3350
 AR Path="/5D65A6A0/5E08591E" Ref="C?"  Part="1" 
-AR Path="/5E08591E" Ref="C?"  Part="1" 
-F 0 "C?" H 5200 3450 50  0000 L CNN
+AR Path="/5E08591E" Ref="C20"  Part="1" 
+F 0 "C20" H 5200 3450 50  0000 L CNN
 F 1 "10nF" H 5250 3350 32  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5150 3350 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 5150 3350 50  0001 C CNN
@@ -1916,15 +1905,15 @@ F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 5242 3496 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR014
 U 1 1 5E085924
 P 5150 3600
-AR Path="/5E085924" Ref="#PWR?"  Part="1" 
+AR Path="/5E085924" Ref="#PWR014"  Part="1" 
 AR Path="/5D0F9837/5E085924" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5E085924" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5CFFC458/5E085924" Ref="#PWR?"  Part="1" 
 AR Path="/5D65A6A0/5E085924" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5150 3350 50  0001 C CNN
+F 0 "#PWR014" H 5150 3350 50  0001 C CNN
 F 1 "GND" H 5153 3459 50  0000 C CNN
 F 2 "" H 5150 3600 50  0001 C CNN
 F 3 "" H 5150 3600 50  0001 C CNN
@@ -1950,8 +1939,8 @@ P 5150 2800
 AR Path="/5D0F9837/5E08593E" Ref="R?"  Part="1" 
 AR Path="/5CFABACD/5D0BF766/5E08593E" Ref="R?"  Part="1" 
 AR Path="/5D1AF052/5E08593E" Ref="R?"  Part="1" 
-AR Path="/5E08593E" Ref="R?"  Part="1" 
-F 0 "R?" H 5200 2800 50  0000 L CNN
+AR Path="/5E08593E" Ref="R10"  Part="1" 
+F 0 "R10" H 5200 2800 50  0000 L CNN
 F 1 "10K" V 5150 2750 32  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5150 2800 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 5150 2800 50  0001 C CNN
@@ -1965,10 +1954,10 @@ F 9 "https://www.mouser.com/ProductDetail/Bourns/CR0603-FX-1002ELF?qs=%2Fha2pyFa
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR013
 U 1 1 5E085944
 P 5150 2700
-F 0 "#PWR?" H 5150 2550 50  0001 C CNN
+F 0 "#PWR013" H 5150 2550 50  0001 C CNN
 F 1 "VCC" H 5167 2873 50  0000 C CNN
 F 2 "" H 5150 2700 50  0001 C CNN
 F 3 "" H 5150 2700 50  0001 C CNN
@@ -1981,4 +1970,6 @@ Wire Wire Line
 	5150 3150 6550 3150
 Wire Wire Line
 	1450 5050 2100 5050
+Text GLabel 850  3250 0    50   Input ~ 0
+5V
 $EndSCHEMATC

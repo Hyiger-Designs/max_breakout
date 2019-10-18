@@ -1,4 +1,4 @@
-191649673975606
+192576041872606
 Package_TO_SOT_SMD
 ATPAK-2
 ATPAK SMD package, http://www.onsemi.com/pub/Collateral/ENA2192-D.PDF
@@ -22,10 +22,10 @@ SOT-553
 5
 Package_TO_SOT_SMD
 HVSOF5
-HVSOF5, http://rohmfs.rohm.com/en/techdata_basic/ic/package/hvsof5_1-e.pdf, http://rohmfs.rohm.com/en/products/databook/datasheet/ic/sensor/hall/bu52001gul-e.pdf
+HVSOF5, http://rohmfs.rohm.com/en/techdata_basic/ic/package/hvsof5_1-e.pdf
 HVSOF5
 0
-5
+9
 5
 Package_TO_SOT_SMD
 HVSOF6
@@ -533,10 +533,17 @@ SuperSOT-8 SSOT-8
 8
 Package_TO_SOT_SMD
 TDSON-8-1
-Power MOSFET package, TDSON-8-1, 5.15x5.9mm (https://www.infineon.com/cms/en/product/packages/PG-TDSON/PG-TDSON-8-1/)
+Power MOSFET package, TDSON-8-1, SuperS08, SON-8_5x6mm
 tdson 
 0
-14
+13
+5
+Package_TO_SOT_SMD
+TDSON-8-1_HandSoldering
+Power MOSFET package, TDSON-8-1, SuperS08, SON-8_5x6mm
+tdson 
+0
+13
 5
 Package_TO_SOT_SMD
 TO-50-3_LongPad-NoHole_Housing
@@ -743,8 +750,8 @@ TO-269AA MBS diode bridge
 4
 Package_TO_SOT_SMD
 TO-277A
-Thermal enhanced ultra thin SMD package; 3 leads; body: 4.3x6.1x0.43mm, https://www.vishay.com/docs/95570/to-277asmpc.pdf
-TO-277A SMPC
+Thermal enhanced ultra thin SMD package; 3 leads; body: 5.8 x 4.3 x 0.78 mm
+TO-277A SOT-1289
 0
 12
 3

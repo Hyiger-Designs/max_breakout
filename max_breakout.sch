@@ -1679,7 +1679,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 4800 4000 5150
 $Comp
-L 74xx:74HCT125 U5
+L max_breakout-rescue:74HCT125-74xx U5
 U 1 1 5DC225A3
 P 3700 6550
 F 0 "U5" H 3650 6550 50  0000 C CNN
@@ -1690,7 +1690,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 3700 6550 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 74xx:74HCT125 U5
+L max_breakout-rescue:74HCT125-74xx U5
 U 2 1 5DC23D6E
 P 3700 5900
 F 0 "U5" H 3650 5900 50  0000 C CNN
@@ -1701,7 +1701,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 3700 5900 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 74xx:74HCT125 U5
+L max_breakout-rescue:74HCT125-74xx U5
 U 3 1 5DC25608
 P 3700 5350
 F 0 "U5" H 3650 5350 50  0000 C CNN
@@ -1712,7 +1712,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 3700 5350 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 74xx:74HCT125 U5
+L max_breakout-rescue:74HCT125-74xx U5
 U 5 1 5DC27C9E
 P 4500 6300
 F 0 "U5" H 4730 6346 50  0000 L CNN
@@ -1723,7 +1723,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 4500 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT125 U5
+L max_breakout-rescue:74HCT125-74xx U5
 U 4 1 5DC267C8
 P 3700 4800
 F 0 "U5" H 3700 5117 50  0000 C CNN

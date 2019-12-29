@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:max_breakout-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1430,8 +1429,6 @@ Wire Wire Line
 	3000 3350 3000 3250
 Wire Wire Line
 	3000 3650 3000 3550
-Wire Wire Line
-	2600 3650 3000 3650
 $Comp
 L Device:C_Small C11
 U 1 1 5DA119F5
@@ -1443,13 +1440,10 @@ F 3 "~" H 3000 3450 50  0001 C CNN
 	1    3000 3450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2200 3650 2600 3650
 Connection ~ 2200 3650
 Wire Wire Line
 	1800 3650 2200 3650
 Connection ~ 1800 3650
-Connection ~ 2600 3650
 Wire Wire Line
 	1050 3650 1800 3650
 $Comp
@@ -1474,15 +1468,6 @@ Wire Wire Line
 	850  3250 1050 3250
 Wire Wire Line
 	2200 3650 2200 3550
-Wire Wire Line
-	2600 3250 3000 3250
-Connection ~ 2600 3250
-Wire Wire Line
-	2600 3350 2600 3250
-Wire Wire Line
-	2600 3650 2600 3550
-Wire Wire Line
-	2200 3250 2600 3250
 Connection ~ 1300 3250
 Wire Wire Line
 	1300 3250 1400 3250
@@ -1521,17 +1506,6 @@ F 1 "1uF" H 1142 3405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1050 3450 50  0001 C CNN
 F 3 "~" H 1050 3450 50  0001 C CNN
 	1    1050 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C9
-U 1 1 5DDD40A1
-P 2600 3450
-F 0 "C9" H 2692 3496 50  0000 L CNN
-F 1 "2.2uF" H 2692 3405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2600 3450 50  0001 C CNN
-F 3 "~" H 2600 3450 50  0001 C CNN
-	1    2600 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1591,20 +1565,6 @@ Connection ~ 2200 2750
 Wire Wire Line
 	2200 2750 2200 2650
 Wire Wire Line
-	2600 2350 3000 2350
-Wire Wire Line
-	2600 2450 2600 2350
-Wire Wire Line
-	2600 2750 3000 2750
-Wire Wire Line
-	2200 2750 2600 2750
-Connection ~ 2600 2750
-Wire Wire Line
-	2600 2750 2600 2650
-Connection ~ 2600 2350
-Wire Wire Line
-	2200 2350 2600 2350
-Wire Wire Line
 	1050 2350 1300 2350
 Wire Wire Line
 	1300 2350 1400 2350
@@ -1647,17 +1607,6 @@ F 3 "~" H 1050 2550 50  0001 C CNN
 	1    1050 2550
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C8
-U 1 1 5DACB41C
-P 2600 2550
-F 0 "C8" H 2692 2596 50  0000 L CNN
-F 1 "2.2uF" H 2692 2505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2600 2550 50  0001 C CNN
-F 3 "~" H 2600 2550 50  0001 C CNN
-	1    2600 2550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1800 2750 2200 2750
 Wire Wire Line
@@ -1679,7 +1628,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 4800 4000 5150
 $Comp
-L 74xx:74HCT125 U5
+L max_breakout-rescue:74HCT125-74xx U5
 U 1 1 5DC225A3
 P 3700 6550
 F 0 "U5" H 3650 6550 50  0000 C CNN
@@ -1690,7 +1639,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 3700 6550 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 74xx:74HCT125 U5
+L max_breakout-rescue:74HCT125-74xx U5
 U 2 1 5DC23D6E
 P 3700 5900
 F 0 "U5" H 3650 5900 50  0000 C CNN
@@ -1701,7 +1650,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 3700 5900 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 74xx:74HCT125 U5
+L max_breakout-rescue:74HCT125-74xx U5
 U 3 1 5DC25608
 P 3700 5350
 F 0 "U5" H 3650 5350 50  0000 C CNN
@@ -1712,7 +1661,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 3700 5350 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 74xx:74HCT125 U5
+L max_breakout-rescue:74HCT125-74xx U5
 U 5 1 5DC27C9E
 P 4500 6300
 F 0 "U5" H 4730 6346 50  0000 L CNN
@@ -1723,7 +1672,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 4500 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT125 U5
+L max_breakout-rescue:74HCT125-74xx U5
 U 4 1 5DC267C8
 P 3700 4800
 F 0 "U5" H 3700 5117 50  0000 C CNN
@@ -1972,4 +1921,12 @@ Wire Wire Line
 	1450 5050 2100 5050
 Text GLabel 850  3250 0    50   Input ~ 0
 5V
+Wire Wire Line
+	2200 2350 3000 2350
+Wire Wire Line
+	2200 2750 3000 2750
+Wire Wire Line
+	2200 3650 3000 3650
+Wire Wire Line
+	2200 3250 3000 3250
 $EndSCHEMATC

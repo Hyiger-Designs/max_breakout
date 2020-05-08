@@ -1,4 +1,4 @@
-192576041872606
+193834179623606
 Package_TO_SOT_SMD
 ATPAK-2
 ATPAK SMD package, http://www.onsemi.com/pub/Collateral/ENA2192-D.PDF
@@ -22,10 +22,10 @@ SOT-553
 5
 Package_TO_SOT_SMD
 HVSOF5
-HVSOF5, http://rohmfs.rohm.com/en/techdata_basic/ic/package/hvsof5_1-e.pdf
+HVSOF5, http://rohmfs.rohm.com/en/techdata_basic/ic/package/hvsof5_1-e.pdf, http://rohmfs.rohm.com/en/products/databook/datasheet/ic/sensor/hall/bu52001gul-e.pdf
 HVSOF5
 0
-9
+5
 5
 Package_TO_SOT_SMD
 HVSOF6
@@ -67,28 +67,14 @@ LFPAK33
 LFPAK33 SOT-1210 https://assets.nexperia.com/documents/outline-drawing/SOT1210.pdf
 LFPAK33 SOT-1210
 0
-21
+17
 5
 Package_TO_SOT_SMD
 LFPAK56
 LFPAK56 https://assets.nexperia.com/documents/outline-drawing/SOT669.pdf
 LFPAK56 SOT-669 Power-SO8
 0
-19
-5
-Package_TO_SOT_SMD
-LFPAK56_ThermalVias-1
-LFPAK56 https://assets.nexperia.com/documents/outline-drawing/SOT669.pdf
-LFPAK56 SOT669 Thermal Vias 0.4mm Power-SO8
-0
-63
-5
-Package_TO_SOT_SMD
-LFPAK56_ThermalVias-2
-LFPAK56 https://assets.nexperia.com/documents/outline-drawing/SOT669.pdf
-LFPAK56 SOT669 Thermical Vias Power-SO8
-0
-30
+18
 5
 Package_TO_SOT_SMD
 OnSemi_ECH8
@@ -99,10 +85,10 @@ ECH8 SOT28-FL SOT-28-FL
 8
 Package_TO_SOT_SMD
 PQFN_8x8
-Low profile 8x8mm PQFN package e.g. https://www.fairchildsemi.com/datasheets/FD/FDMT80080DC.pdf
+Low Profile 8x8mm PQFN, Dual Cool 88, https://www.onsemi.com/pub/Collateral/FDMT80080DC-D.pdf
 pqfn vdfn mosfet
 0
-16
+9
 3
 Package_TO_SOT_SMD
 PowerMacro_M234_NoHole
@@ -253,31 +239,31 @@ SOT-23
 3
 Package_TO_SOT_SMD
 SOT-89-3
-SOT-89-3
+SOT-89-3, http://ww1.microchip.com/downloads/en/DeviceDoc/3L_SOT-89_MB_C04-029C.pdf
 SOT-89-3
 0
-6
+3
 3
 Package_TO_SOT_SMD
 SOT-89-3_Handsoldering
 SOT-89-3 Handsoldering
 SOT-89-3 Handsoldering
 0
-5
+3
 3
 Package_TO_SOT_SMD
 SOT-89-5
-SOT-89-5, Housing,http://www.e-devices.ricoh.co.jp/en/products/product_power/pkg/sot-89-5.pdf
-SOT-89-5 Housing 
+SOT-89-5, http://www.e-devices.ricoh.co.jp/en/products/product_power/pkg/sot-89-5.pdf
+SOT-89-5
 0
-9
+5
 5
 Package_TO_SOT_SMD
 SOT-89-5_Handsoldering
-SOT89-5, Housing,http://www.e-devices.ricoh.co.jp/en/products/product_power/pkg/sot-89-5.pdf
-SOT89-5 Housing 
+SOT-89-5, http://www.e-devices.ricoh.co.jp/en/products/product_power/pkg/sot-89-5.pdf
+SOT-89-5
 0
-9
+5
 5
 Package_TO_SOT_SMD
 SOT-143
@@ -427,6 +413,13 @@ SOT-416
 3
 3
 Package_TO_SOT_SMD
+SOT-523
+SOT523, https://www.diodes.com/assets/Package-Files/SOT523.pdf
+SOT-523
+0
+3
+3
+Package_TO_SOT_SMD
 SOT-543
 SOT-543 4 lead surface package
 SOT-543 SC-107A EMD4
@@ -533,17 +526,10 @@ SuperSOT-8 SSOT-8
 8
 Package_TO_SOT_SMD
 TDSON-8-1
-Power MOSFET package, TDSON-8-1, SuperS08, SON-8_5x6mm
+Power MOSFET package, TDSON-8-1, 5.15x5.9mm (https://www.infineon.com/cms/en/product/packages/PG-TDSON/PG-TDSON-8-1/)
 tdson 
 0
-13
-5
-Package_TO_SOT_SMD
-TDSON-8-1_HandSoldering
-Power MOSFET package, TDSON-8-1, SuperS08, SON-8_5x6mm
-tdson 
-0
-13
+14
 5
 Package_TO_SOT_SMD
 TO-50-3_LongPad-NoHole_Housing
@@ -750,8 +736,8 @@ TO-269AA MBS diode bridge
 4
 Package_TO_SOT_SMD
 TO-277A
-Thermal enhanced ultra thin SMD package; 3 leads; body: 5.8 x 4.3 x 0.78 mm
-TO-277A SOT-1289
+Thermal enhanced ultra thin SMD package; 3 leads; body: 4.3x6.1x0.43mm, https://www.vishay.com/docs/95570/to-277asmpc.pdf
+TO-277A SMPC
 0
 12
 3
@@ -826,6 +812,13 @@ DRT-3 1x0.8mm Pitch 0.7mm
 3
 3
 Package_TO_SOT_SMD
+Texas_NDQ
+Texas Instruments, NDQ, 5 pin (https://www.ti.com/lit/ml/mmsf022/mmsf022.pdf)
+ti pfm dap
+0
+6
+6
+Package_TO_SOT_SMD
 Texas_NDY0011A
 TO-PMOD-11 11-pin switching regulator package, http://www.ti.com/lit/ml/mmsf025/mmsf025.pdf
 Texas TO-PMOD NDY00011A
@@ -858,5 +851,5 @@ Vishay_PowerPAK_SC70-6L_Single
 Vishay PowerPAK SC70 single transistor package http://www.vishay.com/docs/70486/70486.pdf
 powerpak sc70 sc-70
 0
-10
+6
 3

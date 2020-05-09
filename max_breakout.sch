@@ -287,7 +287,7 @@ P 1800 1100
 AR Path="/5D65A6A0/5D39F958" Ref="C?"  Part="1" 
 AR Path="/5D39F958" Ref="C1"  Part="1" 
 F 0 "C1" H 1892 1146 50  0000 L CNN
-F 1 ".33uF" H 1892 1055 32  0000 L CNN
+F 1 "1uF" H 1892 1055 32  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1800 1100 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 1800 1100 50  0001 C CNN
 F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 6.3V 0.33uF 10% X7R" H 1892 1246 50  0001 C CNN "Description"
@@ -733,7 +733,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 4950 9400 4950
 Wire Wire Line
-	9700 6050 9400 6050
+	9700 6250 9400 6250
 Wire Wire Line
 	9700 5050 9400 5050
 Wire Wire Line
@@ -911,7 +911,7 @@ F 3 "" H 10750 2675 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9700 6150 9400 6150
+	9700 6050 9400 6050
 Wire Wire Line
 	900  1600 900  1550
 Wire Wire Line
@@ -1125,9 +1125,9 @@ Wire Notes Line
 	4500 550  4500 4050
 Text GLabel 3450 950  2    50   Output ~ 0
 Vin
-Text GLabel 9400 6050 0    50   Input ~ 0
+Text GLabel 9400 6250 0    50   Input ~ 0
 Vin
-Text GLabel 9400 6150 0    50   Output ~ 0
+Text GLabel 9400 6050 0    50   Output ~ 0
 5V
 Text GLabel 8100 6150 0    50   Output ~ 0
 5V
@@ -1221,8 +1221,8 @@ L Device:C_Small C11
 U 1 1 5DA119F5
 P 3000 3450
 F 0 "C11" H 3100 3500 50  0000 L CNN
-F 1 "100uF" H 3100 3400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3000 3450 50  0001 C CNN
+F 1 "2.2uF" H 3100 3400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3000 3450 50  0001 C CNN
 F 3 "~" H 3000 3450 50  0001 C CNN
 	1    3000 3450
 	1    0    0    -1  
@@ -1267,7 +1267,7 @@ L Device:C_Small C10
 U 1 1 5DDD40C0
 P 2200 3450
 F 0 "C10" H 2292 3496 50  0000 L CNN
-F 1 "10nF" H 2292 3405 50  0000 L CNN
+F 1 "100nF" H 2292 3405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2200 3450 50  0001 C CNN
 F 3 "~" H 2200 3450 50  0001 C CNN
 	1    2200 3450
@@ -1335,8 +1335,8 @@ L Device:C_Small C6
 U 1 1 5DACB455
 P 3000 2550
 F 0 "C6" H 3100 2600 50  0000 L CNN
-F 1 "100uF" H 3100 2500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3000 2550 50  0001 C CNN
+F 1 "2.2uF" H 3100 2500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3000 2550 50  0001 C CNN
 F 3 "~" H 3000 2550 50  0001 C CNN
 	1    3000 2550
 	1    0    0    -1  
@@ -1365,7 +1365,7 @@ L Device:C_Small C5
 U 1 1 5DACB42E
 P 2200 2550
 F 0 "C5" H 2292 2596 50  0000 L CNN
-F 1 "10nF" H 2292 2505 50  0000 L CNN
+F 1 "100nF" H 2292 2505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2200 2550 50  0001 C CNN
 F 3 "~" H 2200 2550 50  0001 C CNN
 	1    2200 2550
@@ -1796,24 +1796,24 @@ Text Label 9500 5950 0    50   ~ 0
 PB1
 Text Label 9500 4950 0    50   ~ 0
 CLK
-Text Label 9550 6250 0    50   ~ 0
+Text Label 9550 6150 0    50   ~ 0
 GND
 Wire Wire Line
-	9700 6250 9250 6250
+	9700 6150 9050 6150
 $Comp
 L power:GND #PWR031
 U 1 1 5F0609D2
-P 9250 6250
+P 9050 6150
 AR Path="/5F0609D2" Ref="#PWR031"  Part="1" 
 AR Path="/5D0F9837/5F0609D2" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5F0609D2" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5CFFC458/5F0609D2" Ref="#PWR?"  Part="1" 
 AR Path="/5D65A6A0/5F0609D2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR031" H 9250 6000 50  0001 C CNN
-F 1 "GND" H 9255 6077 50  0000 C CNN
-F 2 "" H 9250 6250 50  0001 C CNN
-F 3 "" H 9250 6250 50  0001 C CNN
-	1    9250 6250
+F 0 "#PWR031" H 9050 5900 50  0001 C CNN
+F 1 "GND" H 9055 5977 50  0000 C CNN
+F 2 "" H 9050 6150 50  0001 C CNN
+F 3 "" H 9050 6150 50  0001 C CNN
+	1    9050 6150
 	1    0    0    -1  
 $EndComp
 $Comp

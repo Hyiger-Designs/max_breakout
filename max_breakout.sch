@@ -524,7 +524,7 @@ Text Label 9500 5850 0    50   ~ 0
 B31
 Text Notes 700  4450 0    50   ~ 0
 USER GPIO
-Text Notes 5450 2550 0    50   ~ 0
+Text Notes 5300 2550 0    50   ~ 0
 50Mhz Clock
 Text Notes 10050 2550 2    50   ~ 0
 JTAG
@@ -2127,5 +2127,42 @@ Connection ~ 5400 2950
 Wire Wire Line
 	5400 2950 5400 3000
 Wire Wire Line
-	5950 2950 6850 2950
+	5950 2950 6100 2950
+$Comp
+L Device:R_Small R?
+U 1 1 5EB86C95
+P 6100 2600
+AR Path="/5D0F9837/5EB86C95" Ref="R?"  Part="1" 
+AR Path="/5CFABACD/5D0BF766/5EB86C95" Ref="R?"  Part="1" 
+AR Path="/5D1AF052/5EB86C95" Ref="R?"  Part="1" 
+AR Path="/5EB86C95" Ref="R17"  Part="1" 
+F 0 "R17" H 6150 2600 50  0000 L CNN
+F 1 "10K" V 6100 2550 32  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6100 2600 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 6100 2600 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 10K OHM 1%" H 6100 2800 50  0001 C CNN "Description"
+F 5 "Bourns" H 6100 2800 50  0001 C CNN "MFR"
+F 6 "CR0603-FX-1002ELF" H 6100 2800 50  0001 C CNN "MPN"
+F 7 "652-CR0603FX-1002ELF" H 6100 2800 50  0001 C CNN "SPN"
+F 8 "Mouser" H 6100 2800 50  0001 C CNN "SPR"
+F 9 "https://www.mouser.com/ProductDetail/Bourns/CR0603-FX-1002ELF?qs=%2Fha2pyFadugVmr2gairtN7QOhA7v8%2FIyn%2F6JFX3D8auJGt%2FYJ41PlQ%3D%3D" H 6100 2800 50  0001 C CNN "SPURL"
+	1    6100 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR037
+U 1 1 5EB86C9B
+P 6100 2500
+F 0 "#PWR037" H 6100 2350 50  0001 C CNN
+F 1 "VCC" H 6117 2673 50  0000 C CNN
+F 2 "" H 6100 2500 50  0001 C CNN
+F 3 "" H 6100 2500 50  0001 C CNN
+	1    6100 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2700 6100 2950
+Connection ~ 6100 2950
+Wire Wire Line
+	6100 2950 6850 2950
 $EndSCHEMATC

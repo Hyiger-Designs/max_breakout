@@ -17,3 +17,9 @@
 *.zip
 
 gerbers/
+
+bom/
+
+*.csv
+
+*.xml

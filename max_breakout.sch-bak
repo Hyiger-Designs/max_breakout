@@ -1318,7 +1318,7 @@ F 3 "~" H 8600 5250 50  0001 C CNN
 	1    8600 5250
 	1    0    0    -1  
 $EndComp
-Text Label 9500 4850 0    50   ~ 0
+Text Label 9500 4350 0    50   ~ 0
 5V
 Text Label 8150 4650 0    50   ~ 0
 PMOD4
@@ -1348,17 +1348,17 @@ Text Label 8250 4850 0    50   ~ 0
 3V3
 Text Notes 9400 6350 0    50   ~ 0
 6V-16V
-Text Label 9500 4450 0    50   ~ 0
+Text Label 9500 4950 0    50   ~ 0
 B18
-Text Label 9500 5150 0    50   ~ 0
+Text Label 9500 4550 0    50   ~ 0
 GCLRn
-Text Label 9500 5050 0    50   ~ 0
+Text Label 9500 4650 0    50   ~ 0
 OE1
 Wire Wire Line
 	9400 5150 9700 5150
 Wire Wire Line
 	9400 5250 9700 5250
-Text Label 9500 4950 0    50   ~ 0
+Text Label 9500 4750 0    50   ~ 0
 CLK
 Text Label 9500 6150 0    50   ~ 0
 B32
@@ -1426,7 +1426,7 @@ Wire Wire Line
 	8400 6050 8100 6050
 Wire Wire Line
 	8400 4950 8100 4950
-Text Label 9500 5250 0    50   ~ 0
+Text Label 9500 4450 0    50   ~ 0
 CLK2
 Text Label 8250 6250 0    50   ~ 0
 A16
@@ -1460,9 +1460,9 @@ Text Label 9500 6050 0    50   ~ 0
 B31
 Text Label 9500 5950 0    50   ~ 0
 B30
-Text Label 9500 4550 0    50   ~ 0
+Text Label 9500 5050 0    50   ~ 0
 B19
-Text Label 9500 4350 0    50   ~ 0
+Text Label 9500 4850 0    50   ~ 0
 B17
 Text Label 9500 5650 0    50   ~ 0
 B27
@@ -1476,9 +1476,9 @@ Text Label 9500 5350 0    50   ~ 0
 B23
 Text Label 9500 5450 0    50   ~ 0
 B24
-Text Label 9500 4650 0    50   ~ 0
+Text Label 9500 5150 0    50   ~ 0
 B21
-Text Label 9500 4750 0    50   ~ 0
+Text Label 9500 5250 0    50   ~ 0
 B22
 $Comp
 L Connector_Generic:Conn_01x20 J3
@@ -2229,22 +2229,26 @@ F 3 "~" H 900 5700 50  0001 C CNN
 	1    900  5700
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2000 5150 2100 5150
 $Comp
-L power:+5V #PWR?
-U 1 1 5F42AF6E
-P 2100 5100
-F 0 "#PWR?" H 2100 4950 50  0001 C CNN
-F 1 "+5V" H 2115 5273 50  0000 C CNN
-F 2 "" H 2100 5100 50  0001 C CNN
-F 3 "" H 2100 5100 50  0001 C CNN
-	1    2100 5100
+L power:+5V #PWR012
+U 1 1 5F400F9E
+P 2200 5150
+F 0 "#PWR012" H 2200 5000 50  0001 C CNN
+F 1 "+5V" H 2215 5323 50  0000 C CNN
+F 2 "" H 2200 5150 50  0001 C CNN
+F 3 "" H 2200 5150 50  0001 C CNN
+	1    2200 5150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2100 5100 2100 5150
-Connection ~ 2100 5150
-Wire Wire Line
-	2100 5150 2200 5150
+$Comp
+L power:+3V3 #PWR010
+U 1 1 5F3EDE0C
+P 2000 5150
+F 0 "#PWR010" H 2000 5000 50  0001 C CNN
+F 1 "+3V3" H 2015 5323 50  0000 C CNN
+F 2 "" H 2000 5150 50  0001 C CNN
+F 3 "" H 2000 5150 50  0001 C CNN
+	1    2000 5150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1318,7 +1318,7 @@ F 3 "~" H 8600 5250 50  0001 C CNN
 	1    8600 5250
 	1    0    0    -1  
 $EndComp
-Text Label 9500 4850 0    50   ~ 0
+Text Label 9450 4350 0    50   ~ 0
 5V
 Text Label 8150 4650 0    50   ~ 0
 PMOD4
@@ -1337,7 +1337,7 @@ Wire Wire Line
 Wire Wire Line
 	8400 4350 8100 4350
 Wire Wire Line
-	9700 4850 9400 4850
+	9650 4850 9350 4850
 Wire Wire Line
 	8400 4850 8100 4850
 Wire Wire Line
@@ -1346,58 +1346,58 @@ Text Label 8250 4750 0    50   ~ 0
 GND
 Text Label 8250 4850 0    50   ~ 0
 3V3
-Text Notes 9400 6350 0    50   ~ 0
+Text Notes 9350 6350 0    50   ~ 0
 6V-16V
-Text Label 9500 4450 0    50   ~ 0
+Text Label 9450 4950 0    50   ~ 0
 B18
-Text Label 9500 5150 0    50   ~ 0
+Text Label 9450 4550 0    50   ~ 0
 GCLRn
-Text Label 9500 5050 0    50   ~ 0
+Text Label 9450 4650 0    50   ~ 0
 OE1
 Wire Wire Line
-	9400 5150 9700 5150
+	9350 5150 9650 5150
 Wire Wire Line
-	9400 5250 9700 5250
-Text Label 9500 4950 0    50   ~ 0
+	9350 5250 9650 5250
+Text Label 9450 4750 0    50   ~ 0
 CLK
-Text Label 9500 6150 0    50   ~ 0
+Text Label 9450 6150 0    50   ~ 0
 B32
-Text GLabel 9400 6250 0    50   Input ~ 0
+Text GLabel 9350 6250 0    50   Input ~ 0
 Vin
 Wire Wire Line
-	9700 6150 9400 6150
+	9650 6150 9350 6150
 Wire Wire Line
-	9700 6050 9400 6050
+	9650 6050 9350 6050
 Wire Wire Line
-	9700 5950 9400 5950
+	9650 5950 9350 5950
 Wire Wire Line
-	9700 5850 9400 5850
+	9650 5850 9350 5850
 Wire Wire Line
-	9700 5750 9400 5750
+	9650 5750 9350 5750
 Wire Wire Line
-	9700 5650 9400 5650
+	9650 5650 9350 5650
 Wire Wire Line
-	9700 5550 9400 5550
+	9650 5550 9350 5550
 Wire Wire Line
-	9700 5450 9400 5450
+	9650 5450 9350 5450
 Wire Wire Line
-	9700 4750 9400 4750
+	9650 4750 9350 4750
 Wire Wire Line
-	9700 4650 9400 4650
+	9650 4650 9350 4650
 Wire Wire Line
-	9700 4550 9400 4550
+	9650 4550 9350 4550
 Wire Wire Line
-	9700 4450 9400 4450
+	9650 4450 9350 4450
 Wire Wire Line
-	9700 4350 9400 4350
+	9650 4350 9350 4350
 Wire Wire Line
-	9700 5350 9400 5350
+	9650 5350 9350 5350
 Wire Wire Line
-	9700 5050 9400 5050
+	9650 5050 9350 5050
 Wire Wire Line
-	9700 6250 9400 6250
+	9650 6250 9350 6250
 Wire Wire Line
-	9700 4950 9400 4950
+	9650 4950 9350 4950
 Wire Wire Line
 	8100 5950 8400 5950
 Wire Wire Line
@@ -1426,7 +1426,7 @@ Wire Wire Line
 	8400 6050 8100 6050
 Wire Wire Line
 	8400 4950 8100 4950
-Text Label 9500 5250 0    50   ~ 0
+Text Label 9450 4450 0    50   ~ 0
 CLK2
 Text Label 8250 6250 0    50   ~ 0
 A16
@@ -1456,39 +1456,39 @@ Text Label 8250 5050 0    50   ~ 0
 A2
 Text Label 8250 4950 0    50   ~ 0
 A1
-Text Label 9500 6050 0    50   ~ 0
+Text Label 9450 6050 0    50   ~ 0
 B31
-Text Label 9500 5950 0    50   ~ 0
+Text Label 9450 5950 0    50   ~ 0
 B30
-Text Label 9500 4550 0    50   ~ 0
+Text Label 9450 5050 0    50   ~ 0
 B19
-Text Label 9500 4350 0    50   ~ 0
+Text Label 9450 4850 0    50   ~ 0
 B17
-Text Label 9500 5650 0    50   ~ 0
+Text Label 9450 5650 0    50   ~ 0
 B27
-Text Label 9500 5850 0    50   ~ 0
+Text Label 9450 5850 0    50   ~ 0
 B29
-Text Label 9500 5750 0    50   ~ 0
+Text Label 9450 5750 0    50   ~ 0
 B28
-Text Label 9500 5550 0    50   ~ 0
+Text Label 9450 5550 0    50   ~ 0
 B26
-Text Label 9500 5350 0    50   ~ 0
+Text Label 9450 5350 0    50   ~ 0
 B23
-Text Label 9500 5450 0    50   ~ 0
+Text Label 9450 5450 0    50   ~ 0
 B24
-Text Label 9500 4650 0    50   ~ 0
+Text Label 9450 5150 0    50   ~ 0
 B21
-Text Label 9500 4750 0    50   ~ 0
+Text Label 9450 5250 0    50   ~ 0
 B22
 $Comp
 L Connector_Generic:Conn_01x20 J3
 U 1 1 5D60BB0F
-P 9900 5250
-F 0 "J3" H 9980 5242 50  0000 L CNN
-F 1 "Right" H 9980 5151 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 9900 5250 50  0001 C CNN
-F 3 "~" H 9900 5250 50  0001 C CNN
-	1    9900 5250
+P 9850 5250
+F 0 "J3" H 9930 5242 50  0000 L CNN
+F 1 "Right" H 9930 5151 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 9850 5250 50  0001 C CNN
+F 3 "~" H 9850 5250 50  0001 C CNN
+	1    9850 5250
 	1    0    0    -1  
 $EndComp
 $Comp

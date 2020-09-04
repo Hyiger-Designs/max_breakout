@@ -1015,7 +1015,7 @@ L Device:D_Schottky_Small D2
 U 1 1 5EF818EA
 P 1400 950
 F 0 "D2" H 1400 745 50  0000 C CNN
-F 1 "BAT54W" H 1400 836 50  0000 C CNN
+F 1 "BAT54W" H 1400 850 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123" V 1400 950 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/427/bat54w-g-1767864.pdf" V 1400 950 50  0001 C CNN
 F 4 "Schottky Diodes & Rectifiers 30V Zener SKY DIODE SOD-123" H 1400 950 50  0001 C CNN "Description"
@@ -1125,8 +1125,8 @@ $Comp
 L Device:Ferrite_Bead_Small FB1
 U 1 1 5EC05741
 P 1850 950
-F 0 "FB1" V 1613 950 50  0000 C CNN
-F 1 "100R @ 100Mhz" V 1704 950 50  0000 C CNN
+F 0 "FB1" V 1700 950 50  0000 C CNN
+F 1 "100R @ 100Mhz" V 1950 950 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1780 950 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/396/TaiyoYuden_chipbeads01_e-1274227.pdf" H 1850 950 50  0001 C CNN
 F 4 "Ferrite Beads HI CUR CHIP BD 0603 AEC-Q200 100OHMS 25%" H 1850 950 50  0001 C CNN "Description"
@@ -1304,7 +1304,7 @@ F 3 "~" H 1750 6150 50  0001 C CNN
 	1    1750 6150
 	1    0    0    -1  
 $EndComp
-Text Label 3350 4950 2    50   ~ 0
+Text Label 3300 4950 2    50   ~ 0
 5V
 Text Label 1300 5150 0    50   ~ 0
 PMOD8
@@ -1324,9 +1324,9 @@ Wire Wire Line
 	2050 4950 2350 4950
 Wire Wire Line
 	2050 5050 2350 5050
-Text Label 2200 5050 2    50   ~ 0
+Text Label 2250 5050 2    50   ~ 0
 GND
-Text Label 2200 4950 2    50   ~ 0
+Text Label 2250 4950 2    50   ~ 0
 3V3
 Text Notes 3450 6950 2    50   ~ 0
 6V-16V
@@ -1406,33 +1406,33 @@ Wire Wire Line
 	1550 5550 1250 5550
 Text Label 3350 5150 2    50   ~ 0
 IN1
-Text Label 1400 6850 0    50   ~ 0
+Text Label 1300 6850 0    50   ~ 0
 A16
-Text Label 1400 6750 0    50   ~ 0
+Text Label 1300 6750 0    50   ~ 0
 A15
-Text Label 1400 6650 0    50   ~ 0
+Text Label 1300 6650 0    50   ~ 0
 A14
-Text Label 1400 6550 0    50   ~ 0
+Text Label 1300 6550 0    50   ~ 0
 A13
-Text Label 1400 6450 0    50   ~ 0
+Text Label 1300 6450 0    50   ~ 0
 A12
-Text Label 1400 6350 0    50   ~ 0
+Text Label 1300 6350 0    50   ~ 0
 A11
-Text Label 1400 6250 0    50   ~ 0
+Text Label 1300 6250 0    50   ~ 0
 A10
-Text Label 1400 6150 0    50   ~ 0
+Text Label 1300 6150 0    50   ~ 0
 A8
-Text Label 1400 6050 0    50   ~ 0
+Text Label 1300 6050 0    50   ~ 0
 A7
-Text Label 1400 5950 0    50   ~ 0
+Text Label 1300 5950 0    50   ~ 0
 A6
-Text Label 1400 5850 0    50   ~ 0
+Text Label 1300 5850 0    50   ~ 0
 A5
-Text Label 1400 5750 0    50   ~ 0
+Text Label 1300 5750 0    50   ~ 0
 A3
-Text Label 1400 5650 0    50   ~ 0
+Text Label 1300 5650 0    50   ~ 0
 A2
-Text Label 1400 5550 0    50   ~ 0
+Text Label 1300 5550 0    50   ~ 0
 A1
 Text Label 3350 6650 2    50   ~ 0
 B31
@@ -1825,9 +1825,9 @@ Wire Wire Line
 	1250 4950 1550 4950
 Wire Wire Line
 	1250 5050 1550 5050
-Text Label 1400 5050 2    50   ~ 0
+Text Label 1450 5050 2    50   ~ 0
 GND
-Text Label 1400 4950 2    50   ~ 0
+Text Label 1450 4950 2    50   ~ 0
 3V3
 $Comp
 L power:GND #PWR08

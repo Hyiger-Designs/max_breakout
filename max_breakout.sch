@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "MAX7000S Breakout Board"
-Date "2020-09-08"
-Rev "1.0"
+Date "2020-10-02"
+Rev "1.2"
 Comp "Hyiger Designs"
 Comment1 ""
 Comment2 ""
@@ -174,11 +174,11 @@ Text Notes 1200 6150 0    50   ~ 0
 User Pushbutton
 Text Notes 5150 2250 0    50   ~ 0
 50Mhz Clock
-Text Label 8350 1300 0    50   ~ 0
+Text Label 8350 1600 0    50   ~ 0
 P35
-Text Label 6700 1900 0    50   ~ 0
+Text Label 6700 1600 0    50   ~ 0
 P6
-Text Label 6700 2000 0    50   ~ 0
+Text Label 6700 1700 0    50   ~ 0
 P8
 Text Label 6450 2850 0    50   ~ 0
 CLK
@@ -231,9 +231,9 @@ Wire Wire Line
 Wire Wire Line
 	7450 3500 7450 3600
 Wire Wire Line
-	6900 1900 6400 1900
+	6900 1600 6400 1600
 Wire Wire Line
-	6900 2000 6400 2000
+	6900 1700 6400 1700
 Wire Wire Line
 	10250 900  10450 900 
 Wire Wire Line
@@ -330,44 +330,44 @@ F 3 "" H 7600 3650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6900 1800 6400 1800
-Wire Wire Line
-	6900 1700 6400 1700
-Wire Wire Line
-	6900 1600 6400 1600
-Wire Wire Line
 	6900 1500 6400 1500
-Text Label 6700 1800 0    50   ~ 0
-P5
-Text Label 6700 1700 0    50   ~ 0
-P3
-Text Label 6700 1600 0    50   ~ 0
-P2
-Text Label 6700 1500 0    50   ~ 0
-P44
-Text Label 6700 2600 0    50   ~ 0
-P15
-Text Label 6700 2500 0    50   ~ 0
-P14
-Text Label 6700 2400 0    50   ~ 0
-P13
-Text Label 6700 2300 0    50   ~ 0
-P12
-Wire Wire Line
-	6900 2200 6400 2200
-Wire Wire Line
-	6900 2100 6400 2100
-Text Label 6700 2200 0    50   ~ 0
-P11
-Text Label 6700 2100 0    50   ~ 0
-P10
 Wire Wire Line
 	6900 1400 6400 1400
 Wire Wire Line
 	6900 1300 6400 1300
+Wire Wire Line
+	8300 1300 8800 1300
+Text Label 6700 1500 0    50   ~ 0
+P5
 Text Label 6700 1400 0    50   ~ 0
-P43
+P3
 Text Label 6700 1300 0    50   ~ 0
+P2
+Text Label 8500 1300 2    50   ~ 0
+P44
+Text Label 6700 2300 0    50   ~ 0
+P15
+Text Label 6700 2200 0    50   ~ 0
+P14
+Text Label 6700 2100 0    50   ~ 0
+P13
+Text Label 6700 2000 0    50   ~ 0
+P12
+Wire Wire Line
+	6900 1900 6400 1900
+Wire Wire Line
+	6900 1800 6400 1800
+Text Label 6700 1900 0    50   ~ 0
+P11
+Text Label 6700 1800 0    50   ~ 0
+P10
+Wire Wire Line
+	8300 1400 8800 1400
+Wire Wire Line
+	8300 1500 8800 1500
+Text Label 8500 1400 2    50   ~ 0
+P43
+Text Label 8500 1500 2    50   ~ 0
 P42
 Wire Wire Line
 	6000 4650 6000 4850
@@ -487,8 +487,8 @@ Wire Wire Line
 Wire Wire Line
 	6400 3050 6900 3050
 Wire Wire Line
-	8800 2600 8300 2600
-Text Label 6450 2950 0    50   ~ 0
+	6400 2400 6900 2400
+Text Label 6450 3150 0    50   ~ 0
 PB0
 Wire Wire Line
 	6900 3150 6400 3150
@@ -497,37 +497,43 @@ Wire Wire Line
 Wire Wire Line
 	8300 3150 9300 3150
 Wire Wire Line
-	8300 1300 8800 1300
-Text Label 8350 1500 0    50   ~ 0
-P33
-Text Label 8350 1600 0    50   ~ 0
-P31
-Text Label 8350 1700 0    50   ~ 0
-P30
+	8300 1600 8800 1600
 Text Label 8350 1800 0    50   ~ 0
-P28
+P33
 Text Label 8350 1900 0    50   ~ 0
-P27
+P31
 Text Label 8350 2000 0    50   ~ 0
-P25
+P30
 Text Label 8350 2100 0    50   ~ 0
-P23
+P28
 Text Label 8350 2200 0    50   ~ 0
-P22
+P27
 Text Label 8350 2300 0    50   ~ 0
-P21
+P25
 Text Label 8350 2400 0    50   ~ 0
-P20
+P23
 Text Label 8350 2500 0    50   ~ 0
+P22
+Text Label 8350 2600 0    50   ~ 0
+P21
+Text Label 6850 2600 2    50   ~ 0
+P20
+Text Label 6850 2500 2    50   ~ 0
 P19
 Wire Wire Line
-	8800 1700 8300 1700
+	8800 2000 8300 2000
+Wire Wire Line
+	8800 2100 8300 2100
+Wire Wire Line
+	8800 1900 8300 1900
 Wire Wire Line
 	8800 1800 8300 1800
 Wire Wire Line
-	8800 1600 8300 1600
+	6400 2600 6900 2600
 Wire Wire Line
-	8800 1500 8300 1500
+	8800 2600 8300 2600
+Wire Wire Line
+	8800 2500 8300 2500
 Wire Wire Line
 	8800 2400 8300 2400
 Wire Wire Line
@@ -535,16 +541,10 @@ Wire Wire Line
 Wire Wire Line
 	8800 2200 8300 2200
 Wire Wire Line
-	8800 2100 8300 2100
-Wire Wire Line
-	8800 2000 8300 2000
-Wire Wire Line
-	8800 1900 8300 1900
-Wire Wire Line
-	8800 2500 8300 2500
-Text Label 8350 1400 0    50   ~ 0
+	6400 2500 6900 2500
+Text Label 8350 1700 0    50   ~ 0
 P34
-Text Label 8350 2600 0    50   ~ 0
+Text Label 6850 2400 2    50   ~ 0
 P18
 $Comp
 L Device:Jumper_NO_Small JP2
@@ -560,7 +560,7 @@ $EndComp
 Wire Wire Line
 	5700 2850 6000 2850
 Wire Wire Line
-	8300 1400 8800 1400
+	8300 1700 8800 1700
 NoConn ~ 5600 4850
 $Comp
 L max_breakout-rescue:TPS2113A-Power_Management U4
@@ -926,13 +926,13 @@ Wire Wire Line
 Wire Wire Line
 	6200 2850 6900 2850
 Wire Wire Line
+	6900 2000 6400 2000
+Wire Wire Line
+	6900 2100 6400 2100
+Wire Wire Line
+	6900 2200 6400 2200
+Wire Wire Line
 	6900 2300 6400 2300
-Wire Wire Line
-	6900 2400 6400 2400
-Wire Wire Line
-	6900 2500 6400 2500
-Wire Wire Line
-	6900 2600 6400 2600
 $Comp
 L Connector_Generic:Conn_01x14 J1
 U 1 1 5D60A02C
@@ -959,7 +959,7 @@ Wire Wire Line
 Wire Wire Line
 	1350 1550 1050 1550
 Wire Wire Line
-	2950 1550 3250 1550
+	2950 1850 3250 1850
 Wire Wire Line
 	1850 1050 2150 1050
 Wire Wire Line
@@ -970,18 +970,24 @@ Text Label 2050 1050 2    50   ~ 0
 3V3
 Text Notes 3250 3050 2    50   ~ 0
 6V-16V
-Text Label 3150 1650 2    50   ~ 0
+Text Label 3150 1950 2    50   ~ 0
 P34
-Text Label 3150 1350 2    50   ~ 0
+Text Label 3150 1550 2    50   ~ 0
 IN2
 Wire Wire Line
-	3250 1850 2950 1850
+	3250 2150 2950 2150
 Wire Wire Line
-	3250 1950 2950 1950
-Text Label 3150 1450 2    50   ~ 0
+	3250 2250 2950 2250
+Text Label 3150 1750 2    50   ~ 0
 CLK
-Text Label 3150 2850 2    50   ~ 0
+Text Label 1250 2750 2    50   ~ 0
 P18
+Wire Wire Line
+	1050 2850 1350 2850
+Wire Wire Line
+	1050 2750 1350 2750
+Wire Wire Line
+	1050 2950 1350 2950
 Wire Wire Line
 	2950 2850 3250 2850
 Wire Wire Line
@@ -993,33 +999,21 @@ Wire Wire Line
 Wire Wire Line
 	2950 2450 3250 2450
 Wire Wire Line
-	2950 2350 3250 2350
-Wire Wire Line
-	2950 2250 3250 2250
-Wire Wire Line
-	2950 2150 3250 2150
-Wire Wire Line
-	2950 1450 3250 1450
-Wire Wire Line
-	2950 1350 3250 1350
-Wire Wire Line
-	2950 1250 3250 1250
-Wire Wire Line
-	2950 1050 3250 1050
-Wire Wire Line
-	2950 2050 3250 2050
-Wire Wire Line
 	2950 1750 3250 1750
-Wire Wire Line
-	2950 2950 3250 2950
 Wire Wire Line
 	2950 1650 3250 1650
 Wire Wire Line
-	1050 2650 1350 2650
+	2950 1550 3250 1550
 Wire Wire Line
-	1050 2550 1350 2550
+	2950 1050 3250 1050
 Wire Wire Line
-	1050 2450 1350 2450
+	2950 2350 3250 2350
+Wire Wire Line
+	2950 2050 3250 2050
+Wire Wire Line
+	2950 2950 3250 2950
+Wire Wire Line
+	2950 1950 3250 1950
 Wire Wire Line
 	1050 2350 1350 2350
 Wire Wire Line
@@ -1031,70 +1025,76 @@ Wire Wire Line
 Wire Wire Line
 	1050 1950 1350 1950
 Wire Wire Line
-	1050 1750 1350 1750
-Wire Wire Line
 	1050 1850 1350 1850
 Wire Wire Line
-	1350 2950 1050 2950
+	1050 1750 1350 1750
 Wire Wire Line
-	1350 2850 1050 2850
+	1050 1650 1350 1650
 Wire Wire Line
-	1350 2750 1050 2750
+	2950 1350 3250 1350
 Wire Wire Line
-	1350 1650 1050 1650
-Text Label 3150 1250 2    50   ~ 0
+	2950 1250 3250 1250
+Wire Wire Line
+	1350 2650 1050 2650
+Wire Wire Line
+	1350 2550 1050 2550
+Wire Wire Line
+	1350 2450 1050 2450
+Wire Wire Line
+	3250 1450 2950 1450
+Text Label 3150 1650 2    50   ~ 0
 IN1
-Text Label 1100 2950 0    50   ~ 0
-P15
-Text Label 1100 2850 0    50   ~ 0
-P14
-Text Label 1100 2750 0    50   ~ 0
-P13
 Text Label 1100 2650 0    50   ~ 0
-P12
+P15
 Text Label 1100 2550 0    50   ~ 0
-P11
+P14
 Text Label 1100 2450 0    50   ~ 0
-P10
+P13
 Text Label 1100 2350 0    50   ~ 0
-P8
+P12
 Text Label 1100 2250 0    50   ~ 0
-P6
+P11
 Text Label 1100 2150 0    50   ~ 0
-P5
+P10
 Text Label 1100 2050 0    50   ~ 0
-P3
+P8
 Text Label 1100 1950 0    50   ~ 0
-P2
+P6
 Text Label 1100 1850 0    50   ~ 0
-P44
+P5
 Text Label 1100 1750 0    50   ~ 0
-P43
+P3
 Text Label 1100 1650 0    50   ~ 0
+P2
+Text Label 3000 1250 0    50   ~ 0
+P44
+Text Label 3000 1350 0    50   ~ 0
+P43
+Text Label 3000 1450 0    50   ~ 0
 P42
-Text Label 3150 2750 2    50   ~ 0
+Text Label 1250 2850 2    50   ~ 0
 P19
-Text Label 3150 2650 2    50   ~ 0
+Text Label 1250 2950 2    50   ~ 0
 P20
-Text Label 3150 1750 2    50   ~ 0
-P33
-Text Label 3150 1550 2    50   ~ 0
-P35
-Text Label 3150 2350 2    50   ~ 0
-P23
-Text Label 3150 2550 2    50   ~ 0
-P21
-Text Label 3150 2450 2    50   ~ 0
-P22
-Text Label 3150 2250 2    50   ~ 0
-P25
 Text Label 3150 2050 2    50   ~ 0
-P28
-Text Label 3150 2150 2    50   ~ 0
-P27
+P33
 Text Label 3150 1850 2    50   ~ 0
+P35
+Text Label 3150 2650 2    50   ~ 0
+P23
+Text Label 3150 2850 2    50   ~ 0
+P21
+Text Label 3150 2750 2    50   ~ 0
+P22
+Text Label 3150 2550 2    50   ~ 0
+P25
+Text Label 3150 2350 2    50   ~ 0
+P28
+Text Label 3150 2450 2    50   ~ 0
+P27
+Text Label 3150 2150 2    50   ~ 0
 P31
-Text Label 3150 1950 2    50   ~ 0
+Text Label 3150 2250 2    50   ~ 0
 P30
 $Comp
 L Connector_Generic:Conn_01x20 J3
@@ -1475,36 +1475,36 @@ Text Label 1100 1450 0    50   ~ 0
 IO6
 Text Label 1100 1550 0    50   ~ 0
 IO5
-Text Label 2800 5150 0    50   ~ 0
-P6
+Text Label 2800 4850 0    50   ~ 0
+P2
+Text Label 2800 4950 0    50   ~ 0
+P3
+Wire Wire Line
+	3000 4850 2500 4850
+Wire Wire Line
+	3000 4950 2500 4950
+Wire Wire Line
+	3000 4750 2500 4750
+Wire Wire Line
+	3000 4650 2500 4650
+Wire Wire Line
+	3000 4550 2500 4550
+Text Label 2800 4750 0    50   ~ 0
+P42
+Text Label 2800 4650 0    50   ~ 0
+P43
+Text Label 2800 4550 0    50   ~ 0
+P44
 Text Label 2800 5250 0    50   ~ 0
 P8
 Wire Wire Line
 	3000 5150 2500 5150
 Wire Wire Line
-	3000 5250 2500 5250
-Wire Wire Line
 	3000 5050 2500 5050
-Wire Wire Line
-	3000 4950 2500 4950
-Wire Wire Line
-	3000 4850 2500 4850
+Text Label 2800 5150 0    50   ~ 0
+P6
 Text Label 2800 5050 0    50   ~ 0
 P5
-Text Label 2800 4950 0    50   ~ 0
-P3
-Text Label 2800 4850 0    50   ~ 0
-P2
-Text Label 2800 4750 0    50   ~ 0
-P44
-Wire Wire Line
-	3000 4650 2500 4650
-Wire Wire Line
-	3000 4550 2500 4550
-Text Label 2800 4650 0    50   ~ 0
-P43
-Text Label 2800 4550 0    50   ~ 0
-P42
 $Comp
 L Logic_LevelTranslator:TXS0108EPW U1
 U 1 1 5F43A51B
@@ -1526,10 +1526,6 @@ Wire Wire Line
 	2950 1150 3250 1150
 Text Label 3150 1150 2    50   ~ 0
 GND
-Text Label 6600 3050 2    50   ~ 0
-IN1
-Text Label 6600 3150 2    50   ~ 0
-IN2
 Text Notes 650  3700 0    50   ~ 0
 PMOD Interface
 Connection ~ 6300 5250
@@ -1822,7 +1818,7 @@ F 3 "" H 8200 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 4750 2500 4750
+	3000 5250 2500 5250
 Wire Wire Line
 	10300 2950 10550 2950
 Wire Wire Line
@@ -1861,4 +1857,8 @@ Wire Wire Line
 Connection ~ 10000 3600
 Wire Wire Line
 	10000 3600 10400 3600
+Text Label 6600 2950 2    50   ~ 0
+IN1
+Text Label 6600 3050 2    50   ~ 0
+IN2
 $EndSCHEMATC
